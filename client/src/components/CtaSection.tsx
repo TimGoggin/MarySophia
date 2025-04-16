@@ -1,3 +1,4 @@
+import { ChevronRight } from "lucide-react";
 
 export default function CtaSection() {
   return (
@@ -7,7 +8,7 @@ export default function CtaSection() {
           const gridRow = Math.floor(i / 3);
           const gridCol = i % 3;
           const baseDelay = (gridRow * 3 + gridCol) * 2;
-          
+
           return (
             <div
               key={i}
@@ -15,10 +16,10 @@ export default function CtaSection() {
               style={{
                 backgroundImage: `url(/src/images/rose-${(i % 3) + 1}.png)`,
                 animationDelay: `${baseDelay + Math.random() * 5}s`,
-                left: `${(gridCol * 33) + Math.random() * 10}%`,
-                top: `${(gridRow * 25) + Math.random() * 10}%`,
+                left: `${gridCol * 33 + Math.random() * 10}%`,
+                top: `${gridRow * 25 + Math.random() * 10}%`,
                 opacity: 0,
-                transform: `rotate(${Math.random() * 360}deg)`
+                transform: `rotate(${Math.random() * 360}deg)`,
               }}
             />
           );
@@ -29,13 +30,17 @@ export default function CtaSection() {
           Join Our Monthly Prayer Circle
         </h2>
         <p className="max-w-2xl mx-auto text-gray-700 mb-8 font-open-sans">
-          Connect with our community and receive sacred teachings through our live monthly prayer circle.
+          Connect with our community and receive sacred teachings through our
+          live monthly prayer circle.
         </p>
-        <a 
-          href="#" 
-          className="inline-block bg-[#00AEEF] hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-full transition duration-300"
+        <a
+          href="https://sacred-rose.teachable.com/purchase?product_id=6205554"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#00AEEF] hover:bg-[#0097FB] text-white py-3 px-8 rounded-full transition duration-300 inline-flex items-center"
         >
-          Register for Next Session
+          Schedule Your Visit
+          <ChevronRight className="ml-2 h-4 w-4" />
         </a>
       </div>
     </section>
