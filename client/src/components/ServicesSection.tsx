@@ -6,7 +6,7 @@ export default function ServicesSection() {
   const services = [
     {
       id: 1,
-      icon: <img src={StarIcon} alt="Star" className="w-[120%] h-[120%]" />,
+      icon: <img src={StarIcon} alt="Star" className="w-[130%] h-[130%]" />,
       title: "Private Readings",
       description: "Connect with divine guidance through personal readings tailored to your spiritual journey.",
       cta: "Experience a Reading",
@@ -14,7 +14,7 @@ export default function ServicesSection() {
     },
     {
       id: 2,
-      icon: <img src={FemaleIcon} alt="Female" className="w-full h-full" />,
+      icon: <img src={FemaleIcon} alt="Female" className="w-[110%] h-[110%]" />,
       title: "School of Mary",
       description: "Deepen your spiritual growth through courses, workshops, and mentorship.",
       cta: "Thrive in our Environment",
@@ -22,7 +22,7 @@ export default function ServicesSection() {
     },
     {
       id: 3,
-      icon: <img src={RoseIcon} alt="Rose" className="w-full h-full" />,
+      icon: <img src={RoseIcon} alt="Rose" className="w-[110%] h-[110%]" />,
       title: "Order of the Blue Rose",
       description: "Join a sacred community and receive spiritual teachings through initiations.",
       cta: "Find Your Path",
