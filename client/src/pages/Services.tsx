@@ -99,8 +99,10 @@ export default function Services() {
           </div>
 
           {/* CTA Section */}
-          <div className="bg-[#002147] text-white rounded-lg p-12 text-center">
-            <h2 className="font-playfair text-3xl mb-4">Join Our Monthly Prayer Circle</h2>
+          <div className="relative bg-[#002147] text-white rounded-lg p-12 text-center overflow-hidden">
+            <div className="wavy-gradient opacity-40"></div>
+            <div className="relative z-10">
+              <h2 className="font-playfair text-3xl mb-4">Join Our Monthly Prayer Circle</h2>
             <p className="mb-8 max-w-2xl mx-auto">
               Connect with like-minded souls in our sacred monthly gathering. Experience the power of collective prayer and divine feminine energy.
             </p>
@@ -113,6 +115,7 @@ export default function Services() {
               Schedule Your Visit
               <ChevronRight className="ml-2 h-4 w-4" />
             </a>
+            </div>
           </div>
         </div>
       </div>
