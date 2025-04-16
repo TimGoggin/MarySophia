@@ -32,9 +32,12 @@ export default function HeroSection() {
       <div className="relative z-20 w-full">
         <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 text-left mb-12 md:mb-0">
-            <h1 className="font-dancing-script text-4xl md:text-6xl text-white mb-4">
+            <h1 className="font-dancing-script text-4xl md:text-6xl text-white mb-3">
               Mary Sophia Welcomes You
             </h1>
+            <p className="text-white text-lg md:text-xl mb-6 max-w-2xl font-open-sans">
+              Step into a space of divine remembrance, where wisdom, love, and sacred connection guide your path.
+            </p>
             <a
               href="#services"
               className="inline-flex items-center bg-transparent hover:bg-[#00AEEF] text-white font-semibold hover:text-white py-2 px-6 border border-white hover:border-transparent rounded-full transition duration-300"
