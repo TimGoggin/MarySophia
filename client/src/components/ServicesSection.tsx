@@ -6,7 +6,7 @@ export default function ServicesSection() {
   const services = [
     {
       id: 1,
-      icon: <img src={StarIcon} alt="Star" className="w-full h-full" />,
+      icon: <img src={StarIcon} alt="Star" className="w-[120%] h-[120%]" />,
       title: "Private Readings",
       description: "Connect with divine guidance through personal readings tailored to your spiritual journey.",
       cta: "Experience a Reading",
