@@ -38,7 +38,7 @@ export default function HeroSection() {
         </div>
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <img
-            src="../images/test6.png"
+            src="/src/images/test6.png"
             alt="Mary Sophia Portrait"
             className="w-full h-full object-cover"
           />

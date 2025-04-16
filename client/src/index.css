@@ -20,9 +20,9 @@
 }
 
 .wavy-gradient {
-  background: linear-gradient(75deg, #031344, #1a2f8f, #2442cc, #0B94CD);
-  background-size: 400% 400%;
-  animation: gradient 2s ease infinite;
+  background: linear-gradient(135deg, #031344, #1a2f8f, #2442cc, #0B94CD);
+  background-size: 100% 100%;
+  animation: gradient 1s ease infinite;
   position: relative;
 }
 
