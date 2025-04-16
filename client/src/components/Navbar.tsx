@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface NavbarProps {
   scrolled: boolean;
@@ -52,7 +53,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
           <li><a href="#school" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
           <li><a href="#order" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
           <li><a href="#about" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'about')}>About</a></li>
-          <li><a href="#contact" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'contact')}>Contact</a></li>
+          <li><Link to="/contact" className="hover:text-[#00AEEF] transition">Contact</Link></li>
         </ul>
       </nav>
       
@@ -64,7 +65,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
           <li><a href="#school" className="block py-2" onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
           <li><a href="#order" className="block py-2" onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
           <li><a href="#about" className="block py-2" onClick={(e) => handleNavLinkClick(e, 'about')}>About</a></li>
-          <li><a href="#contact" className="block py-2" onClick={(e) => handleNavLinkClick(e, 'contact')}>Contact</a></li>
+          <li><Link to="/contact" className="block py-2">Contact</Link></li>
         </ul>
       </div>
     </header>
