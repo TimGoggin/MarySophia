@@ -74,13 +74,12 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <a
-              href="#school"
-              className="hover:text-[#00AEEF] transition pb-1 border-b-2 border-transparent"
-              onClick={(e) => handleNavLinkClick(e, "services")}
+            <Link
+              to="/school"
+              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/school" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent"}`}
             >
               School of Mary
-            </a>
+            </Link>
           </li>
           <li>
             <Link
@@ -133,13 +132,13 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <a
-              href="#school"
-              className="block py-2 hover:text-[#00AEEF] transition"
-              onClick={(e) => handleNavLinkClick(e, "services")}
+            <Link
+              to="/school"
+              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/school" ? "text-[#00AEEF] font-semibold" : ""}`}
+              onClick={() => setMobileMenuOpen(false)}
             >
               School of Mary
-            </a>
+            </Link>
           </li>
           <li>
             <Link

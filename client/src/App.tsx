@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Order from "./pages/Order";
+import School from "./pages/School";
 import { Toaster } from "@/components/ui/toaster";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/order" element={<Order />} />
+        <Route path="/school" element={<School />} />
       </Routes>
       <Footer />
       <Toaster />
