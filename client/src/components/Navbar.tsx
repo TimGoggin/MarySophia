@@ -50,7 +50,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-6 text-white">
-          <li><a href="#home" className="border-b-2 border-[#00AEEF] pb-1 hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'home')}>Home</a></li>
+          <li><Link to="/" className="border-b-2 border-[#00AEEF] pb-1 hover:text-[#00AEEF] transition">Home</Link></li>
           <li><a href="#services" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>Services</a></li>
           <li><a href="#school" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
           <li><a href="#order" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
@@ -62,7 +62,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
       {/* Mobile Navigation Menu */}
       <div className={`bg-[#002147] md:hidden w-full ${mobileMenuOpen ? 'block' : 'hidden'}`}>
         <ul className="container mx-auto px-4 py-4 space-y-3 text-white">
-          <li><a href="#home" className="block py-2 hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'home')}>Home</a></li>
+          <li><Link to="/" className="block py-2 hover:text-[#00AEEF] transition" onClick={() => setMobileMenuOpen(false)}>Home</Link></li>
           <li><a href="#services" className="block py-2 hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>Services</a></li>
           <li><a href="#school" className="block py-2 hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
           <li><a href="#order" className="block py-2 hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
