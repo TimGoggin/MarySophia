@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
@@ -119,10 +120,13 @@ export default function Services() {
                 Learn ancient wisdom and spiritual practices in our sacred
                 learning community.
               </p>
-              <button className="w-full bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-4 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 flex items-center justify-center">
+              <Link 
+                to="/school"
+                className="w-full bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-4 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 flex items-center justify-center"
+              >
                 Learn More
                 <ChevronRight className="ml-2 h-4 w-4" />
-              </button>
+              </Link>
             </div>
 
             {/* Order of the Blue Rose */}
