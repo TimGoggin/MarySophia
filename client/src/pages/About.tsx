@@ -29,6 +29,31 @@ export default function About() {
               <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
                 I am dedicated to supporting individuals on their journey of spiritual awakening, helping them connect with their divine nature and live their Original Blessing on Earth.
               </p>
+              <div className="mt-8">
+                <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">Our Sacred Mission</h2>
+                <ul className="list-none space-y-3 text-gray-700 font-open-sans">
+                  <li className="flex items-center">
+                    <span className="text-[#00AEEF] mr-2">•</span>
+                    Awakening the Wisdom of the Heart
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-[#00AEEF] mr-2">•</span>
+                    Embodying Divine Feminine Wisdom
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-[#00AEEF] mr-2">•</span>
+                    Nurturing Spiritual Growth and Transformation
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-[#00AEEF] mr-2">•</span>
+                    Creating Sacred Community
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-[#00AEEF] mr-2">•</span>
+                    Sharing Ancient and Contemporary Spiritual Teachings
+                  </li>
+                </ul>
+              </div>
             </div>
             <div className="md:w-1/3">
               <img
@@ -37,32 +62,6 @@ export default function About() {
                 className="rounded-lg shadow-xl w-full"
               />
             </div>
-          </div>
-
-          <div className="mb-16">
-            <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">Our Sacred Mission</h2>
-            <ul className="list-none space-y-3 text-gray-700 font-open-sans">
-              <li className="flex items-center">
-                <span className="text-[#00AEEF] mr-2">•</span>
-                Awakening the Wisdom of the Heart
-              </li>
-              <li className="flex items-center">
-                <span className="text-[#00AEEF] mr-2">•</span>
-                Embodying Divine Feminine Wisdom
-              </li>
-              <li className="flex items-center">
-                <span className="text-[#00AEEF] mr-2">•</span>
-                Nurturing Spiritual Growth and Transformation
-              </li>
-              <li className="flex items-center">
-                <span className="text-[#00AEEF] mr-2">•</span>
-                Creating Sacred Community
-              </li>
-              <li className="flex items-center">
-                <span className="text-[#00AEEF] mr-2">•</span>
-                Sharing Ancient and Contemporary Spiritual Teachings
-              </li>
-            </ul>
           </div>
 
           <div className="mb-16">
