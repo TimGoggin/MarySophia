@@ -50,7 +50,7 @@ export default function ServicesSection() {
                 </div>
                 <div className="mt-auto">
                   <Link 
-                    to={service.id === 2 ? "/school" : "/services"}
+                    to={service.id === 2 ? "/school" : service.id === 3 ? "/order" : "/services"}
                     className="block bg-[#00AEEF] hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300 text-center"
                   >
                     {service.cta}
