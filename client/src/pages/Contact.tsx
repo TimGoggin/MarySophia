@@ -27,7 +27,23 @@ export default function Contact() {
       <Helmet>
         <title>Contact | Mary Sophia</title>
       </Helmet>
-      <div className="bg-white py-16 pt-32">
+      <div className="bg-white py-16 pt-32 relative">
+        <div className="floating-roses">
+          {[...Array(9)].map((_, i) => (
+            <img
+              key={i}
+              src={`/src/images/rose-${(i % 3) + 1}.png`}
+              alt=""
+              className="rose"
+              style={{
+                width: `${Math.random() * 30 + 40}px`,
+                left: `${Math.random() * 100}%`,
+                animationDelay: `${Math.random() * 15}s`,
+                opacity: 0
+              }}
+            />
+          ))}
+        </div>
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
             <h1 className="font-playfair text-4xl text-[#00AEEF] mb-4">Get in Touch</h1>
