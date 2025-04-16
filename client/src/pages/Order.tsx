@@ -10,9 +10,9 @@ export default function Order() {
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="/src/images/hero.jpeg"
+            src="/images/hero.jpeg"
             alt="Hero Background"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
           />
           <div className="wavy-gradient"></div>
         </div>
