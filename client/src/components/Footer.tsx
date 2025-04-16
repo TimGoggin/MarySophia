@@ -18,8 +18,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#002147] text-white py-10">
-      <div className="container mx-auto px-4">
+    <footer className="relative bg-[#002147] text-white py-10">
+      <div className="wavy-gradient opacity-40"></div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="font-playfair text-xl mb-4">Mary Sophia</h3>
