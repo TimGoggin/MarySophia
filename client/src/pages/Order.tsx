@@ -28,7 +28,7 @@ export default function Order() {
         </div>
       </section>
 
-      <div className="bg-white py-16 pt-32 relative">
+      <div className="bg-white py-16 pt-16 relative">
         <div className="floating-roses-container">
           {[...Array(15)].map((_, i) => {
             const gridRow = Math.floor(i / 3);
