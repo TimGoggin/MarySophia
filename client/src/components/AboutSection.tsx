@@ -16,7 +16,7 @@ export default function AboutSection() {
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <img 
-              src="https://images.unsplash.com/photo-1579975628450-35a76e40d677?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=700&q=80" 
+              src="/src/images/mary-sophia.jpg" 
               alt="Mary Sophia Portrait" 
               className="rounded-lg shadow-xl max-w-full h-auto"
             />
