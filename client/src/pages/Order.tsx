@@ -35,16 +35,9 @@ export default function Order() {
             <h1 className="font-playfair text-4xl text-[#00AEEF] mb-4">
               Order of the Blue Rose
             </h1>
-            <p className="text-gray-600 font-open-sans text-xl mb-8">
+            <p className="text-gray-600 font-open-sans text-xl">
               A Sacred Lineage of Divine Love and Wisdom
             </p>
-            <div className="max-w-2xl mx-auto mb-12">
-              <img
-                src="/src/images/mary-2.jpg"
-                alt="Mary Portrait"
-                className="rounded-lg shadow-xl w-full h-[400px] object-cover"
-              />
-            </div>
           </div>
 
           <div className="space-y-12">
