@@ -1,15 +1,28 @@
-import { useState } from "react";
+
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
-interface NavbarProps {
-  scrolled: boolean;
-}
-
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isAtTop, setIsAtTop] = useState(true);
   const location = useLocation();
   const isContactPage = location.pathname === "/contact";
+  
+  // Define paths where navbar should be transparent at top
+  const transparentPaths = ["", "/", "/services", "/school", "/order"];
+  const shouldBeTransparent = transparentPaths.includes(location.pathname) && isAtTop;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsAtTop(window.scrollY < 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Check initial position
+    
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -24,7 +37,7 @@ export default function Navbar() {
 
     const element = document.getElementById(id);
     if (element) {
-      const offset = 70; // Navbar height
+      const offset = 70;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - offset;
 
@@ -36,13 +49,12 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed w-full top-0 z-50 bg-[#031344]/50">
+    <header className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? 'bg-transparent' : 'bg-[#031344]/50'}`}>
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className={`font-playfair text-xl md:text-2xl text-white`}>
           Mary Sophia
         </Link>
 
-        {/* Mobile menu button */}
         <button
           className="text-white md:hidden focus:outline-none"
           onClick={toggleMobileMenu}
@@ -55,7 +67,6 @@ export default function Navbar() {
           )}
         </button>
 
-        {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-6 text-white">
           <li>
             <Link
@@ -108,7 +119,6 @@ export default function Navbar() {
         </ul>
       </nav>
 
-      {/* Mobile Navigation Menu */}
       <div
         className={`bg-[#002147] md:hidden w-full ${mobileMenuOpen ? "block" : "hidden"}`}
       >
