@@ -1,7 +1,30 @@
+
 export default function CtaSection() {
   return (
-    <section id="contact" className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4 text-center">
+    <section id="contact" className="py-16 bg-gray-50 relative">
+      <div className="floating-roses-container">
+        {[...Array(15)].map((_, i) => {
+          const gridRow = Math.floor(i / 3);
+          const gridCol = i % 3;
+          const baseDelay = (gridRow * 3 + gridCol) * 2;
+          
+          return (
+            <div
+              key={i}
+              className="floating-rose"
+              style={{
+                backgroundImage: `url(/src/images/rose-${(i % 3) + 1}.png)`,
+                animationDelay: `${baseDelay + Math.random() * 5}s`,
+                left: `${(gridCol * 33) + Math.random() * 10}%`,
+                top: `${(gridRow * 25) + Math.random() * 10}%`,
+                opacity: 0,
+                transform: `rotate(${Math.random() * 360}deg)`
+              }}
+            />
+          );
+        })}
+      </div>
+      <div className="container mx-auto px-4 text-center relative z-10">
         <h2 className="font-playfair text-3xl md:text-4xl text-[#00AEEF] mb-6">
           Join Our Monthly Prayer Circle
         </h2>
