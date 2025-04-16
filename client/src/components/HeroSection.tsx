@@ -48,7 +48,7 @@ export default function HeroSection() {
             <img
               src="/src/images/test6.png"
               alt="Mary Sophia Portrait"
-              className="w-3/4 h-3/4 object-cover"
+              className="w-2/3 h-2/3 object-cover"
             />
           </div>
         </div>
