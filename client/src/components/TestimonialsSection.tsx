@@ -21,8 +21,11 @@ export default function TestimonialsSection() {
   ];
 
   return (
-    <section className="gradient-bg py-16">
-      <div className="container mx-auto px-4">
+    <section className="relative py-16">
+      <div className="absolute inset-0">
+        <div className="wavy-gradient"></div>
+      </div>
+      <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-center font-dancing-script text-white text-3xl md:text-4xl mb-12">
           Mary Sophia Testimonials
         </h2>
