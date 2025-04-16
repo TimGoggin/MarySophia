@@ -30,10 +30,15 @@ export default function Services() {
               <p className="text-gray-600 mb-6 text-center">
                 Personal guidance sessions connecting you with divine wisdom and spiritual insight.
               </p>
-              <button className="w-full bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-4 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 flex items-center justify-center">
+              <a 
+                href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-4 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 flex items-center justify-center"
+              >
                 Book a Session
                 <ChevronRight className="ml-2 h-4 w-4" />
-              </button>
+              </a>
             </div>
 
             {/* School of Mary */}
