@@ -24,7 +24,7 @@
       rgba(3, 19, 68, 0.9),
       rgba(26, 47, 143, 0.9),
       rgba(36, 66, 204, 0.9),
-      rgba(11, 148, 205, 0.9));
+      #06AEEF);
   background-size: 300% 300%;
   position: absolute;
   inset: 0;
@@ -115,20 +115,25 @@
     transform: translate(0, 0) rotate(0deg);
     opacity: 0;
   }
+
   5% {
     opacity: 0.15;
   }
+
   45% {
     transform: translate(20px, 40px) rotate(120deg);
     opacity: 0.15;
   }
+
   85% {
     transform: translate(-20px, -30px) rotate(240deg);
     opacity: 0.15;
   }
+
   95% {
     opacity: 0;
   }
+
   100% {
     transform: translate(0, 0) rotate(360deg);
     opacity: 0;
