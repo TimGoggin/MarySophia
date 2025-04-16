@@ -21,7 +21,7 @@ export default function HeroSection() {
       id="home"
       className="relative min-h-screen flex items-center pt-16"
     >
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 overflow-hidden">
         <img
           src="/src/images/hero.jpeg"
           alt="Hero Background"
@@ -29,7 +29,7 @@ export default function HeroSection() {
         />
         <div className="wavy-gradient"></div>
       </div>
-      <div className="relative z-10">
+      <div className="relative z-20">
         <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between">
           <div className="text-center md:text-left md:w-1/2 mb-12 md:mb-0">
             <h1 className="font-dancing-script text-4xl md:text-6xl text-white mb-4">
