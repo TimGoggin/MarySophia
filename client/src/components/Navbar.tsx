@@ -35,7 +35,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
   return (
     <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? 'nav-scrolled' : ''}`}>
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className={`font-playfair text-xl md:text-2xl ${location.pathname === '/about' ? 'text-[#00AEEF]' : 'text-white'}`}>
+        <Link to="/" className={`font-playfair text-xl md:text-2xl ${isContactPage ? 'text-[#00AEEF]' : 'text-white'}`}>
           Mary Sophia
         </Link>
         
@@ -50,11 +50,11 @@ export default function Navbar({ scrolled }: NavbarProps) {
         
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-6 text-white">
-          <li><a href="#home" className={`border-b-2 border-[#00AEEF] pb-1 transition ${location.pathname === '/about' ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'home')}>Home</a></li>
-          <li><a href="#services" className={`hover:text-[#00AEEF] transition ${location.pathname === '/about' ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Services</a></li>
-          <li><a href="#school" className={`hover:text-[#00AEEF] transition ${location.pathname === '/about' ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
-          <li><a href="#order" className={`hover:text-[#00AEEF] transition ${location.pathname === '/about' ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
-          <li><Link to="/about" className={`hover:text-[#00AEEF] transition ${location.pathname === '/about' ? 'text-[#00AEEF]' : 'text-white'}`}>About</Link></li>
+          <li><a href="#home" className={`border-b-2 border-[#00AEEF] pb-1 ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'home')}>Home</a></li>
+          <li><a href="#services" className={`hover:text-[#00AEEF] transition ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Services</a></li>
+          <li><a href="#school" className={`hover:text-[#00AEEF] transition ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
+          <li><a href="#order" className={`hover:text-[#00AEEF] transition ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
+          <li><a href="#about" className={`hover:text-[#00AEEF] transition ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'about')}>About</a></li>
           <li><Link to="/contact" className={`hover:text-[#00AEEF] transition ${isContactPage ? 'text-[#00AEEF]' : ''}`}>Contact</Link></li>
         </ul>
       </nav>
@@ -62,11 +62,11 @@ export default function Navbar({ scrolled }: NavbarProps) {
       {/* Mobile Navigation Menu */}
       <div className={`bg-[#002147] md:hidden w-full ${mobileMenuOpen ? 'block' : 'hidden'}`}>
         <ul className="container mx-auto px-4 py-4 space-y-3 text-white">
-          <li><a href="#home" className={`block py-2 ${location.pathname === '/about' ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'home')}>Home</a></li>
-          <li><a href="#services" className={`block py-2 ${location.pathname === '/about' ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Services</a></li>
-          <li><a href="#school" className={`block py-2 ${location.pathname === '/about' ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
-          <li><a href="#order" className={`block py-2 ${location.pathname === '/about' ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
-          <li><Link to="/about" className={`block py-2 ${location.pathname === '/about' ? 'text-[#00AEEF]' : 'text-white'}`} onClick={() => setMobileMenuOpen(false)}>About</Link></li>
+          <li><a href="#home" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'home')}>Home</a></li>
+          <li><a href="#services" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Services</a></li>
+          <li><a href="#school" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
+          <li><a href="#order" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
+          <li><a href="#about" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'about')}>About</a></li>
           <li><Link to="/contact" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`}>Contact</Link></li>
         </ul>
       </div>
