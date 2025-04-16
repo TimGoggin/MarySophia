@@ -55,7 +55,7 @@ export default function Order() {
           <div className="text-center mb-12"></div>
 
           <div className="space-y-12">
-            <div className="bg-white/90 rounded-lg p-6">
+            <div>
               <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
                 Introduction
               </h2>
