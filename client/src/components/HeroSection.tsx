@@ -23,7 +23,7 @@ export default function HeroSection() {
     >
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="/src/images/hero.jpeg"
+          src="@/images/hero.jpeg"
           alt="Hero Background"
           className="w-full h-full object-cover"
         />
@@ -49,7 +49,7 @@ export default function HeroSection() {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <img
-              src="/src/images/test6.png"
+              src="@/images/test6.png"
               alt="Mary Sophia Portrait"
               className="w-2/3 h-2/3 object-cover"
             />
