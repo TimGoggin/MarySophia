@@ -10,6 +10,7 @@ import CtaSection from "./components/CtaSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
 import { Toaster } from "@/components/ui/toaster";
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           </>
         } />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
       <Toaster />
