@@ -62,7 +62,7 @@ export default function AboutSection() {
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <img
-              src="/src/images/mary-sophia.jpg"
+              src="/images/mary-sophia.jpg"
               alt="Mary Sophia Portrait"
               className="rounded-lg shadow-xl max-w-full h-auto"
             />
