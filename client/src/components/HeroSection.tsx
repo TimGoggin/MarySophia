@@ -27,7 +27,7 @@ export default function HeroSection() {
           alt="Hero Background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 wavy-gradient opacity-80"></div>
+        <div className="absolute inset-0 wavy-gradient opacity-90"></div>
       </div>
       <div className="relative z-10">
         <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between">
