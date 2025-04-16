@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function ServicesSection() {
   const services = [
     {
@@ -47,12 +49,12 @@ export default function ServicesSection() {
                   </p>
                 </div>
                 <div className="mt-auto">
-                  <a 
-                    href={service.link} 
+                  <Link 
+                    to="/services" 
                     className="block bg-[#00AEEF] hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300 text-center"
                   >
                     {service.cta}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
