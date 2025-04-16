@@ -39,7 +39,7 @@ export default function Footer() {
           {/* Quick Links Column */}
           <div className="space-y-4">
             <h3 className="font-playfair text-xl text-[#00AEEF] mb-4">Quick Links</h3>
-            <nav className="grid grid-cols-2 gap-2">
+            <nav className="flex flex-col space-y-2">
               <Link to="/" className="text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">Home</Link>
               <Link to="/services" className="text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">Services</Link>
               <Link to="/school" className="text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">School of Mary</Link>
