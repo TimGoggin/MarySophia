@@ -8,8 +8,30 @@ export default function Services() {
       <Helmet>
         <title>Services | Mary Sophia</title>
       </Helmet>
-      <div className="bg-white py-16 pt-32">
-        <div className="container mx-auto px-4">
+      <div className="bg-white py-16 pt-32 relative">
+        <div className="floating-roses-container">
+          {[...Array(15)].map((_, i) => {
+            const gridRow = Math.floor(i / 3);
+            const gridCol = i % 3;
+            const baseDelay = (gridRow * 3 + gridCol) * 2;
+            
+            return (
+              <div
+                key={i}
+                className="floating-rose"
+                style={{
+                  backgroundImage: `url(/src/images/rose-${(i % 3) + 1}.png)`,
+                  animationDelay: `${baseDelay + Math.random() * 5}s`,
+                  left: `${(gridCol * 33) + Math.random() * 10}%`,
+                  top: `${(gridRow * 25) + Math.random() * 10}%`,
+                  opacity: 0,
+                  transform: `rotate(${Math.random() * 360}deg)`
+                }}
+              />
+            );
+          })}
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h1 className="font-playfair text-4xl md:text-5xl text-[#00AEEF] mb-4">Our Services</h1>
             <p className="text-gray-600 font-open-sans text-lg max-w-2xl mx-auto">
