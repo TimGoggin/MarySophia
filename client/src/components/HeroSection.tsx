@@ -35,9 +35,6 @@ export default function HeroSection() {
             <h1 className="font-dancing-script text-4xl md:text-6xl text-white mb-4">
               Mary Sophia Welcomes You
             </h1>
-            <p className="text-white text-xl mb-8">
-              Add Your Heading Text Here
-            </p>
             <a
               href="#services"
               className="inline-flex items-center bg-transparent hover:bg-[#00AEEF] text-white font-semibold hover:text-white py-2 px-6 border border-white hover:border-transparent rounded-full transition duration-300"
