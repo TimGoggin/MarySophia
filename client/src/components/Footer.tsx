@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Facebook, Instagram, Youtube, Clock } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Youtube, Clock } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -115,9 +115,6 @@ export default function Footer() {
         {/* Social Media & Copyright */}
         <div className="mt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-300 hover:text-[#00AEEF] transition duration-300">
-              <Facebook className="w-5 h-5" />
-            </a>
             <a href="https://www.instagram.com/orderofthebluerose/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#00AEEF] transition duration-300">
               <Instagram className="w-5 h-5" />
             </a>
