@@ -1,7 +1,29 @@
 export default function AboutSection() {
   return (
-    <section id="about" className="py-16 bg-white">
-      <div className="container mx-auto px-4">
+    <section id="about" className="py-16 bg-white relative">
+      <div className="floating-roses-container">
+        {[...Array(15)].map((_, i) => {
+          const gridRow = Math.floor(i / 3);
+          const gridCol = i % 3;
+          const baseDelay = (gridRow * 3 + gridCol) * 2;
+          
+          return (
+            <div
+              key={i}
+              className="floating-rose"
+              style={{
+                backgroundImage: `url(/src/images/rose-${(i % 3) + 1}.png)`,
+                animationDelay: `${baseDelay + Math.random() * 5}s`,
+                left: `${(gridCol * 33) + Math.random() * 10}%`,
+                top: `${(gridRow * 25) + Math.random() * 10}%`,
+                opacity: 0,
+                transform: `rotate(${Math.random() * 360}deg)`
+              }}
+            />
+          );
+        })}
+      </div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-12">
             <h2 className="font-playfair text-3xl text-[#00AEEF] mb-6">
