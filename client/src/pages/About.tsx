@@ -87,11 +87,11 @@ export default function About() {
                 </ul>
               </div>
             </div>
-            <div className="md:w-2/5">
+            <div className="md:w-1/2">
               <img
                 src="/src/images/mary-sophia-2.jpg"
                 alt="Mary Sophia Portrait"
-                className="rounded-lg shadow-xl w-full object-cover"
+                className="rounded-lg shadow-xl w-full object-cover h-[500px]"
               />
             </div>
           </div>
