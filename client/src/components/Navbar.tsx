@@ -54,7 +54,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
           <li><a href="#services" className={`hover:text-[#00AEEF] transition ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Services</a></li>
           <li><a href="#school" className={`hover:text-[#00AEEF] transition ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
           <li><a href="#order" className={`hover:text-[#00AEEF] transition ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
-          <li><a href="#about" className={`hover:text-[#00AEEF] transition ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'about')}>About</a></li>
+          <li><Link to="/about" className={`hover:text-[#00AEEF] transition ${location.pathname === '/about' ? 'text-[#00AEEF]' : 'text-white'}`}>About</Link></li>
           <li><Link to="/contact" className={`hover:text-[#00AEEF] transition ${isContactPage ? 'text-[#00AEEF]' : ''}`}>Contact</Link></li>
         </ul>
       </nav>
@@ -66,7 +66,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
           <li><a href="#services" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Services</a></li>
           <li><a href="#school" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
           <li><a href="#order" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
-          <li><a href="#about" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`} onClick={(e) => handleNavLinkClick(e, 'about')}>About</a></li>
+          <li><Link to="/about" className={`block py-2 ${location.pathname === '/about' ? 'text-[#00AEEF]' : 'text-white'}`} onClick={() => setMobileMenuOpen(false)}>About</Link></li>
           <li><Link to="/contact" className={`block py-2 ${isContactPage ? 'text-[#00AEEF]' : ''}`}>Contact</Link></li>
         </ul>
       </div>
