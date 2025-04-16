@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
@@ -12,62 +13,86 @@ export default function About() {
             <h1 className="font-playfair text-4xl text-[#00AEEF] mb-4">
               About Mary Sophia
             </h1>
+            <p className="text-gray-600 font-open-sans text-xl">
+              Teacher of the Way of Mary, devoted to the Divine Feminine
+            </p>
           </div>
 
-          {/* Introduction */}
-          <div className="prose max-w-none mb-12">
-            <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
-              As a teacher of the Way of Mary and a follower of Christ, I serve as a channel for the divine wisdom of Mother Mary, Mary Magdalene, and the Angelic Realm. My mission is to help others remember their Original Essence and embody the Wisdom of the Heart.
-            </p>
-            <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
-              Through the Order of the Blue Rose, we work to awaken and nurture the divine feminine wisdom that resides within each of us. This sacred work combines ancient spiritual teachings with direct guidance from the divine realms.
-            </p>
-            <p className="text-gray-700 mb-12 font-open-sans leading-relaxed">
-              I am dedicated to supporting individuals on their journey of spiritual awakening, helping them connect with their divine nature and live their Original Blessing on Earth.
-            </p>
+          <div className="flex flex-col md:flex-row gap-12 mb-16">
+            <div className="md:w-2/3">
+              <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
+                Mary Sophia is a spiritual teacher who channels the wisdom of
+                Mother Mary, Mary Magdalene, and the Angelic Realm. She serves
+                as a guide for others to connect with their original divine
+                essence and live with heart-centered clarity.
+              </p>
+              <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
+                Through years of dedicated spiritual practice and divine
+                connection, she has developed a unique ability to bridge ancient
+                wisdom with modern spiritual understanding, helping others
+                awaken to their true potential.
+              </p>
+              <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
+                Reach out to begin your spiritual journey with personalized
+                guidance and support
+              </p>
+            </div>
+            <div className="md:w-1/3">
+              <img
+                src="/src/images/test6.png"
+                alt="Mary Sophia Portrait"
+                className="rounded-lg shadow-xl w-full"
+              />
+            </div>
+          </div>
 
-            {/* Sacred Mission */}
-            <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">Our Sacred Mission</h2>
-            <ul className="list-none space-y-3 mb-12">
-              <li className="flex items-center font-open-sans text-gray-700">
-                <span className="w-2 h-2 bg-[#00AEEF] rounded-full mr-3"></span>
-                Awakening the Wisdom of the Heart
-              </li>
-              <li className="flex items-center font-open-sans text-gray-700">
-                <span className="w-2 h-2 bg-[#00AEEF] rounded-full mr-3"></span>
-                Embodying Divine Feminine Wisdom
-              </li>
-              <li className="flex items-center font-open-sans text-gray-700">
-                <span className="w-2 h-2 bg-[#00AEEF] rounded-full mr-3"></span>
-                Nurturing Spiritual Growth and Transformation
-              </li>
-              <li className="flex items-center font-open-sans text-gray-700">
-                <span className="w-2 h-2 bg-[#00AEEF] rounded-full mr-3"></span>
-                Creating Sacred Community
-              </li>
-              <li className="flex items-center font-open-sans text-gray-700">
-                <span className="w-2 h-2 bg-[#00AEEF] rounded-full mr-3"></span>
-                Sharing Ancient and Contemporary Spiritual Teachings
-              </li>
-            </ul>
+          <div className="grid md:grid-cols-3 gap-6 mb-16">
+            <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+              <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
+                Divine Feminine Wisdom
+              </h3>
+              <p className="text-gray-600">
+                Embodying and teaching the sacred principles of the Divine
+                Feminine.
+              </p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+              <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
+                Spiritual Transformation
+              </h3>
+              <p className="text-gray-600">
+                Guiding heart-led journeys of spiritual awakening and growth.
+              </p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+              <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
+                Sacred Mentorship
+              </h3>
+              <p className="text-gray-600">
+                Providing guidance and support through community and individual
+                connection.
+              </p>
+            </div>
+          </div>
 
-            {/* About Me */}
-            <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">About Me</h2>
-            <p className="text-gray-700 mb-12 font-open-sans leading-relaxed">
-              Mary Sophia is a teacher of the Way of Mary and a follower of Christ. She is also a messenger and a channel for Mother Mary, Mary Magdalene, and the Angelic Realm.
+          <div className="text-center">
+            <p className="text-gray-700 mb-8 font-open-sans">
+              Continue your spiritual journey with Mary Sophia
             </p>
-
-            {/* Philosophy & Approach */}
-            <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">Philosophy & Approach</h2>
-            <p className="text-gray-700 mb-12 font-open-sans leading-relaxed">
-              My work is grounded in The Way of Mary and The Way of the Heart, ancient wisdom traditions that emphasize direct spiritual experience and heart-centered transformation. I believe that each person carries within them a unique divine spark waiting to be awakened.
-            </p>
-
-            {/* Sacred Work */}
-            <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">Sacred Work</h2>
-            <p className="text-gray-700 mb-12 font-open-sans leading-relaxed">
-              Through intuitive readings, spiritual counseling, and teaching, I help others connect with their own divine guidance and purpose. This work is supported by the presence of Mother Mary, Mary Magdalene, and the Angelic Realm, who offer their wisdom and love to all who seek it.
-            </p>
+            <div className="flex justify-center gap-4">
+              <a
+                href="#school"
+                className="bg-[#00AEEF] text-white px-6 py-3 rounded-full hover:bg-blue-600 transition duration-300"
+              >
+                Discover the School of Mary
+              </a>
+              <a
+                href="#order"
+                className="border border-[#00AEEF] text-[#00AEEF] px-6 py-3 rounded-full hover:bg-gray-50 transition duration-300"
+              >
+                Join the Order of the Blue Rose
+              </a>
+            </div>
           </div>
         </div>
       </div>
