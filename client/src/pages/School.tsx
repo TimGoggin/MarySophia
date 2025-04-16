@@ -53,7 +53,7 @@ export default function School() {
         </div>
         <div className="max-w-4xl mx-auto px-4 relative z-10">
           <div className="space-y-12">
-            <div>
+            <div className="bg-white/90 rounded-lg p-6">
               <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
                 Introduction
               </h2>
