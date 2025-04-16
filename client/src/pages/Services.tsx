@@ -8,7 +8,28 @@ export default function Services() {
       <Helmet>
         <title>Services | Mary Sophia</title>
       </Helmet>
-      <div className="bg-white py-16 pt-32 relative">
+      <section className="relative min-h-[60vh] flex items-center pt-16">
+        <div className="absolute inset-0 overflow-hidden">
+          <img
+            src="/src/images/hero.jpeg"
+            alt="Hero Background"
+            className="w-full h-full object-cover"
+          />
+          <div className="wavy-gradient"></div>
+        </div>
+        <div className="relative z-20 w-full">
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="font-playfair text-4xl md:text-5xl text-white mb-4 drop-shadow-lg">
+              Our Services
+            </h1>
+            <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
+              Offerings designed to deepen your connection to the Divine Feminine
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div className="bg-white py-16 relative">
         <div className="floating-roses-container">
           {[...Array(15)].map((_, i) => {
             const gridRow = Math.floor(i / 3);
@@ -32,13 +53,6 @@ export default function Services() {
           })}
         </div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-16">
-            <h1 className="font-playfair text-4xl md:text-5xl text-[#00AEEF] mb-4">Our Services</h1>
-            <p className="text-gray-600 font-open-sans text-lg max-w-2xl mx-auto">
-              Offerings designed to deepen your connection to the Divine Feminine
-            </p>
-          </div>
-
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {/* Private Readings */}
             <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
@@ -103,18 +117,18 @@ export default function Services() {
             <div className="wavy-gradient opacity-40"></div>
             <div className="relative z-10">
               <h2 className="font-playfair text-3xl mb-4">Join Our Monthly Prayer Circle</h2>
-            <p className="mb-8 max-w-2xl mx-auto">
-              Connect with like-minded souls in our sacred monthly gathering. Experience the power of collective prayer and divine feminine energy.
-            </p>
-            <a 
-              href="https://sacred-rose.teachable.com/purchase?product_id=6205554"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#00AEEF] hover:bg-[#0097FB] text-white py-3 px-8 rounded-full transition duration-300 inline-flex items-center"
-            >
-              Schedule Your Visit
-              <ChevronRight className="ml-2 h-4 w-4" />
-            </a>
+              <p className="mb-8 max-w-2xl mx-auto">
+                Connect with like-minded souls in our sacred monthly gathering. Experience the power of collective prayer and divine feminine energy.
+              </p>
+              <a 
+                href="https://sacred-rose.teachable.com/purchase?product_id=6205554"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#00AEEF] hover:bg-[#0097FB] text-white py-3 px-8 rounded-full transition duration-300 inline-flex items-center"
+              >
+                Schedule Your Visit
+                <ChevronRight className="ml-2 h-4 w-4" />
+              </a>
             </div>
           </div>
         </div>
