@@ -1,4 +1,3 @@
-
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
 
@@ -11,7 +10,7 @@ export default function Services() {
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="/src/images/hero.jpeg"
+            src="/images/hero.jpeg"
             alt="Hero Background"
             className="w-full h-full object-cover"
           />
@@ -23,7 +22,8 @@ export default function Services() {
               Our Services
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
-              Offerings designed to deepen your connection to the Divine Feminine
+              Offerings designed to deepen your connection to the Divine
+              Feminine
             </p>
           </div>
         </div>
@@ -35,18 +35,18 @@ export default function Services() {
             const gridRow = Math.floor(i / 3);
             const gridCol = i % 3;
             const baseDelay = (gridRow * 3 + gridCol) * 2;
-            
+
             return (
               <div
                 key={i}
                 className="floating-rose"
                 style={{
-                  backgroundImage: `url(/src/images/rose-${(i % 3) + 1}.png)`,
+                  backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
                   animationDelay: `${baseDelay + Math.random() * 5}s`,
-                  left: `${(gridCol * 33) + Math.random() * 10}%`,
-                  top: `${(gridRow * 25) + Math.random() * 10}%`,
+                  left: `${gridCol * 33 + Math.random() * 10}%`,
+                  top: `${gridRow * 25 + Math.random() * 10}%`,
                   opacity: 0,
-                  transform: `rotate(${Math.random() * 360}deg)`
+                  transform: `rotate(${Math.random() * 360}deg)`,
                 }}
               />
             );
@@ -57,16 +57,34 @@ export default function Services() {
             {/* Private Readings */}
             <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-16 h-16 bg-[#00AEEF]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <svg className="w-8 h-8 text-[#00AEEF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z"/>
+                <svg
+                  className="w-8 h-8 text-[#00AEEF]"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z"
+                  />
                 </svg>
               </div>
-              <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">Private Readings</h3>
+              <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">
+                Private Readings
+              </h3>
               <p className="text-gray-600 mb-6 text-center">
-                Personal guidance sessions connecting you with divine wisdom and spiritual insight.
+                Personal guidance sessions connecting you with divine wisdom and
+                spiritual insight.
               </p>
-              <a 
+              <a
                 href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -80,13 +98,26 @@ export default function Services() {
             {/* School of Mary */}
             <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-16 h-16 bg-[#00AEEF]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <svg className="w-8 h-8 text-[#00AEEF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                <svg
+                  className="w-8 h-8 text-[#00AEEF]"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                  />
                 </svg>
               </div>
-              <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">School of Mary</h3>
+              <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">
+                School of Mary
+              </h3>
               <p className="text-gray-600 mb-6 text-center">
-                Learn ancient wisdom and spiritual practices in our sacred learning community.
+                Learn ancient wisdom and spiritual practices in our sacred
+                learning community.
               </p>
               <button className="w-full bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-4 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 flex items-center justify-center">
                 Learn More
@@ -97,13 +128,26 @@ export default function Services() {
             {/* Order of the Blue Rose */}
             <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-16 h-16 bg-[#00AEEF]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <svg className="w-8 h-8 text-[#00AEEF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"/>
+                <svg
+                  className="w-8 h-8 text-[#00AEEF]"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"
+                  />
                 </svg>
               </div>
-              <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">Order of the Blue Rose</h3>
+              <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">
+                Order of the Blue Rose
+              </h3>
               <p className="text-gray-600 mb-6 text-center">
-                Join our sacred sisterhood dedicated to embodying divine feminine wisdom.
+                Join our sacred sisterhood dedicated to embodying divine
+                feminine wisdom.
               </p>
               <button className="w-full bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-4 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 flex items-center justify-center">
                 Join Now
@@ -116,11 +160,15 @@ export default function Services() {
           <div className="relative bg-[#002147] text-white rounded-lg p-12 text-center overflow-hidden">
             <div className="wavy-gradient opacity-40"></div>
             <div className="relative z-10">
-              <h2 className="font-playfair text-3xl mb-4">Join Our Monthly Prayer Circle</h2>
+              <h2 className="font-playfair text-3xl mb-4">
+                Join Our Monthly Prayer Circle
+              </h2>
               <p className="mb-8 max-w-2xl mx-auto">
-                Connect with like-minded souls in our sacred monthly gathering. Experience the power of collective prayer and divine feminine energy.
+                Connect with like-minded souls in our sacred monthly gathering.
+                Experience the power of collective prayer and divine feminine
+                energy.
               </p>
-              <a 
+              <a
                 href="https://sacred-rose.teachable.com/purchase?product_id=6205554"
                 target="_blank"
                 rel="noopener noreferrer"

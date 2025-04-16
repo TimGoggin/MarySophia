@@ -10,7 +10,7 @@ export default function School() {
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="/src/images/hero.jpeg"
+            src="/images/hero.jpeg"
             alt="Hero Background"
             className="w-full h-full object-cover"
           />
@@ -40,7 +40,7 @@ export default function School() {
                 key={i}
                 className="floating-rose"
                 style={{
-                  backgroundImage: `url(/src/images/rose-${(i % 3) + 1}.png)`,
+                  backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
                   animationDelay: `${baseDelay + Math.random() * 5}s`,
                   left: `${gridCol * 33 + Math.random() * 10}%`,
                   top: `${gridRow * 25 + Math.random() * 10}%`,
