@@ -40,29 +40,19 @@ export default function Order() {
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-12">
-            <div className="md:w-1/2 space-y-12">
-              <div>
-                <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">Introduction</h2>
-                <p className="text-gray-700 font-open-sans leading-relaxed">
-                  The Order of the Blue Rose is a sacred lineage dedicated to embodying divine love and wisdom. We stand as guardians of ancient spiritual traditions, facilitating awakening and transformation through the divine feminine wisdom.
-                </p>
-              </div>
-
-              <div>
-                <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">Historical Background</h2>
-                <p className="text-gray-700 font-open-sans leading-relaxed">
-                  Rooted in ancient wisdom traditions, the Order carries forward the teachings of Mother Mary and Mary Magdalene. Through generations, we have preserved and transmitted sacred knowledge that bridges earthly existence with divine consciousness.
-                </p>
-              </div>
+          <div className="space-y-12">
+            <div>
+              <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">Introduction</h2>
+              <p className="text-gray-700 font-open-sans leading-relaxed">
+                The Order of the Blue Rose is a sacred lineage dedicated to embodying divine love and wisdom. We stand as guardians of ancient spiritual traditions, facilitating awakening and transformation through the divine feminine wisdom.
+              </p>
             </div>
-            
-            <div className="md:w-1/2 flex items-center justify-center">
-              <img
-                src="/src/images/mary-2.jpg"
-                alt="Divine Mary"
-                className="rounded-lg shadow-xl w-full h-[500px] object-cover"
-              />
+
+            <div>
+              <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">Historical Background</h2>
+              <p className="text-gray-700 font-open-sans leading-relaxed">
+                Rooted in ancient wisdom traditions, the Order carries forward the teachings of Mother Mary and Mary Magdalene. Through generations, we have preserved and transmitted sacred knowledge that bridges earthly existence with divine consciousness.
+              </p>
             </div>
 
             <div>
