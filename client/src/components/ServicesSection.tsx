@@ -1,6 +1,6 @@
-import { Flower } from "lucide-react";
 import StarIcon from "../icons/star.svg";
 import FemaleIcon from "../icons/female.svg";
+import RoseIcon from "../icons/rose.svg";
 
 export default function ServicesSection() {
   const services = [
@@ -22,7 +22,7 @@ export default function ServicesSection() {
     },
     {
       id: 3,
-      icon: <Flower className="w-10 h-10 text-[#00AEEF]" />,
+      icon: <img src={RoseIcon} alt="Rose" className="w-10 h-10" />,
       title: "Order of the Blue Rose",
       description: "Join a sacred community and receive spiritual teachings through initiations.",
       cta: "Find Your Path",
