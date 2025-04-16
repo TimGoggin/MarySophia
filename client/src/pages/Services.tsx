@@ -81,7 +81,7 @@ export default function Services() {
             {/* School of Mary */}
             <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-16 h-16 bg-[#00AEEF]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <img src="/icons/rose.svg" alt="Rose Icon" className="w-8 h-8" />
+                <img src="/icons/female.svg" alt="Female Icon" className="w-8 h-8" />
               </div>
               <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">
                 School of Mary
