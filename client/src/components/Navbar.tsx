@@ -83,13 +83,12 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a
-              href="#order"
-              className="hover:text-[#00AEEF] transition pb-1 border-b-2 border-transparent"
-              onClick={(e) => handleNavLinkClick(e, "services")}
+            <Link
+              to="/order"
+              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/order" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent"}`}
             >
               Order of the Blue Rose
-            </a>
+            </Link>
           </li>
           <li>
             <Link
@@ -143,13 +142,13 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a
-              href="#order"
-              className="block py-2 hover:text-[#00AEEF] transition"
-              onClick={(e) => handleNavLinkClick(e, "services")}
+            <Link
+              to="/order"
+              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/order" ? "text-[#00AEEF] font-semibold" : ""}`}
+              onClick={() => setMobileMenuOpen(false)}
             >
               Order of the Blue Rose
-            </a>
+            </Link>
           </li>
           <li>
             <Link
