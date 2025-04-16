@@ -1,10 +1,11 @@
-import { Sun, BookOpen, Flower } from "lucide-react";
+import { BookOpen, Flower } from "lucide-react";
+import StarIcon from "../icons/star.svg";
 
 export default function ServicesSection() {
   const services = [
     {
       id: 1,
-      icon: <Sun className="w-10 h-10 text-[#00AEEF]" />,
+      icon: <img src={StarIcon} alt="Star" className="w-10 h-10" />,
       title: "Private Readings",
       description: "Connect with divine guidance through personal readings tailored to your spiritual journey.",
       cta: "Experience a Reading",
