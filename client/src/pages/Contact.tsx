@@ -59,7 +59,7 @@ export default function Contact() {
           </div>
 
           <div className="flex flex-col md:flex-row gap-8 items-start">
-            <div className="w-full md:w-[55%]">
+            <div className="w-full md:w-[55%] md:pr-12">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-gray-700 font-open-sans mb-2">Name</label>
@@ -122,7 +122,7 @@ export default function Contact() {
               </form>
             </div>
 
-            <div className="w-full md:w-[35%] md:pl-8">
+            <div className="w-full md:w-[35%] md:pl-16">
               <div className="relative h-full">
                 <img
                   src="/src/images/mary.jpg"
