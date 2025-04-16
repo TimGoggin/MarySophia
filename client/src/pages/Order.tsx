@@ -22,7 +22,7 @@ export default function Order() {
               Order of the Blue Rose
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
-              A Sacred Lineage of Divine Love and Wisdo
+              A Sacred Lineage of Divine Love and Wisdom
             </p>
           </div>
         </div>
