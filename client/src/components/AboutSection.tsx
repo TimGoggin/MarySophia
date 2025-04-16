@@ -1,3 +1,6 @@
+import { ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
+
 export default function AboutSection() {
   return (
     <section id="about" className="py-16 bg-white relative">
@@ -49,6 +52,13 @@ export default function AboutSection() {
               she offers divine guidance to help others remember their Original
               Essence and live their soul's purpose.
             </p>
+            <Link
+              to="/about"
+              className="inline-flex items-center bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-6 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 mt-6"
+            >
+              Learn More
+              <ChevronRight className="ml-2 h-4 w-4" />
+            </Link>
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <img
