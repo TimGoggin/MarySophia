@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MapPin, Facebook, Instagram, Youtube, Clock } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -19,7 +18,7 @@ export default function Footer() {
       <div className="wavy-gradient opacity-40"></div>
       {/* Main Footer */}
       <div className="container mx-auto px-4 pt-12 pb-6 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 border-b border-blue-800/50 pb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 border-b border-blue-800/50 pb-8">
           {/* About Column */}
           <div className="space-y-4">
             <h3 className="font-playfair text-xl text-[#00AEEF] mb-4">About Us</h3>
@@ -47,6 +46,18 @@ export default function Footer() {
               <Link to="/order" className="text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">Order of the Blue Rose</Link>
               <Link to="/about" className="text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">About</Link>
               <Link to="/contact" className="text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">Contact</Link>
+            </nav>
+          </div>
+
+          {/* Policies Column */}
+          <div className="space-y-4">
+            <h3 className="font-playfair text-xl text-[#00AEEF] mb-4">Policies</h3>
+            <nav className="space-y-2">
+              <a href="#" className="block text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">Privacy Policy</a>
+              <a href="#" className="block text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">Terms of Service</a>
+              <a href="#" className="block text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">Cookie Policy</a>
+              <a href="#" className="block text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">Disclaimer</a>
+              <a href="#" className="block text-gray-300 hover:text-[#00AEEF] transition duration-300 text-sm">Refund Policy</a>
             </nav>
           </div>
 
