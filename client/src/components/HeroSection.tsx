@@ -29,9 +29,9 @@ export default function HeroSection() {
         />
         <div className="wavy-gradient"></div>
       </div>
-      <div className="relative z-20">
-        <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between">
-          <div className="text-center md:text-left md:w-1/2 mb-12 md:mb-0">
+      <div className="relative z-20 w-full">
+        <div className="container mx-auto px-4 py-16 flex flex-col items-center justify-center text-center">
+          <div className="max-w-2xl mb-12">
             <h1 className="font-dancing-script text-4xl md:text-6xl text-white mb-4">
               Mary Sophia Welcomes You
             </h1>
