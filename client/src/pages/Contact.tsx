@@ -50,7 +50,7 @@ export default function Contact() {
             );
           })}
         </div>
-        <div className="max-w-4xl mx-auto px-4 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
             <h1 className="font-playfair text-4xl text-[#00AEEF] mb-4">Get in Touch</h1>
             <p className="text-gray-600 font-open-sans">
@@ -58,66 +58,80 @@ export default function Contact() {
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div>
-              <label htmlFor="name" className="block text-gray-700 font-open-sans mb-2">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
-                required
-              />
+          <div className="flex flex-col md:flex-row gap-8 items-start">
+            <div className="w-full md:w-[55%]">
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div>
+                  <label htmlFor="name" className="block text-gray-700 font-open-sans mb-2">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="email" className="block text-gray-700 font-open-sans mb-2">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="subject" className="block text-gray-700 font-open-sans mb-2">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="message" className="block text-gray-700 font-open-sans mb-2">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    rows={6}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
+                    required
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full bg-[#00AEEF] text-white py-3 px-6 rounded-md hover:bg-blue-600 transition duration-300 font-open-sans"
+                >
+                  Send Message
+                </button>
+              </form>
             </div>
 
-            <div>
-              <label htmlFor="email" className="block text-gray-700 font-open-sans mb-2">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
-                required
-              />
+            <div className="w-full md:w-[45%] md:pl-8">
+              <div className="relative h-full">
+                <img
+                  src="/src/images/mary.jpg"
+                  alt="Mary Sophia"
+                  className="w-full h-auto rounded-lg shadow-xl object-cover md:sticky md:top-32"
+                />
+              </div>
             </div>
-
-            <div>
-              <label htmlFor="subject" className="block text-gray-700 font-open-sans mb-2">Subject</label>
-              <input
-                type="text"
-                id="subject"
-                name="subject"
-                value={formData.subject}
-                onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
-                required
-              />
-            </div>
-
-            <div>
-              <label htmlFor="message" className="block text-gray-700 font-open-sans mb-2">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                rows={6}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
-                required
-              />
-            </div>
-
-            <button
-              type="submit"
-              className="w-full bg-[#00AEEF] text-white py-3 px-6 rounded-md hover:bg-blue-600 transition duration-300 font-open-sans"
-            >
-              Send Message
-            </button>
-          </form>
+          </div>
 
           <div className="mt-12 text-center">
             <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">Other Ways to Connect</h2>
