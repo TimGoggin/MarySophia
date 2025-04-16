@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -19,16 +18,19 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={
-          <>
-            <HeroSection />
-            <WelcomeSection />
-            <ServicesSection />
-            <AboutSection />
-            <CtaSection />
-            <TestimonialsSection />
-          </>
-        } />
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroSection />
+              <WelcomeSection />
+              <ServicesSection />
+              <AboutSection />
+              <TestimonialsSection />
+              <CtaSection />
+            </>
+          }
+        />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
