@@ -8,7 +8,7 @@ export default function Services() {
       <Helmet>
         <title>Services | Mary Sophia</title>
       </Helmet>
-      <section className="relative min-h-[60vh] flex items-center pt-16">
+      <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
             src="/src/images/hero.jpeg"
