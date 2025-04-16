@@ -33,7 +33,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
   };
 
   return (
-    <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? 'nav-scrolled' : ''}`}>
+    <header className={`fixed w-full top-0 z-50 transition-all duration-300 bg-blue-600/50 ${scrolled ? 'nav-scrolled' : ''}`}>
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className={`font-playfair text-xl md:text-2xl ${isContactPage ? 'text-[#00AEEF]' : 'text-white'}`}>
           Mary Sophia
