@@ -20,12 +20,24 @@
 }
 
 .wavy-gradient {
-  background: linear-gradient(135deg, rgba(3, 19, 68, 0.9), rgba(26, 47, 143, 0.9), rgba(36, 66, 204, 0.9), rgba(11, 148, 205, 0.9));
+  background: linear-gradient(135deg, 
+    rgba(3, 19, 68, 0.9),
+    rgba(26, 47, 143, 0.9),
+    rgba(36, 66, 204, 0.9),
+    rgba(11, 148, 205, 0.9));
+  background-size: 400% 400%;
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
 }
 
 .wavy-gradient::before {
