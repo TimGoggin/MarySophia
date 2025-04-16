@@ -8,8 +8,21 @@ interface NavbarProps {
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isAtTop, setIsAtTop] = useState(true);
   const location = useLocation();
   const isContactPage = location.pathname === "/contact";
+  const shouldBeTransparent = ["", "/", "/services", "/school", "/order"].includes(location.pathname) && isAtTop;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsAtTop(window.scrollY < 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Check initial scroll position
+    
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -36,7 +49,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed w-full top-0 z-50 bg-[#031344]/50">
+    <header className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? 'bg-transparent' : 'bg-[#031344]/50'}`}>
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className={`font-playfair text-xl md:text-2xl text-white`}>
           Mary Sophia
