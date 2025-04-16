@@ -9,18 +9,18 @@ export default function AboutSection() {
           const gridRow = Math.floor(i / 3);
           const gridCol = i % 3;
           const baseDelay = (gridRow * 3 + gridCol) * 2;
-          
+
           return (
             <div
               key={i}
               className="floating-rose"
               style={{
-                backgroundImage: `url(/src/images/rose-${(i % 3) + 1}.png)`,
+                backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
                 animationDelay: `${baseDelay + Math.random() * 5}s`,
-                left: `${(gridCol * 33) + Math.random() * 10}%`,
-                top: `${(gridRow * 25) + Math.random() * 10}%`,
+                left: `${gridCol * 33 + Math.random() * 10}%`,
+                top: `${gridRow * 25 + Math.random() * 10}%`,
                 opacity: 0,
-                transform: `rotate(${Math.random() * 360}deg)`
+                transform: `rotate(${Math.random() * 360}deg)`,
               }}
             />
           );

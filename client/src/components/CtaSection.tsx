@@ -14,7 +14,7 @@ export default function CtaSection() {
               key={i}
               className="floating-rose"
               style={{
-                backgroundImage: `url(/src/images/rose-${(i % 3) + 1}.png)`,
+                backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
                 animationDelay: `${baseDelay + Math.random() * 5}s`,
                 left: `${gridCol * 33 + Math.random() * 10}%`,
                 top: `${gridRow * 25 + Math.random() * 10}%`,

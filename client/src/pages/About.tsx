@@ -89,7 +89,7 @@ export default function About() {
             </div>
             <div className="md:w-1/2">
               <img
-                src="/src/images/mary-sophia-2.jpg"
+                src="/images/mary-sophia-2.jpg"
                 alt="Mary Sophia Portrait"
                 className="rounded-lg shadow-xl w-full object-cover h-[500px]"
               />
