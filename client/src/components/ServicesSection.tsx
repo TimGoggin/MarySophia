@@ -1,12 +1,8 @@
-import StarIcon from "../icons/star.svg";
-import FemaleIcon from "../icons/female.svg";
-import RoseIcon from "../icons/rose.svg";
-
 export default function ServicesSection() {
   const services = [
     {
       id: 1,
-      icon: <img src={StarIcon} alt="Star" className="w-[120%] h-[120%]" />,
+      icon: <img src="/icons/star.svg" alt="Star" className="w-[120%] h-[120%]" />,
       title: "Private Readings",
       description: "Connect with divine guidance through personal readings tailored to your spiritual journey.",
       cta: "Experience a Reading",
@@ -14,7 +10,7 @@ export default function ServicesSection() {
     },
     {
       id: 2,
-      icon: <img src={FemaleIcon} alt="Female" className="w-full h-full" />,
+      icon: <img src="/icons/female.svg" alt="Female" className="w-full h-full" />,
       title: "School of Mary",
       description: "Deepen your spiritual growth through courses, workshops, and mentorship.",
       cta: "Thrive in our Environment",
@@ -22,7 +18,7 @@ export default function ServicesSection() {
     },
     {
       id: 3,
-      icon: <img src={RoseIcon} alt="Rose" className="w-full h-full" />,
+      icon: <img src="/icons/rose.svg" alt="Rose" className="w-full h-full" />,
       title: "Order of the Blue Rose",
       description: "Join a sacred community and receive spiritual teachings through initiations.",
       cta: "Find Your Path",
