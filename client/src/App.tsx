@@ -15,22 +15,9 @@ import Services from "./pages/Services";
 import { Toaster } from "@/components/ui/toaster";
 
 function App() {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <Router>
-      <Navbar scrolled={scrolled} />
+      <Navbar />
       <Routes>
         <Route path="/" element={
           <>

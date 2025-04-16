@@ -86,10 +86,7 @@
   background: linear-gradient(to bottom, var(--deep-blue), var(--deep-blue-light));
 }
 
-.nav-scrolled {
-  background-color: rgba(0, 33, 71, 0.95);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
+
 
 .floating-roses-container {
   position: absolute;

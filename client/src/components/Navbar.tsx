@@ -6,7 +6,7 @@ interface NavbarProps {
   scrolled: boolean;
 }
 
-export default function Navbar({ scrolled }: NavbarProps) {
+export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
   const isContactPage = location.pathname === '/contact';
@@ -33,7 +33,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
   };
 
   return (
-    <header className={`fixed w-full top-0 z-50 transition-all duration-300 bg-blue-600/50 ${scrolled ? 'nav-scrolled' : ''}`}>
+    <header className="fixed w-full top-0 z-50 bg-blue-600/50">
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className={`font-playfair text-xl md:text-2xl text-white`}>
           Mary Sophia
