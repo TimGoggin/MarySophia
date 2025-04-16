@@ -6,7 +6,7 @@ export default function ServicesSection() {
   const services = [
     {
       id: 1,
-      icon: <img src={StarIcon} alt="Star" className="w-10 h-10" />,
+      icon: <img src={StarIcon} alt="Star" className="w-full h-full" />,
       title: "Private Readings",
       description: "Connect with divine guidance through personal readings tailored to your spiritual journey.",
       cta: "Experience a Reading",
@@ -14,7 +14,7 @@ export default function ServicesSection() {
     },
     {
       id: 2,
-      icon: <img src={FemaleIcon} alt="Female" className="w-10 h-10" />,
+      icon: <img src={FemaleIcon} alt="Female" className="w-full h-full" />,
       title: "School of Mary",
       description: "Deepen your spiritual growth through courses, workshops, and mentorship.",
       cta: "Thrive in our Environment",
@@ -22,7 +22,7 @@ export default function ServicesSection() {
     },
     {
       id: 3,
-      icon: <img src={RoseIcon} alt="Rose" className="w-10 h-10" />,
+      icon: <img src={RoseIcon} alt="Rose" className="w-full h-full" />,
       title: "Order of the Blue Rose",
       description: "Join a sacred community and receive spiritual teachings through initiations.",
       cta: "Find Your Path",
@@ -37,8 +37,10 @@ export default function ServicesSection() {
           {services.map((service) => (
             <div key={service.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-6 text-center">
-                <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
-                  {service.icon}
+                <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+                  <div className="w-16 h-16">
+                    {service.icon}
+                  </div>
                 </div>
                 <h3 className="font-playfair text-xl text-[#00AEEF] mb-4">
                   {service.title}
