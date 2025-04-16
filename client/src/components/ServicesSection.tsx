@@ -1,5 +1,6 @@
-import { BookOpen, Flower } from "lucide-react";
+import { Flower } from "lucide-react";
 import StarIcon from "../icons/star.svg";
+import FemaleIcon from "../icons/female.svg";
 
 export default function ServicesSection() {
   const services = [
@@ -13,7 +14,7 @@ export default function ServicesSection() {
     },
     {
       id: 2,
-      icon: <BookOpen className="w-10 h-10 text-[#00AEEF]" />,
+      icon: <img src={FemaleIcon} alt="Female" className="w-10 h-10" />,
       title: "School of Mary",
       description: "Deepen your spiritual growth through courses, workshops, and mentorship.",
       cta: "Thrive in our Environment",
