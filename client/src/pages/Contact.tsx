@@ -27,7 +27,7 @@ export default function Contact() {
       <Helmet>
         <title>Contact | Mary Sophia</title>
       </Helmet>
-      <div className="bg-white py-16">
+      <div className="bg-white py-16 pt-32">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-12">
             <h1 className="font-playfair text-4xl text-[#00AEEF] mb-4">Get in Touch</h1>
