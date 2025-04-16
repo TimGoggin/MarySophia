@@ -90,3 +90,48 @@
   background-color: rgba(0, 33, 71, 0.95);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
+
+.floating-roses-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.floating-rose {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  animation: floatRose 30s linear infinite;
+}
+
+@keyframes floatRose {
+  0% {
+    transform: translate(-10%, 110%) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.15;
+  }
+  90% {
+    opacity: 0.15;
+  }
+  100% {
+    transform: translate(110%, -10%) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .floating-rose {
+    width: 60px;
+    height: 60px;
+  }
+}
