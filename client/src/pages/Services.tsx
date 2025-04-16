@@ -58,25 +58,7 @@ export default function Services() {
             {/* Private Readings */}
             <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
               <div className="w-16 h-16 bg-[#00AEEF]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <svg
-                  className="w-8 h-8 text-[#00AEEF]"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z"
-                  />
-                </svg>
+                <img src="/icons/rose-2.svg" alt="Rose Icon" className="w-8 h-8" />
               </div>
               <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">
                 Private Readings
