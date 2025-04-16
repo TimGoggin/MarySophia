@@ -28,7 +28,7 @@ export default function AboutSection() {
       </div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-10 md:mb-0 md:pr-12">
+          <div className="md:w-1/2 mb-10 md:mb-0 md:pr-12 bg-white/90 p-6 rounded-lg backdrop-blur-sm">
             <h2 className="font-playfair text-3xl text-[#00AEEF] mb-6">
               Meet Mary Sophia
             </h2>
