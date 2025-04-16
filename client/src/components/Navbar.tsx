@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 interface NavbarProps {
   scrolled: boolean;
@@ -8,6 +8,8 @@ interface NavbarProps {
 
 export default function Navbar({ scrolled }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  const isContactPage = location.pathname === '/contact';
   
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -33,7 +35,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
   return (
     <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? 'nav-scrolled' : ''}`}>
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className="text-white font-playfair text-xl md:text-2xl">
+        <Link to="/" className={`font-playfair text-xl md:text-2xl ${isContactPage ? 'text-[#00AEEF]' : 'text-white'}`}>
           Mary Sophia
         </Link>
         
