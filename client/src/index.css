@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Custom styles */
+:root {
+  --primary-blue: #00AEEF;
+  --deep-blue: #002147;
+  --deep-blue-light: #004280;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-dancing-script {
+  font-family: 'Dancing Script', cursive;
+}
+
+.gradient-bg {
+  background: linear-gradient(to bottom, var(--deep-blue), var(--deep-blue-light));
+}
+
+.nav-scrolled {
+  background-color: rgba(0, 33, 71, 0.95);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}

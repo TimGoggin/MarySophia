@@ -1,0 +1,72 @@
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+
+interface NavbarProps {
+  scrolled: boolean;
+}
+
+export default function Navbar({ scrolled }: NavbarProps) {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const handleNavLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    setMobileMenuOpen(false);
+    
+    const element = document.getElementById(id);
+    if (element) {
+      const offset = 70; // Navbar height
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  };
+
+  return (
+    <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? 'nav-scrolled' : ''}`}>
+      <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="#" className="text-white font-playfair text-xl md:text-2xl">
+          Mary Sophia
+        </a>
+        
+        {/* Mobile menu button */}
+        <button 
+          className="text-white md:hidden focus:outline-none"
+          onClick={toggleMobileMenu}
+          aria-label="Toggle mobile menu"
+        >
+          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+        </button>
+        
+        {/* Desktop Navigation */}
+        <ul className="hidden md:flex space-x-6 text-white">
+          <li><a href="#home" className="border-b-2 border-[#00AEEF] pb-1" onClick={(e) => handleNavLinkClick(e, 'home')}>Home</a></li>
+          <li><a href="#services" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>Services</a></li>
+          <li><a href="#school" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
+          <li><a href="#order" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
+          <li><a href="#about" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'about')}>About</a></li>
+          <li><a href="#contact" className="hover:text-[#00AEEF] transition" onClick={(e) => handleNavLinkClick(e, 'contact')}>Contact</a></li>
+        </ul>
+      </nav>
+      
+      {/* Mobile Navigation Menu */}
+      <div className={`bg-[#002147] md:hidden w-full ${mobileMenuOpen ? 'block' : 'hidden'}`}>
+        <ul className="container mx-auto px-4 py-4 space-y-3 text-white">
+          <li><a href="#home" className="block py-2 text-[#00AEEF]" onClick={(e) => handleNavLinkClick(e, 'home')}>Home</a></li>
+          <li><a href="#services" className="block py-2" onClick={(e) => handleNavLinkClick(e, 'services')}>Services</a></li>
+          <li><a href="#school" className="block py-2" onClick={(e) => handleNavLinkClick(e, 'services')}>School of Mary</a></li>
+          <li><a href="#order" className="block py-2" onClick={(e) => handleNavLinkClick(e, 'services')}>Order of the Blue Rose</a></li>
+          <li><a href="#about" className="block py-2" onClick={(e) => handleNavLinkClick(e, 'about')}>About</a></li>
+          <li><a href="#contact" className="block py-2" onClick={(e) => handleNavLinkClick(e, 'contact')}>Contact</a></li>
+        </ul>
+      </div>
+    </header>
+  );
+}
