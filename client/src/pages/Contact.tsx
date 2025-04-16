@@ -122,7 +122,7 @@ export default function Contact() {
               </form>
             </div>
 
-            <div className="w-full md:w-[45%] md:pl-8">
+            <div className="w-full md:w-[35%] md:pl-8">
               <div className="relative h-full">
                 <img
                   src="/src/images/mary.jpg"
