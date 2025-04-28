@@ -9,7 +9,7 @@ export default function ServicesSection() {
       ),
       title: "Blue Rose Readings",
       description:
-        "Channeled Soul Wisdom from the Heart of the Divine Mother  \n Receive sacred guidance and soul remembrance through a deep, loving transmission from Mother Mary, Mary Magdalene, and the Angelic Realm. These readings illuminate your soul gifts, past life connections, and offer wisdom for the path unfolding before you.",
+        "Channeled Soul Wisdom from the Heart of the Divine Mother.\n\nReceive sacred guidance and soul remembrance through a deep, loving transmission from Mother Mary, Mary Magdalene, and the Angelic Realm. These readings illuminate your soul gifts, past life connections, and offer wisdom for the path unfolding before you.",
       cta: "Experience a Reading",
       link: "#",
     },
