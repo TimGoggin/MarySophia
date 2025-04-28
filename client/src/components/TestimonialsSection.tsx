@@ -1,22 +1,25 @@
+
+import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
+
 export default function TestimonialsSection() {
   const testimonials = [
     {
       id: 1,
       quote: "Mary Sophia's guidance opened my heart to divine wisdom. Her readings are truly transformative and filled with profound spiritual insights.",
       name: "Jessica S.",
-      initials: "JS"
+      image: "/images/testimonial-1.jpg"
     },
     {
       id: 2,
       quote: "The School of Mary has been a sanctuary of deep spiritual learning. The courses have transformed and strengthened my connection to the divine feminine.",
       name: "Michael K.",
-      initials: "MK"
+      image: "/images/testimonial-2.jpg"
     },
     {
       id: 3,
       quote: "Being part of the Order of the Blue Rose has guided my spiritual journey. The community and sacred teachings have deeply transformed me.",
       name: "Laura T.",
-      initials: "LT"
+      image: "/images/testimonial-3.jpg"
     }
   ];
 
@@ -37,9 +40,10 @@ export default function TestimonialsSection() {
                 "{testimonial.quote}"
               </p>
               <div className="flex items-center">
-                <div className="w-10 h-10 rounded-full bg-[#00AEEF] text-white flex items-center justify-center font-bold mr-3">
-                  {testimonial.initials}
-                </div>
+                <Avatar className="h-12 w-12 mr-3">
+                  <AvatarImage src={testimonial.image} alt={testimonial.name} />
+                  <AvatarFallback>{testimonial.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
+                </Avatar>
                 <span className="text-white">{testimonial.name}</span>
               </div>
             </div>
