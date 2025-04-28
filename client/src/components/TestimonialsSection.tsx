@@ -1,4 +1,3 @@
-
 import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 import { useState } from "react";
 
@@ -6,34 +5,37 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       id: 1,
-      quote: "Mary Sophia's guidance opened my heart to divine wisdom. Her readings are truly transformative and filled with profound spiritual insights. Through her channeled wisdom, I discovered aspects of my soul's purpose that had remained hidden. The depth of understanding and clarity she provides is remarkable, and her connection to the Divine Feminine energies is palpable in every session.",
-      name: "Jessica S.",
-      title: "Spiritual Teacher & Energy Healer",
-      image: "/images/testimonial-1.jpg"
+      quote:
+        "In this nurturing space of authentic love and faith, I've found not just comfort but also a true acceptance of my essence, filling me with solace and boundless love. The ongoing support has been instrumental in my soul's journey, deepening my relationship with the spiritual realm. My experience working with Mary Sophia has been transformative, to say the least. Through her mentorship, I was able to delve deeper into the crevices of my soul, identifying the traumas that held me back and attaining the healing I desperately sought. This experience brought me clarity and the courage to follow through with humility and zeal. For those questioning their faith or seeking to deepen their spiritual understanding, I wholeheartedly recommend the Order of the Blue Rose. This sacred gathering serves as a profound guide for anyone on the quest to understand their personal spiritual self and the divine path that awaits them.",
+      name: "Lisa Bhakti",
+      title: "Divine Feminine Spiritual Intuitive Oracle",
+      image: "/images/testimonial-1.jpg",
     },
     {
       id: 2,
-      quote: "The School of Mary has been a sanctuary of deep spiritual learning. The courses have transformed and strengthened my connection to the divine feminine. The teachings have not only enriched my spiritual practice but have also provided practical tools for navigating life's challenges with grace and wisdom. The community support and sacred container created here is truly unique.",
-      name: "Michael K.",
-      title: "Meditation Instructor",
-      image: "/images/testimonial-2.jpg"
+      quote:
+        "I am deeply grateful that I said yes to being a part of the Order of the Blue Rose. Joining the Order of the Blue Rose under Mary Sophia's mentorship has been transformative. The structured sessions and abundant resources immediately appealed to my logical side. But what touched my soul were the teachings themselves—Mary Sophia's mastery was evident in every interaction. She created a heart-centered space, guiding us through spiritual practices that were both profound and practical. Most compelling is Mary Sophia's embodiment of her teachings. She doesn't just teach; she lives the principles, making her an authentic and inspiring role model. I'm continually applying what I've learned to my own spiritual journey and counseling practice. If you're considering the Order of the Blue Rose, don't hesitate. It's an extraordinary step for personal and spiritual growth.",
+      name: "Dr. Valerie René Sheppard",
+      title: "Certified Master Trainer & Spiritual Counselor",
+      image: "/images/testimonial-2.jpg",
     },
     {
       id: 3,
-      quote: "Being part of the Order of the Blue Rose has guided my spiritual journey. The community and sacred teachings have deeply transformed me. Through the initiations and group work, I've experienced profound healing and awakening. The way Mary Sophia holds space for each individual's growth while maintaining the collective energy is truly masterful.",
-      name: "Laura T.",
-      title: "Holistic Counselor",
-      image: "/images/testimonial-3.jpg"
-    }
+      quote:
+        "Being a part of the Order of the Blue Rose under Mary Sophia's guidance is nothing short of transformative. She doesn't just teach the Way of the Marys, she embodies it — navigating life through the lens of an awakened heart. This mentorship guides you to explore life from the heart's eye, opening doors to the Holy Spirit within. As a conduit for Mary Magdalene and Mother Mary, Mary Sophia reacquaints us with the feminine divine—an aspect of God long-forgotten but vitally essential. The experience has been an eye-opener, heart-expander, and a life-altering journey. It challenges and changes you, awakening you to a deeper understanding of spirituality and existence.",
+      name: "Luanne Phillips",
+      title: "Psychotherapist, Energy Healer, Reiki Master, Light Worker",
+      image: "/images/testimonial-3.jpg",
+    },
   ];
 
   const [expandedIds, setExpandedIds] = useState<number[]>([]);
 
   const toggleExpand = (id: number) => {
-    setExpandedIds(prev => 
-      prev.includes(id) 
-        ? prev.filter(existingId => existingId !== id)
-        : [...prev, id]
+    setExpandedIds((prev) =>
+      prev.includes(id)
+        ? prev.filter((existingId) => existingId !== id)
+        : [...prev, id],
     );
   };
 
@@ -46,29 +48,41 @@ export default function TestimonialsSection() {
         <h2 className="text-center font-dancing-script text-white text-3xl md:text-4xl mb-12">
           Mary Sophia Testimonials
         </h2>
-        
+
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-lg shadow-lg">
+            <div
+              key={testimonial.id}
+              className="bg-white bg-opacity-10 backdrop-blur-sm p-6 rounded-lg shadow-lg"
+            >
               <p className="text-white italic mb-6 font-open-sans">
-                {expandedIds.includes(testimonial.id) 
+                {expandedIds.includes(testimonial.id)
                   ? testimonial.quote
                   : `${testimonial.quote.slice(0, 150)}...`}
-                <button 
+                <button
                   onClick={() => toggleExpand(testimonial.id)}
                   className="text-[#00AEEF] hover:text-blue-400 ml-2 text-sm font-normal not-italic"
                 >
-                  {expandedIds.includes(testimonial.id) ? 'Read Less' : 'Read More'}
+                  {expandedIds.includes(testimonial.id)
+                    ? "Read Less"
+                    : "Read More"}
                 </button>
               </p>
               <div className="flex items-center">
                 <Avatar className="h-12 w-12 mr-3">
                   <AvatarImage src={testimonial.image} alt={testimonial.name} />
-                  <AvatarFallback>{testimonial.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
+                  <AvatarFallback>
+                    {testimonial.name
+                      .split(" ")
+                      .map((n) => n[0])
+                      .join("")}
+                  </AvatarFallback>
                 </Avatar>
                 <div>
                   <span className="text-white block">{testimonial.name}</span>
-                  <span className="text-gray-300 text-sm block">{testimonial.title}</span>
+                  <span className="text-gray-300 text-sm block">
+                    {testimonial.title}
+                  </span>
                 </div>
               </div>
             </div>
