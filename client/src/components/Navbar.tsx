@@ -86,10 +86,10 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              to="/school"
-              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/school" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent"}`}
+              to="/counseling"
+              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/counseling" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent"}`}
             >
-              School of Mary
+              Spiritual Counseling
             </Link>
           </li>
           <li>
