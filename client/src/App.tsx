@@ -14,6 +14,8 @@ import Services from "./pages/Services";
 import Order from "./pages/Order";
 import School from "./pages/School";
 import { Toaster } from "@/components/ui/toaster";
+import SacredRebirthCta from "./components/SacredRebirthCta"; // Import the new component
+
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
               <HeroSection />
               <WelcomeSection />
               <ServicesSection />
+              <SacredRebirthCta /> {/* Added SacredRebirthCta */}
               <AboutSection />
               <TestimonialsSection />
               <CtaSection />
