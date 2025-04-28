@@ -20,11 +20,10 @@ export default function Services() {
         <div className="relative z-20 w-full">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-playfair text-4xl md:text-5xl text-white mb-4 drop-shadow-lg">
-              Our Services
+              Sacred Services
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
-              Offerings designed to deepen your connection to the Divine
-              Feminine
+              Discover pathways to divine connection and spiritual growth
             </p>
           </div>
         </div>
@@ -54,73 +53,79 @@ export default function Services() {
           })}
         </div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {/* Private Readings */}
-            <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-16 h-16 bg-[#00AEEF]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <img src="/icons/rose-2.svg" alt="Rose Icon" className="w-8 h-8" />
-              </div>
-              <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">
-                Private Readings
+          {/* Blue Rose Readings Section */}
+          <section className="mb-20">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="font-playfair text-3xl text-[#00AEEF] mb-2 text-center">
+                Blue Rose Readings
+              </h2>
+              <h3 className="text-xl text-gray-600 mb-6 text-center font-open-sans">
+                Channeled Soul Wisdom from the Heart of the Divine Mother
               </h3>
-              <p className="text-gray-600 mb-6 text-center">
-                Personal guidance sessions connecting you with divine wisdom and
-                spiritual insight.
+              <p className="text-gray-700 mb-8 font-open-sans leading-relaxed">
+                Receive sacred guidance and soul remembrance through a deep, loving transmission from Mother Mary, Mary Magdalene, and the Angelic Realm. These readings illuminate your soul gifts, past life connections, and offer wisdom for the path unfolding before you. Each session is a sacred space where divine wisdom flows through to support your spiritual journey and soul evolution.
               </p>
-              <a
-                href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-4 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 flex items-center justify-center"
-              >
-                Book a Session
-                <ChevronRight className="ml-2 h-4 w-4" />
-              </a>
-            </div>
-
-            {/* School of Mary */}
-            <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-16 h-16 bg-[#00AEEF]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <img src="/icons/female.svg" alt="Female Icon" className="w-8 h-8" />
+              <div className="text-center">
+                <a
+                  href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-[#00AEEF] hover:bg-blue-600 text-white py-2 px-6 rounded-full transition duration-300"
+                >
+                  Book a Reading
+                  <ChevronRight className="ml-2 h-4 w-4" />
+                </a>
               </div>
-              <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">
+            </div>
+          </section>
+
+          {/* School of Mary Section */}
+          <section className="mb-20">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="font-playfair text-3xl text-[#00AEEF] mb-2 text-center">
                 School of Mary
+              </h2>
+              <h3 className="text-xl text-gray-600 mb-6 text-center font-open-sans">
+                Sacred Learning & Spiritual Formation
               </h3>
-              <p className="text-gray-600 mb-6 text-center">
-                Learn ancient wisdom and spiritual practices in our sacred
-                learning community.
+              <p className="text-gray-700 mb-8 font-open-sans leading-relaxed">
+                The School of Mary is a sacred space of learning and transformation where ancient wisdom meets contemporary spiritual practice. Through carefully curated courses, workshops, and mentorship programs, you'll deepen your connection to the Divine Feminine and develop your spiritual gifts. Our curriculum combines mystical teachings, contemplative practices, and practical wisdom for modern spiritual seekers.
               </p>
-              <Link 
-                to="/school"
-                className="w-full bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-4 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 flex items-center justify-center"
-              >
-                Learn More
-                <ChevronRight className="ml-2 h-4 w-4" />
-              </Link>
-            </div>
-
-            {/* Order of the Blue Rose */}
-            <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-16 h-16 bg-[#00AEEF]/10 rounded-full flex items-center justify-center mb-6 mx-auto">
-                <img src="/icons/rose.svg" alt="Rose Icon" className="w-8 h-8" />
+              <div className="text-center">
+                <Link 
+                  to="/school"
+                  className="inline-flex items-center bg-[#00AEEF] hover:bg-blue-600 text-white py-2 px-6 rounded-full transition duration-300"
+                >
+                  Explore the School
+                  <ChevronRight className="ml-2 h-4 w-4" />
+                </Link>
               </div>
-              <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 text-center">
-                Order of the Blue Rose
-              </h3>
-              <p className="text-gray-600 mb-6 text-center">
-                Join our sacred sisterhood dedicated to embodying divine
-                feminine wisdom.
-              </p>
-              <Link 
-                to="/order"
-                className="w-full bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-4 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 flex items-center justify-center"
-              >
-                Join Now
-                <ChevronRight className="ml-2 h-4 w-4" />
-              </Link>
             </div>
-          </div>
+          </section>
 
+          {/* Order of the Blue Rose Section */}
+          <section className="mb-20">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="font-playfair text-3xl text-[#00AEEF] mb-2 text-center">
+                Order of the Blue Rose
+              </h2>
+              <h3 className="text-xl text-gray-600 mb-6 text-center font-open-sans">
+                Sacred Sisterhood & Divine Feminine Wisdom
+              </h3>
+              <p className="text-gray-700 mb-8 font-open-sans leading-relaxed">
+                The Order of the Blue Rose is a sacred sisterhood dedicated to embodying and anchoring Divine Feminine wisdom on Earth. As a member, you'll join a community of spiritual seekers, healers, and lightworkers committed to personal and collective transformation. Through initiations, sacred ceremonies, and regular gatherings, we support each other in awakening to and living our soul's purpose.
+              </p>
+              <div className="text-center">
+                <Link 
+                  to="/order"
+                  className="inline-flex items-center bg-[#00AEEF] hover:bg-blue-600 text-white py-2 px-6 rounded-full transition duration-300"
+                >
+                  Join the Order
+                  <ChevronRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+          </section>
           {/* CTA Section */}
           <div className="relative bg-[#002147] text-white rounded-lg p-12 text-center overflow-hidden">
             <div className="wavy-gradient opacity-40"></div>
