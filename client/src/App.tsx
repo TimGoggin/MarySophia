@@ -13,6 +13,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Order from "./pages/Order";
 import School from "./pages/School";
+import Counseling from "./pages/Counseling";
 import { Toaster } from "@/components/ui/toaster";
 import SacredRebirthCta from "./components/SacredRebirthCta"; // Import the new component
 
