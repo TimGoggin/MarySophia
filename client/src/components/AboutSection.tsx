@@ -33,30 +33,21 @@ export default function AboutSection() {
               Meet Mary Sophia
             </h2>
             <p className="text-gray-700 mb-4 font-open-sans">
-              Mary Sophia serves as both your spiritual compass and sacred guide
-              on your transformative journey through the Blue Rose Temple
-              Membership. As a Messenger for the Holy Mother and an Emissary for
-              the Light Beings of the Order of the Blue Rose, she possesses a
-              divine frequency that resonates with the deepest layers of your
-              soul. A mystic, High Priestess of Avalon, and an Initiated Member
-              of the Order of the Blue Rose, her embodied experience of the
-              Divine Mother and Feminine Christ guides you beyond mere learning
-              into the realm of soulful embodiment. Her profound teachings go
-              beyond traditional spiritual frameworks, offering not just wisdom
-              but transformative experiences.
+              Mary Sophia is an intuitive channel, spiritual counselor, and
+              sacred teacher devoted to the awakening of the Sacred Feminine on
+              Earth.
             </p>
             <p className="text-gray-700 mb-4 font-open-sans">
-              Through her Order of the Blue Rose, she supports spiritual
-              seekers, team healers, lightworkers, and the establishment of
-              Divine Feminine energy on Earth. With compassion and deep wisdom,
-              she offers divine guidance to help others remember their Original
-              Essence and live their soul's purpose.
+              She carries the lineage of the Christ Light, the Order of the Blue
+              Rose, and the Light of Sophia, offering women a return to love,
+              wholeness, and soul remembrance through channeled guidance,
+              intuitive healing, sacred wisdom, and deep heart presence.
             </p>
             <Link
               to="/about"
               className="inline-flex items-center bg-transparent hover:bg-[#00AEEF] text-[#00AEEF] hover:text-white py-2 px-6 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 mt-6"
             >
-              Learn More
+              Learn More About Mary Sophia
               <ChevronRight className="ml-2 h-4 w-4" />
             </Link>
           </div>

@@ -63,7 +63,11 @@ export default function Services() {
                 Channeled Soul Wisdom from the Heart of the Divine Mother
               </h3>
               <p className="text-gray-700 mb-8 font-open-sans leading-relaxed">
-                Receive sacred guidance and soul remembrance through a deep, loving transmission from Mother Mary, Mary Magdalene, and the Angelic Realm. These readings illuminate your soul gifts, past life connections, and offer wisdom for the path unfolding before you. Each session is a sacred space where divine wisdom flows through to support your spiritual journey and soul evolution.
+                Receive sacred guidance and soul remembrance through a deep,
+                loving transmission from Mother Mary, Mary Magdalene, and the
+                Angelic Realm. These readings illuminate your soul gifts, past
+                life connections, and offer wisdom for the path unfolding before
+                you.
               </p>
               <div className="text-center">
                 <a
@@ -83,16 +87,24 @@ export default function Services() {
           <section className="mb-20">
             <div className="max-w-4xl mx-auto">
               <h2 className="font-playfair text-3xl text-[#00AEEF] mb-2 text-center">
-                School of Mary
+                Spiritual Counseling
               </h2>
               <h3 className="text-xl text-gray-600 mb-6 text-center font-open-sans">
-                Sacred Learning & Spiritual Formation
+                Healing Through Life’s Sacred Thresholds ~ A Return to Love and
+                Life
               </h3>
               <p className="text-gray-700 mb-8 font-open-sans leading-relaxed">
-                The School of Mary is a sacred space of learning and transformation where ancient wisdom meets contemporary spiritual practice. Through carefully curated courses, workshops, and mentorship programs, you'll deepen your connection to the Divine Feminine and develop your spiritual gifts. Our curriculum combines mystical teachings, contemplative practices, and practical wisdom for modern spiritual seekers.
+                These sacred sessions offer soul-centered support for women
+                navigating life’s most profound transitions — from loss and
+                heartbreak to new beginnings and becoming. Whether you are
+                healing from grief, miscarriage, abortion, divorce, or stepping
+                into marriage, motherhood, or the wisdom years, these sessions
+                are a sanctuary for your heart. Through intuitive guidance,
+                somatic healing, and sacred wisdom, you are lovingly supported
+                in reclaiming your wholeness, your light, and your new life.
               </p>
               <div className="text-center">
-                <Link 
+                <Link
                   to="/school"
                   className="inline-flex items-center bg-[#00AEEF] hover:bg-blue-600 text-white py-2 px-6 rounded-full transition duration-300"
                 >
@@ -110,13 +122,19 @@ export default function Services() {
                 Order of the Blue Rose
               </h2>
               <h3 className="text-xl text-gray-600 mb-6 text-center font-open-sans">
-                Sacred Sisterhood & Divine Feminine Wisdom
+                Mentorship and Sacred Feminine Wisdom Classes
               </h3>
               <p className="text-gray-700 mb-8 font-open-sans leading-relaxed">
-                The Order of the Blue Rose is a sacred sisterhood dedicated to embodying and anchoring Divine Feminine wisdom on Earth. As a member, you'll join a community of spiritual seekers, healers, and lightworkers committed to personal and collective transformation. Through initiations, sacred ceremonies, and regular gatherings, we support each other in awakening to and living our soul's purpose.
+                Step into the ancient lineage of the Order of the Blue Rose — a
+                sacred sisterhood born of the followers of Mary Magdalene and
+                Mother Mary, carrying forth the living teachings of Christ
+                through the embodiment of pure Divine Love and the Wisdom of
+                Sophia. Through mentorship and classes, you are invited to
+                awaken the Light of Sophia within and embody the radiance of
+                your truly awakened heart.
               </p>
               <div className="text-center">
-                <Link 
+                <Link
                   to="/order"
                   className="inline-flex items-center bg-[#00AEEF] hover:bg-blue-600 text-white py-2 px-6 rounded-full transition duration-300"
                 >
