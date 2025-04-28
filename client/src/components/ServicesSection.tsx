@@ -4,28 +4,35 @@ export default function ServicesSection() {
   const services = [
     {
       id: 1,
-      icon: <img src="/icons/star.svg" alt="Star" className="w-[120%] h-[120%]" />,
-      title: "Private Readings",
-      description: "Connect with divine guidance through personal readings tailored to your spiritual journey.",
+      icon: (
+        <img src="/icons/star.svg" alt="Star" className="w-[120%] h-[120%]" />
+      ),
+      title: "Blue Rose Readings",
+      description:
+        "Channeled Soul Wisdom from the Heart of the Divine Mother  \n Receive sacred guidance and soul remembrance through a deep, loving transmission from Mother Mary, Mary Magdalene, and the Angelic Realm. These readings illuminate your soul gifts, past life connections, and offer wisdom for the path unfolding before you.",
       cta: "Experience a Reading",
-      link: "#"
+      link: "#",
     },
     {
       id: 2,
-      icon: <img src="/icons/female.svg" alt="Female" className="w-full h-full" />,
+      icon: (
+        <img src="/icons/female.svg" alt="Female" className="w-full h-full" />
+      ),
       title: "School of Mary",
-      description: "Deepen your spiritual growth through courses, workshops, and mentorship.",
+      description:
+        "Deepen your spiritual growth through courses, workshops, and mentorship.",
       cta: "Thrive in our Environment",
-      link: "#"
+      link: "#",
     },
     {
       id: 3,
       icon: <img src="/icons/rose.svg" alt="Rose" className="w-full h-full" />,
       title: "Order of the Blue Rose",
-      description: "Join a sacred community and receive spiritual teachings through initiations.",
+      description:
+        "Join a sacred community and receive spiritual teachings through initiations.",
       cta: "Find Your Path",
-      link: "#"
-    }
+      link: "#",
+    },
   ];
 
   return (
@@ -33,13 +40,14 @@ export default function ServicesSection() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           {services.map((service) => (
-            <div key={service.id} className="bg-white rounded-lg shadow-lg overflow-hidden h-full">
+            <div
+              key={service.id}
+              className="bg-white rounded-lg shadow-lg overflow-hidden h-full"
+            >
               <div className="p-6 flex flex-col h-full">
                 <div className="text-center">
                   <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
-                    <div className="w-16 h-16">
-                      {service.icon}
-                    </div>
+                    <div className="w-16 h-16">{service.icon}</div>
                   </div>
                   <h3 className="font-playfair text-xl text-[#00AEEF] mb-4">
                     {service.title}
@@ -49,8 +57,14 @@ export default function ServicesSection() {
                   </p>
                 </div>
                 <div className="mt-auto">
-                  <Link 
-                    to={service.id === 2 ? "/school" : service.id === 3 ? "/order" : "/services"}
+                  <Link
+                    to={
+                      service.id === 2
+                        ? "/school"
+                        : service.id === 3
+                          ? "/order"
+                          : "/services"
+                    }
                     className="block bg-[#00AEEF] hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300 text-center"
                   >
                     {service.cta}
