@@ -55,7 +55,7 @@ export default function HeroSection() {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <img
-              src="/images/Mary_Sophia_v2.png"
+              src="/images/test6.png"
               alt="Mary Sophia Portrait"
               className="w-2/3 h-2/3 object-contain"
             />
