@@ -1,11 +1,10 @@
-
 import { Helmet } from "react-helmet";
-
+import { ChevronRight } from "lucide-react";
 export default function BlueRoseReadings() {
   return (
     <>
       <Helmet>
-        <title>Blue Rose Readings | Mary Sophia</title>
+        <title>Private Readings | Mary Sophia</title>
       </Helmet>
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
@@ -19,7 +18,7 @@ export default function BlueRoseReadings() {
         <div className="relative z-20 w-full">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-playfair text-4xl md:text-5xl text-white mb-4 drop-shadow-lg">
-              Blue Rose Readings
+              Private Readings
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
               Channeled Soul Wisdom from the Heart of the Divine Mother
@@ -38,7 +37,7 @@ export default function BlueRoseReadings() {
             return (
               <div
                 key={i}
-                className="floating-rose"
+                className="bg-white"
                 style={{
                   backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
                   animationDelay: `${baseDelay + Math.random() * 5}s`,
@@ -58,10 +57,11 @@ export default function BlueRoseReadings() {
                 Sacred Guidance for Your Soul Journey
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
-                Receive divine guidance and soul remembrance through a deep, loving
-                transmission from Mother Mary, Mary Magdalene, and the Angelic
-                Realm. These readings illuminate your soul gifts, past life
-                connections, and offer wisdom for the path unfolding before you.
+                Receive divine guidance and soul remembrance through a deep,
+                loving transmission from Mother Mary, Mary Magdalene, and the
+                Angelic Realm. These readings illuminate your soul gifts, past
+                life connections, and offer wisdom for the path unfolding before
+                you.
               </p>
             </div>
 
@@ -72,8 +72,8 @@ export default function BlueRoseReadings() {
               <p className="text-gray-700 font-open-sans leading-relaxed">
                 Each reading is a sacred space where divine wisdom flows through
                 to address your deepest questions and soul longings. Through
-                channeled messages, you'll receive clarity, guidance, and healing
-                insights tailored to your unique journey.
+                channeled messages, you'll receive clarity, guidance, and
+                healing insights tailored to your unique journey.
               </p>
             </div>
 
@@ -105,26 +105,48 @@ export default function BlueRoseReadings() {
               </ul>
             </div>
 
-            <div className="bg-[#002147] text-white rounded-lg p-12 text-center relative overflow-hidden">
-              <div className="wavy-gradient opacity-40"></div>
-              <div className="relative z-10">
-                <h2 className="font-playfair text-3xl mb-4">
-                  Book Your Reading
+            <section id="contact" className="py-16 bg-gray-50 relative">
+              <div className="floating-roses-container">
+                {[...Array(15)].map((_, i) => {
+                  const gridRow = Math.floor(i / 3);
+                  const gridCol = i % 3;
+                  const baseDelay = (gridRow * 3 + gridCol) * 2;
+
+                  return (
+                    <div
+                      key={i}
+                      className="bg-white"
+                      style={{
+                        backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
+                        animationDelay: `${baseDelay + Math.random() * 5}s`,
+                        left: `${gridCol * 33 + Math.random() * 10}%`,
+                        top: `${gridRow * 25 + Math.random() * 10}%`,
+                        opacity: 0,
+                        transform: `rotate(${Math.random() * 360}deg)`,
+                      }}
+                    />
+                  );
+                })}
+              </div>
+              <div className="container mx-auto px-4 text-center relative z-10">
+                <h2 className="font-playfair text-3xl md:text-4xl text-[#739EBF] mb-6">
+                  Join Our Monthly Prayer Circle
                 </h2>
-                <p className="mb-8 max-w-2xl mx-auto">
-                  Open your heart to divine guidance and discover the wisdom waiting
-                  to be revealed.
+                <p className="max-w-2xl mx-auto text-gray-700 mb-8 font-open-sans">
+                  Connect with our community and receive sacred teachings
+                  through our live monthly prayer circle.
                 </p>
                 <a
-                  href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                  href="https://sacred-rose.teachable.com/purchase?product_id=6205554"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-[#00AEEF] text-white px-6 py-3 rounded-full hover:bg-[#D4AF37] transition-colors"
+                  className="bg-[#00AEEF] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-full transition duration-300 inline-flex items-center"
                 >
-                  Schedule Your Reading
+                  Schedule Your Visit
+                  <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
               </div>
-            </div>
+            </section>
           </div>
         </div>
       </div>

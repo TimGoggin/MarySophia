@@ -57,7 +57,7 @@ export default function Services() {
           <section className="mb-20">
             <div className="max-w-4xl mx-auto">
               <h2 className="font-playfair text-3xl text-[#00AEEF] mb-2 text-center">
-                Blue Rose Readings
+                Private Readings
               </h2>
               <h3 className="text-xl text-gray-600 mb-6 text-center font-open-sans">
                 Channeled Soul Wisdom from the Heart of the Divine Mother
@@ -105,7 +105,7 @@ export default function Services() {
               </p>
               <div className="text-center">
                 <Link
-                  to="/"
+                  to="/readings"
                   className="inline-flex items-center bg-[#00AEEF] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-full transition duration-300"
                 >
                   Explore the School

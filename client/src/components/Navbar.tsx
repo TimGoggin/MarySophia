@@ -16,6 +16,7 @@ export default function Navbar() {
     "/counseling",
     "/school",
     "/order",
+    "/readings",
   ];
   const shouldBeTransparent =
     transparentPaths.includes(location.pathname) && isAtTop;
@@ -57,12 +58,12 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? "bg-transparent" : "bg-white/50"}`}
+      className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? "bg-transparent" : "bg-white/25"}`}
     >
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img
-            src="/images/mary-sophia-logo.png"
+            src="/images/mary-sophia-logo-2.png"
             alt="Mary Sophia"
             className="h-28 w-auto"
           />
@@ -102,7 +103,7 @@ export default function Navbar() {
               to="/readings"
               className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/readings" ? "border-black text-black" : "border-transparent"}`}
             >
-              Blue Rose Readings
+              Private Readings
             </Link>
           </li>
           <li>
