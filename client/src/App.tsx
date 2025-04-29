@@ -15,6 +15,7 @@ import Order from "./pages/Order";
 import School from "./pages/School";
 import Counseling from "./pages/Counseling";
 import NotFound from "./pages/not-found";
+import BlueRoseReadings from "./pages/BlueRoseReadings";
 import { Toaster } from "@/components/ui/toaster";
 import SacredRebirthCta from "./components/SacredRebirthCta";
 
@@ -43,6 +44,7 @@ function App() {
         <Route path="/order" element={<Order />} />
         <Route path="/counseling" element={<Counseling />} />
         <Route path="/school" element={<School />} />
+        <Route path="/readings" element={<BlueRoseReadings />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

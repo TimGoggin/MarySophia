@@ -99,6 +99,14 @@ export default function Navbar() {
           </li>
           <li>
             <Link
+              to="/readings"
+              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/readings" ? "border-black text-black" : "border-transparent"}`}
+            >
+              Blue Rose Readings
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/counseling"
               className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/counseling" ? "border-black text-black" : "border-transparent"}`}
             >
