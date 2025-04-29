@@ -17,7 +17,6 @@ import Counseling from "./pages/Counseling";
 import { Toaster } from "@/components/ui/toaster";
 import SacredRebirthCta from "./components/SacredRebirthCta"; // Import the new component
 
-
 function App() {
   return (
     <Router>
@@ -42,6 +41,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/order" element={<Order />} />
         <Route path="/counseling" element={<Counseling />} />
+        <Route path="/school" element={<School />} />
       </Routes>
       <Footer />
       <Toaster />
