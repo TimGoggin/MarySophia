@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-
+import { ChevronRight } from "lucide-react";
 export default function Order() {
   return (
     <>
@@ -114,28 +114,51 @@ export default function Order() {
                 journey toward divine connection and inner peace.
               </p>
             </div>
-
-            <div className="bg-[#002147] text-white rounded-lg p-12 text-center relative overflow-hidden">
-              <div className="wavy-gradient opacity-40"></div>
-              <div className="relative z-10">
-                <h2 className="font-playfair text-3xl mb-4">
-                  Join Our Sacred Journey
-                </h2>
-                <p className="mb-8 max-w-2xl mx-auto">
-                  If you feel called to explore the ancient wisdom of the Blue
-                  Rose, we welcome you to connect with our community.
-                </p>
-                <a
-                  href="/contact"
-                  className="inline-flex items-center bg-[#00AEEF] text-white px-6 py-3 rounded-full hover:bg-[#D4AF37] transition-colors"
-                >
-                  Connect With Us
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
+      <section id="contact" className="py-16 bg-gray-50 relative">
+        <div className="floating-roses-container">
+          {[...Array(15)].map((_, i) => {
+            const gridRow = Math.floor(i / 3);
+            const gridCol = i % 3;
+            const baseDelay = (gridRow * 3 + gridCol) * 2;
+
+            return (
+              <div
+                key={i}
+                className="bg-white"
+                style={{
+                  backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
+                  animationDelay: `${baseDelay + Math.random() * 5}s`,
+                  left: `${gridCol * 33 + Math.random() * 10}%`,
+                  top: `${gridRow * 25 + Math.random() * 10}%`,
+                  opacity: 0,
+                  transform: `rotate(${Math.random() * 360}deg)`,
+                }}
+              />
+            );
+          })}
+        </div>
+        <div className="container mx-auto px-4 text-center relative z-10">
+          <h2 className="font-playfair text-3xl md:text-4xl text-[#739EBF] mb-6">
+            Join Our Monthly Prayer Circle
+          </h2>
+          <p className="max-w-2xl mx-auto text-gray-700 mb-8 font-open-sans">
+            Connect with our community and receive sacred teachings through our
+            live monthly prayer circle.
+          </p>
+          <a
+            href="https://sacred-rose.teachable.com/purchase?product_id=6205554"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#00AEEF] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-full transition duration-300 inline-flex items-center"
+          >
+            Schedule Your Visit
+            <ChevronRight className="ml-2 h-4 w-4" />
+          </a>
+        </div>
+      </section>
     </>
   );
 }
