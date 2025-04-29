@@ -25,10 +25,10 @@ export default function Footer() {
               About Us
             </h3>
             <div className="space-y-4">
-              <h4 className="font-playfair text-xl text-[#2C3E50] font-semibold">
+              <h4 className="font-playfair text-xl text-gray-800 font-semibold">
                 Mary Sophia
               </h4>
-              <p className="text-[#2C3E50] font-open-sans text-base leading-relaxed">
+              <p className="text-gray-800 font-open-sans text-base leading-relaxed">
                 Guiding you on your spiritual journey toward divine connection
                 and inner peace through the wisdom of sacred teachings.
               </p>
@@ -49,37 +49,37 @@ export default function Footer() {
             <nav className="flex flex-col space-y-3">
               <Link
                 to="/"
-                className="text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 Home
               </Link>
               <Link
                 to="/services"
-                className="text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 Services
               </Link>
               <Link
                 to="/school"
-                className="text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 School of Mary
               </Link>
               <Link
                 to="/order"
-                className="text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 Order of the Blue Rose
               </Link>
               <Link
                 to="/about"
-                className="text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 About
               </Link>
               <Link
                 to="/contact"
-                className="text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 Contact
               </Link>
@@ -94,31 +94,31 @@ export default function Footer() {
             <nav className="space-y-2">
               <a
                 href="#"
-                className="block text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 Privacy Policy
               </a>
               <a
                 href="#"
-                className="block text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 Terms of Service
               </a>
               <a
                 href="#"
-                className="block text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 Cookie Policy
               </a>
               <a
                 href="#"
-                className="block text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 Disclaimer
               </a>
               <a
                 href="#"
-                className="block text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300 text-base font-medium"
+                className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
               >
                 Refund Policy
               </a>
@@ -135,24 +135,24 @@ export default function Footer() {
                 <Mail className="w-5 h-5 text-[#2C3E50]" />
                 <a
                   href="mailto:info@marysophia.com"
-                  className="hover:text-[#2C3E50]/80 text-base font-medium text-[#2C3E50]"
+                  className="hover:text-[#2C3E50] text-base font-medium"
                 >
                   info@marysophia.com
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-[#2C3E50]" />
-                <span className="text-[#2C3E50] text-sm">(555) 123-4567</span>
+                <span className="text-gray-800 text-sm">(555) 123-4567</span>
               </li>
               <li className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-[#2C3E50]" />
-                <span className="text-[#2C3E50] text-sm">
+                <span className="text-gray-800 text-sm">
                   Spiritual Center, 123 Divine Path
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Clock className="w-4 h-4 text-[#2C3E50]" />
-                <span className="text-[#2C3E50] text-sm">
+                <span className="text-gray-800 text-sm">
                   Mon-Fri: 9AM-5PM EST
                 </span>
               </li>
@@ -194,7 +194,7 @@ export default function Footer() {
               href="https://www.instagram.com/orderofthebluerose/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300"
+              className="text-gray-800 hover:text-[#00AEEF] transition duration-300"
             >
               <Instagram className="w-5 h-5 text-[#2C3E50]" />
             </a>
@@ -202,12 +202,12 @@ export default function Footer() {
               href="https://www.youtube.com/@orderofthebluerose3878"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300"
+              className="text-gray-800 hover:text-[#2C3E50] transition duration-300"
             >
               <Youtube className="w-5 h-5 text-[#2C3E50]" />
             </a>
           </div>
-          <div className="text-center md:text-right text-sm text-[#2C3E50]">
+          <div className="text-center md:text-right text-sm text-gray-800">
             <p className="mb-2 md:mb-0">
               &copy; {new Date().getFullYear()} Mary Sophia. All rights
               reserved.
@@ -215,13 +215,13 @@ export default function Footer() {
             <div className="space-x-4">
               <a
                 href="#"
-                className="text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300"
+                className="text-gray-800 hover:text-[#00AEEF] transition duration-300"
               >
                 Terms of Use
               </a>
               <a
                 href="#"
-                className="text-[#2C3E50] hover:text-[#2C3E50]/80 transition duration-300"
+                className="text-gray-800 hover:text-[#00AEEF] transition duration-300"
               >
                 Privacy Policy
               </a>
