@@ -14,22 +14,23 @@
 
 /* Custom styles */
 :root {
-  --primary-blue: #00AEEF;
-  --deep-blue: #002147;
-  --deep-blue-light: #004280;
+  --primary-blue: ##DAF2FA;
+  --white: #ffffff;
+  --deep-blue-light: ##DAF2FA;
 }
 
 .wavy-gradient {
   background: linear-gradient(135deg,
-      rgba(3, 19, 68, 0.9),
-      rgba(26, 47, 143, 0.9),
-      rgba(36, 66, 204, 0.9),
-      #06AEEF);
+      rgb(218, 242, 250),
+      rgb(197, 198, 192),
+      #73ACD8,
+      #60A1D2);
   background-size: 300% 300%;
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
+  opacity: 90%;
   z-index: 1;
   animation: gradient 8s ease infinite;
 }
