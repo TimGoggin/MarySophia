@@ -14,27 +14,27 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative bg-white">
+    <footer className="relative bg-[#D4AF37]">
       <div className="wavy-gradient opacity-40"></div>
       {/* Main Footer */}
       <div className="container mx-auto px-4 pt-12 pb-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 border-b border-gray-200 pb-8">
           {/* About Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">
+            <h3 className="font-playfair text-2xl text-white mb-4 font-semibold">
               About Us
             </h3>
             <div className="space-y-4">
-              <h4 className="font-playfair text-xl text-[#2C3E50] font-semibold">
+              <h4 className="font-playfair text-2xl text-white font-semibold">
                 Mary Sophia
               </h4>
-              <p className="text-[#2C3E50] font-open-sans text-base leading-relaxed">
+              <p className="text-white font-open-sans text-base leading-relaxed">
                 Guiding you on your spiritual journey toward divine connection
                 and inner peace through the wisdom of sacred teachings.
               </p>
               <Link
                 to="/about"
-                className="inline-block text-[#2C3E50] hover:text-black transition duration-300 text-base font-bold"
+                className="inline-block text-white hover:text-white/80 transition duration-300 text-base font-bold"
               >
                 Learn More →
               </Link>
@@ -43,43 +43,43 @@ export default function Footer() {
 
           {/* Quick Links Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">
+            <h3 className="font-playfair text-2xl text-white mb-4 font-semibold">
               Quick Links
             </h3>
             <nav className="flex flex-col space-y-3">
               <Link
                 to="/"
-                className="text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Home
               </Link>
               <Link
                 to="/services"
-                className="text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Services
               </Link>
               <Link
                 to="/school"
-                className="text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 School of Mary
               </Link>
               <Link
                 to="/order"
-                className="text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Order of the Blue Rose
               </Link>
               <Link
                 to="/about"
-                className="text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 About
               </Link>
               <Link
                 to="/contact"
-                className="text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Contact
               </Link>
@@ -88,37 +88,37 @@ export default function Footer() {
 
           {/* Policies Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">
+            <h3 className="font-playfair text-2xl text-white mb-4 font-semibold">
               Policies
             </h3>
             <nav className="space-y-2">
               <a
                 href="#"
-                className="block text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="block text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Privacy Policy
               </a>
               <a
                 href="#"
-                className="block text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="block text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Terms of Service
               </a>
               <a
                 href="#"
-                className="block text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="block text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Cookie Policy
               </a>
               <a
                 href="#"
-                className="block text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="block text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Disclaimer
               </a>
               <a
                 href="#"
-                className="block text-[#2C3E50] hover:text-black transition duration-300 text-base font-medium"
+                className="block text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Refund Policy
               </a>
@@ -127,32 +127,32 @@ export default function Footer() {
 
           {/* Contact Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">
+            <h3 className="font-playfair text-2xl text-white mb-4 font-semibold">
               Contact Us
             </h3>
             <ul className="space-y-4">
               <li className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-[#2C3E50]" />
+                <Mail className="w-5 h-5 text-white" />
                 <a
                   href="mailto:info@marysophia.com"
-                  className="hover:text-black text-base font-medium text-[#2C3E50]"
+                  className="hover:text-white/80 text-base font-medium text-white"
                 >
                   info@marysophia.com
                 </a>
               </li>
               <li className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-[#2C3E50]" />
-                <span className="text-[#2C3E50] text-sm">(555) 123-4567</span>
+                <Phone className="w-4 h-4 text-white" />
+                <span className="text-white text-sm">(555) 123-4567</span>
               </li>
               <li className="flex items-center space-x-3">
-                <MapPin className="w-4 h-4 text-[#2C3E50]" />
-                <span className="text-[#2C3E50] text-sm">
+                <MapPin className="w-4 h-4 text-white" />
+                <span className="text-white text-sm">
                   Spiritual Center, 123 Divine Path
                 </span>
               </li>
               <li className="flex items-center space-x-3">
-                <Clock className="w-4 h-4 text-[#2C3E50]" />
-                <span className="text-[#2C3E50] text-sm">
+                <Clock className="w-4 h-4 text-white" />
+                <span className="text-white text-sm">
                   Mon-Fri: 9AM-5PM EST
                 </span>
               </li>
@@ -160,7 +160,7 @@ export default function Footer() {
 
             {/* Newsletter Signup */}
             <form onSubmit={handleNewsletterSubmit} className="mt-6 space-y-3">
-              <h4 className="font-playfair text-sm text-[#2C3E50]">
+              <h4 className="font-playfair text-sm text-white">
                 Join Our Newsletter
               </h4>
               <input
@@ -194,20 +194,20 @@ export default function Footer() {
               href="https://www.instagram.com/orderofthebluerose/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#2C3E50] hover:text-black transition duration-300"
+              className="text-white hover:text-white/80 transition duration-300"
             >
-              <Instagram className="w-5 h-5 text-[#2C3E50]" />
+              <Instagram className="w-5 h-5 text-white" />
             </a>
             <a
               href="https://www.youtube.com/@orderofthebluerose3878"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#2C3E50] hover:text-black transition duration-300"
+              className="text-white hover:text-white/80 transition duration-300"
             >
-              <Youtube className="w-5 h-5 text-[#2C3E50]" />
+              <Youtube className="w-5 h-5 text-white" />
             </a>
           </div>
-          <div className="text-center md:text-right text-sm text-[#2C3E50]">
+          <div className="text-center md:text-right text-sm text-white">
             <p className="mb-2 md:mb-0">
               &copy; {new Date().getFullYear()} Mary Sophia. All rights
               reserved.
@@ -215,13 +215,13 @@ export default function Footer() {
             <div className="space-x-4">
               <a
                 href="#"
-                className="text-[#2C3E50] hover:text-black transition duration-300"
+                className="text-white hover:text-white/80 transition duration-300"
               >
                 Terms of Use
               </a>
               <a
                 href="#"
-                className="text-[#2C3E50] hover:text-black transition duration-300"
+                className="text-white hover:text-white/80 transition duration-300"
               >
                 Privacy Policy
               </a>
