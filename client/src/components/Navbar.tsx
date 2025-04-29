@@ -64,7 +64,7 @@ export default function Navbar() {
           <img
             src="/images/mary-sophia-logo.png"
             alt="Mary Sophia"
-            className="h-28 max-h-24 w-auto"
+            className="h-28 w-auto"
           />
         </Link>
 

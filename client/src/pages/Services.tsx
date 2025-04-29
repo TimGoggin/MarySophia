@@ -105,7 +105,7 @@ export default function Services() {
               </p>
               <div className="text-center">
                 <Link
-                  to="/school"
+                  to="/"
                   className="inline-flex items-center bg-[#00AEEF] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-full transition duration-300"
                 >
                   Explore the School

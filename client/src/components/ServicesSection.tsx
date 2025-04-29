@@ -28,7 +28,8 @@ export default function ServicesSection() {
       id: 3,
       icon: <img src="/icons/rose.svg" alt="Rose" className="w-full h-full" />,
       title: "Order of the Blue Rose",
-      description: "Classes and mentorship",
+      description:
+        "Deepen your spiritual growth through courses, workshops, and mentorship.",
       cta: "Find Your Path",
       link: "#",
     },
