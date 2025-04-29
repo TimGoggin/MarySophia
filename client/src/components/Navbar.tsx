@@ -51,12 +51,12 @@ export default function Navbar() {
   return (
     <header className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? 'bg-transparent' : 'bg-[#031344]/50'}`}>
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className={`font-playfair text-xl md:text-2xl text-white`}>
+        <Link to="/" className={`font-playfair text-xl md:text-2xl text-black`}>
           Mary Sophia
         </Link>
 
         <button
-          className="text-white md:hidden focus:outline-none"
+          className="text-black md:hidden focus:outline-none"
           onClick={toggleMobileMenu}
           aria-label="Toggle mobile menu"
         >
@@ -67,11 +67,11 @@ export default function Navbar() {
           )}
         </button>
 
-        <ul className="hidden md:flex space-x-6 text-white">
+        <ul className="hidden md:flex space-x-6 text-black">
           <li>
             <Link
               to="/"
-              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent"}`}
+              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent text-black"}`}
             >
               Home
             </Link>
