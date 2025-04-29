@@ -60,8 +60,8 @@ export default function Navbar() {
       className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? "bg-transparent" : "bg-white/50"}`}
     >
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className={`font-playfair text-xl md:text-2xl text-black`}>
-          Mary Sophia
+        <Link to="/" className="flex items-center">
+          <img src="/images/mary-sophia-logo.png" alt="Mary Sophia" className="h-12" />
         </Link>
 
         <button
