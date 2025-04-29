@@ -1,4 +1,3 @@
-
 import { ChevronRight } from "lucide-react";
 
 export default function SacredRebirthCta() {
@@ -29,7 +28,9 @@ export default function SacredRebirthCta() {
           You are standing at the threshold of your own sacred rebirth.
         </h2>
         <p className="text-white font-open-sans text-lg max-w-3xl mx-auto mb-8 drop-shadow-lg">
-          If you feel the call to return to your heart, awaken your soul's gifts, and anchor the Light of Sophia into your life, I invite you to step forward.
+          If you feel the call to return to your heart, awaken your soul's
+          gifts, and anchor the Light of Sophia into your life, I invite you to
+          step forward.
         </p>
         <p className="text-white font-open-sans text-xl max-w-2xl mx-auto mb-12 drop-shadow-lg italic">
           You are ready. You are held. You are loved.
@@ -37,7 +38,7 @@ export default function SacredRebirthCta() {
         <div className="flex justify-center gap-6">
           <button
             onClick={handleBookSession}
-            className="bg-[#00AEEF] hover:bg-blue-600 text-white py-3 px-8 rounded-full transition duration-300"
+            className="bg-[#00AEEF] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-full transition duration-300"
           >
             Book a Session
           </button>

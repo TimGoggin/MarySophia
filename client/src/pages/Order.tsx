@@ -127,7 +127,7 @@ export default function Order() {
                 </p>
                 <a
                   href="/contact"
-                  className="inline-flex items-center bg-[#00AEEF] text-white px-6 py-3 rounded-full hover:bg-[#0096CE] transition-colors"
+                  className="inline-flex items-center bg-[#00AEEF] text-white px-6 py-3 rounded-full hover:bg-[#D4AF37] transition-colors"
                 >
                   Connect With Us
                 </a>

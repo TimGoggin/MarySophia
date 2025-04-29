@@ -37,7 +37,7 @@ export default function CtaSection() {
           href="https://sacred-rose.teachable.com/purchase?product_id=6205554"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#00AEEF] hover:bg-[#0097FB] text-white py-3 px-8 rounded-full transition duration-300 inline-flex items-center"
+          className="bg-[#00AEEF] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-full transition duration-300 inline-flex items-center"
         >
           Schedule Your Visit
           <ChevronRight className="ml-2 h-4 w-4" />

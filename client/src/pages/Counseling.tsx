@@ -1,4 +1,3 @@
-
 import { Helmet } from "react-helmet";
 
 export default function Counseling() {
@@ -22,7 +21,8 @@ export default function Counseling() {
               Spiritual Counseling
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
-              Healing Through Life's Sacred Thresholds ~ A Return to Love and Life
+              Healing Through Life's Sacred Thresholds ~ A Return to Love and
+              Life
             </p>
           </div>
         </div>
@@ -58,7 +58,11 @@ export default function Counseling() {
                 Sacred Support for Your Journey
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
-                These sacred sessions offer soul-centered support for women navigating life's most profound transitions. Whether you are healing from loss, embracing new beginnings, or seeking deeper spiritual connection, these sessions provide a sanctuary for your heart's journey.
+                These sacred sessions offer soul-centered support for women
+                navigating life's most profound transitions. Whether you are
+                healing from loss, embracing new beginnings, or seeking deeper
+                spiritual connection, these sessions provide a sanctuary for
+                your heart's journey.
               </p>
             </div>
 
@@ -67,7 +71,10 @@ export default function Counseling() {
                 Our Approach
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
-                Through intuitive guidance, somatic healing, and sacred wisdom teachings, we create a safe space for deep transformation and spiritual growth. Each session is tailored to your unique journey and needs.
+                Through intuitive guidance, somatic healing, and sacred wisdom
+                teachings, we create a safe space for deep transformation and
+                spiritual growth. Each session is tailored to your unique
+                journey and needs.
               </p>
             </div>
 
@@ -106,13 +113,14 @@ export default function Counseling() {
                   Begin Your Healing Journey
                 </h2>
                 <p className="mb-8 max-w-2xl mx-auto">
-                  Take the first step towards healing and transformation through spiritual counseling.
+                  Take the first step towards healing and transformation through
+                  spiritual counseling.
                 </p>
                 <a
                   href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-[#00AEEF] text-white px-6 py-3 rounded-full hover:bg-[#0096CE] transition-colors"
+                  className="inline-flex items-center bg-[#00AEEF] text-white px-6 py-3 rounded-full hover:bg-[#D4AF37] transition-colors"
                 >
                   Schedule Your Session
                 </a>
