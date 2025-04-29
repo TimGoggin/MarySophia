@@ -62,7 +62,7 @@ export default function Services() {
               <h3 className="text-xl text-gray-600 mb-6 text-center font-open-sans">
                 Channeled Soul Wisdom from the Heart of the Divine Mother
               </h3>
-              <p className="text-gray-700 mb-8 font-open-sans leading-relaxed">
+              <p className="text-gray-800 mb-8 font-open-sans leading-relaxed text-base">
                 Receive sacred guidance and soul remembrance through a deep,
                 loving transmission from Mother Mary, Mary Magdalene, and the
                 Angelic Realm. These readings illuminate your soul gifts, past
@@ -93,7 +93,7 @@ export default function Services() {
                 Healing Through Life’s Sacred Thresholds ~ A Return to Love and
                 Life
               </h3>
-              <p className="text-gray-700 mb-8 font-open-sans leading-relaxed">
+              <p className="text-gray-800 mb-8 font-open-sans leading-relaxed text-base">
                 These sacred sessions offer soul-centered support for women
                 navigating life’s most profound transitions — from loss and
                 heartbreak to new beginnings and becoming. Whether you are
@@ -124,7 +124,7 @@ export default function Services() {
               <h3 className="text-xl text-gray-600 mb-6 text-center font-open-sans">
                 Mentorship and Sacred Feminine Wisdom Classes
               </h3>
-              <p className="text-gray-700 mb-8 font-open-sans leading-relaxed">
+              <p className="text-gray-800 mb-8 font-open-sans leading-relaxed text-base">
                 Step into the ancient lineage of the Order of the Blue Rose — a
                 sacred sisterhood born of the followers of Mary Magdalene and
                 Mother Mary, carrying forth the living teachings of Christ

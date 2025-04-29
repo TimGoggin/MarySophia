@@ -41,20 +41,20 @@ export default function About() {
 
           <div className="flex flex-col md:flex-row gap-12 mb-16">
             <div className="md:w-2/3">
-              <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
+              <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
                 As a teacher of the Way of Mary and a follower of Christ, I
                 serve as a channel for the divine wisdom of Mother Mary, Mary
                 Magdalene, and the Angelic Realm. My mission is to help others
                 remember their Original Essence and embody the Wisdom of the
                 Heart.
               </p>
-              <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
+              <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
                 Through the Order of the Blue Rose, we work to awaken and
                 nurture the divine feminine wisdom that resides within each of
                 us. This sacred work combines ancient spiritual teachings with
                 direct guidance from the divine realms.
               </p>
-              <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
+              <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
                 I am dedicated to supporting individuals on their journey of
                 spiritual awakening, helping them connect with their divine
                 nature and live their Original Blessing on Earth.
@@ -63,7 +63,7 @@ export default function About() {
                 <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">
                   Our Sacred Mission
                 </h2>
-                <ul className="list-none space-y-3 text-gray-700 font-open-sans">
+                <ul className="list-none space-y-3 text-gray-800 font-open-sans text-base">
                   <li className="flex items-center">
                     <span className="text-[#00AEEF] mr-2">•</span>
                     Awakening the Wisdom of the Heart
@@ -100,7 +100,7 @@ export default function About() {
             <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">
               About Me
             </h2>
-            <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
+            <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
               Mary Sophia is a teacher of the Way of Mary and a follower of
               Christ. She is also a messenger and a channel for Mother Mary,
               Mary Magdalene, and the Angelic Realm.
@@ -111,7 +111,7 @@ export default function About() {
             <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">
               Philosophy & Approach
             </h2>
-            <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
+            <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
               My work is grounded in The Way of Mary and The Way of the Heart,
               ancient wisdom traditions that emphasize direct spiritual
               experience and heart-centered transformation. I believe that each
@@ -124,7 +124,7 @@ export default function About() {
             <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">
               Sacred Work
             </h2>
-            <p className="text-gray-700 mb-6 font-open-sans leading-relaxed">
+            <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
               Through intuitive readings, spiritual counseling, and teaching, I
               help others connect with their own divine guidance and purpose.
               This work is supported by the presence of Mother Mary, Mary
