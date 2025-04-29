@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
@@ -8,20 +7,28 @@ export default function Navbar() {
   const [isAtTop, setIsAtTop] = useState(true);
   const location = useLocation();
   const isContactPage = location.pathname === "/contact";
-  
+
   // Define paths where navbar should be transparent at top
-  const transparentPaths = ["", "/", "/services", "/school", "/order"];
-  const shouldBeTransparent = transparentPaths.includes(location.pathname) && isAtTop;
+  const transparentPaths = [
+    "",
+    "/",
+    "/services",
+    "/counseling",
+    "/school",
+    "/order",
+  ];
+  const shouldBeTransparent =
+    transparentPaths.includes(location.pathname) && isAtTop;
 
   useEffect(() => {
     const handleScroll = () => {
       setIsAtTop(window.scrollY < 50);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     handleScroll(); // Check initial position
-    
-    return () => window.removeEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const toggleMobileMenu = () => {
@@ -49,7 +56,9 @@ export default function Navbar() {
   };
 
   return (
-    <header className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? 'bg-transparent' : 'bg-[#031344]/50'}`}>
+    <header
+      className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? "bg-transparent" : "bg-white/50"}`}
+    >
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className={`font-playfair text-xl md:text-2xl text-black`}>
           Mary Sophia
@@ -71,7 +80,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/"
-              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent text-black"}`}
+              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/" ? "border-black text-black" : "border-transparent text-black"}`}
             >
               Home
             </Link>
@@ -79,7 +88,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/services"
-              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/services" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent"}`}
+              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/services" ? "border-black text-black" : "border-transparent"}`}
             >
               Services
             </Link>
@@ -87,7 +96,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/counseling"
-              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/counseling" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent"}`}
+              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/counseling" ? "border-black text-black" : "border-transparent"}`}
             >
               Spiritual Counseling
             </Link>
@@ -95,7 +104,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/order"
-              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/order" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent"}`}
+              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/order" ? "border-black text-black" : "border-transparent"}`}
             >
               Order of the Blue Rose
             </Link>
@@ -103,7 +112,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/about"
-              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/about" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent"}`}
+              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/about" ? "border-black text-black" : "border-transparent"}`}
             >
               About
             </Link>
@@ -111,7 +120,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/contact"
-              className={`hover:text-[#00AEEF] transition pb-1 border-b-2 ${location.pathname === "/contact" ? "border-[#00AEEF] text-[#00AEEF]" : "border-transparent"}`}
+              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/contact" ? "border-black text-black" : "border-transparent"}`}
             >
               Contact
             </Link>
