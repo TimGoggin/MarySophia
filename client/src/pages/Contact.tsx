@@ -64,86 +64,11 @@ export default function Contact() {
 
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="w-full md:w-[55%] md:pr-12">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label
-                    htmlFor="name"
-                    className="block text-gray-700 font-open-sans mb-2"
-                  >
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
-                    required
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="email"
-                    className="block text-gray-700 font-open-sans mb-2"
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
-                    required
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="subject"
-                    className="block text-gray-700 font-open-sans mb-2"
-                  >
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
-                    required
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-gray-700 font-open-sans mb-2"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    rows={6}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#00AEEF] focus:border-transparent"
-                    required
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-[#00AEEF] text-white py-3 px-6 rounded-md hover:bg-[#D4AF37] transition duration-300 font-open-sans"
-                >
-                  Send Message
-                </button>
-              </form>
+              <iframe
+                src={"https://bv6w3pwoi5y.typeform.com/to/br75lVwu"}
+                style={{ width: "100%", height: "100%", border: "0" }}
+                allow="camera; microphone; autoplay; encrypted-media;"
+              />
             </div>
 
             <div className="w-full md:w-[35%] md:pl-16">
