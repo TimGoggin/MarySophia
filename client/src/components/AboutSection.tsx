@@ -10,26 +10,13 @@ export default function AboutSection() {
           const gridCol = i % 3;
           const baseDelay = (gridRow * 3 + gridCol) * 2;
 
-          return (
-            <div
-              key={i}
-              className="floating-rose"
-              style={{
-                backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
-                animationDelay: `${baseDelay + Math.random() * 5}s`,
-                left: `${gridCol * 33 + Math.random() * 10}%`,
-                top: `${gridRow * 25 + Math.random() * 10}%`,
-                opacity: 0,
-                transform: `rotate(${Math.random() * 360}deg)`,
-              }}
-            />
-          );
+          return <div key={i} className="bg-white" />;
         })}
       </div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-12 bg-white/90 p-6 rounded-lg backdrop-blur-sm">
-            <h2 className="font-playfair text-3xl text-[#00AEEF] mb-6">
+            <h2 className="font-playfair text-3xl text-[#739EBF] mb-6">
               Meet Mary Sophia
             </h2>
             <p className="text-gray-700 mb-4 font-open-sans">

@@ -18,7 +18,7 @@ export default function ServicesSection() {
       icon: (
         <img src="/icons/female.svg" alt="Female" className="w-full h-full" />
       ),
-      title: "School of Mary",
+      title: "Spiritual Counseling",
       description:
         "Deepen your spiritual growth through courses, workshops, and mentorship.",
       cta: "Thrive in our Environment",
@@ -28,8 +28,7 @@ export default function ServicesSection() {
       id: 3,
       icon: <img src="/icons/rose.svg" alt="Rose" className="w-full h-full" />,
       title: "Order of the Blue Rose",
-      description:
-        "Join a sacred community and receive spiritual teachings through initiations.",
+      description: "Classes and mentorship",
       cta: "Find Your Path",
       link: "#",
     },
@@ -49,7 +48,7 @@ export default function ServicesSection() {
                   <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
                     <div className="w-16 h-16">{service.icon}</div>
                   </div>
-                  <h3 className="font-playfair text-xl text-[#00AEEF] mb-4">
+                  <h3 className="font-playfair text-xl text-[#003864] mb-4">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 mb-6 font-open-sans">
@@ -65,7 +64,7 @@ export default function ServicesSection() {
                           ? "/order"
                           : "/services"
                     }
-                    className="block bg-[#00AEEF] hover:bg-[#D4AF37] text-white font-semibold py-2 px-4 rounded-md transition duration-300 text-center"
+                    className="block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-2 px-4 rounded-md transition duration-300 text-center"
                   >
                     {service.cta}
                   </Link>

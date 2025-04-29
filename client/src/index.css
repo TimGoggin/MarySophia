@@ -24,10 +24,8 @@
 
 .wavy-gradient {
   background: linear-gradient(135deg,
-      #FCFAED,
-      #A4DDED,
-      #8DD4ED,
-      #60A1D2);
+      #B58233,
+      #FFFFFF);
   background-size: 300% 300%;
   position: absolute;
   inset: 0;
