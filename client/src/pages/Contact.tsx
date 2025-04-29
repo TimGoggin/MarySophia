@@ -66,7 +66,7 @@ export default function Contact() {
             <div className="w-full md:w-[55%] md:pr-12">
               <iframe
                 src={"https://bv6w3pwoi5y.typeform.com/to/br75lVwu"}
-                style={{ width: "100%", height: "100%", border: "0" }}
+                style={{ width: "100%", height: "600px", border: "0" }}
                 allow="camera; microphone; autoplay; encrypted-media;"
               />
             </div>
