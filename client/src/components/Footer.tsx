@@ -21,15 +21,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 border-b border-gray-200 pb-8">
           {/* About Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-xl text-[#00AEEF] mb-4">About Us</h3>
+            <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 font-semibold">About Us</h3>
             <div className="space-y-4">
-              <h4 className="font-playfair text-lg text-black">Mary Sophia</h4>
-              <p className="text-black font-open-sans text-sm leading-relaxed">
+              <h4 className="font-playfair text-xl text-black font-semibold">Mary Sophia</h4>
+              <p className="text-gray-800 font-open-sans text-base leading-relaxed">
                 Guiding you on your spiritual journey toward divine connection and inner peace through the wisdom of sacred teachings.
               </p>
               <Link 
                 to="/about" 
-                className="inline-block text-[#00AEEF] hover:text-black transition duration-300 text-sm font-semibold"
+                className="inline-block text-[#00AEEF] hover:text-black transition duration-300 text-base font-bold"
               >
                 Learn More →
               </Link>
@@ -38,9 +38,9 @@ export default function Footer() {
 
           {/* Quick Links Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-xl text-[#00AEEF] mb-4">Quick Links</h3>
-            <nav className="flex flex-col space-y-2">
-              <Link to="/" className="text-black hover:text-[#00AEEF] transition duration-300 text-sm">Home</Link>
+            <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 font-semibold">Quick Links</h3>
+            <nav className="flex flex-col space-y-3">
+              <Link to="/" className="text-gray-800 hover:text-[#00AEEF] transition duration-300 text-base font-medium">Home</Link>
               <Link to="/services" className="text-black hover:text-[#00AEEF] transition duration-300 text-sm">Services</Link>
               <Link to="/school" className="text-black hover:text-[#00AEEF] transition duration-300 text-sm">School of Mary</Link>
               <Link to="/order" className="text-black hover:text-[#00AEEF] transition duration-300 text-sm">Order of the Blue Rose</Link>
@@ -63,11 +63,11 @@ export default function Footer() {
 
           {/* Contact Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-xl text-[#00AEEF] mb-4">Contact Us</h3>
-            <ul className="space-y-3">
+            <h3 className="font-playfair text-2xl text-[#00AEEF] mb-4 font-semibold">Contact Us</h3>
+            <ul className="space-y-4">
               <li className="flex items-center space-x-3">
-                <Mail className="w-4 h-4 text-[#00AEEF]" />
-                <a href="mailto:info@marysophia.com" className="text-black hover:text-[#00AEEF] transition duration-300 text-sm">
+                <Mail className="w-5 h-5 text-[#00AEEF]" />
+                <a href="mailto:info@marysophia.com" className="text-gray-800 hover:text-[#00AEEF] transition duration-300 text-base font-medium">
                   info@marysophia.com
                 </a>
               </li>
