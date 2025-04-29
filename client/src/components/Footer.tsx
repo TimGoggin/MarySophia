@@ -21,14 +21,19 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 border-b border-gray-200 pb-8">
           {/* About Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">About Us</h3>
+            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">
+              About Us
+            </h3>
             <div className="space-y-4">
-              <h4 className="font-playfair text-xl text-gray-800 font-semibold">Mary Sophia</h4>
+              <h4 className="font-playfair text-xl text-gray-800 font-semibold">
+                Mary Sophia
+              </h4>
               <p className="text-gray-800 font-open-sans text-base leading-relaxed">
-                Guiding you on your spiritual journey toward divine connection and inner peace through the wisdom of sacred teachings.
+                Guiding you on your spiritual journey toward divine connection
+                and inner peace through the wisdom of sacred teachings.
               </p>
-              <Link 
-                to="/about" 
+              <Link
+                to="/about"
                 className="inline-block text-[#2C3E50] hover:text-black transition duration-300 text-base font-bold"
               >
                 Learn More →
@@ -38,36 +43,100 @@ export default function Footer() {
 
           {/* Quick Links Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">Quick Links</h3>
+            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">
+              Quick Links
+            </h3>
             <nav className="flex flex-col space-y-3">
-              <Link to="/" className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">Home</Link>
-              <Link to="/services" className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">Services</Link>
-              <Link to="/school" className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">School of Mary</Link>
-              <Link to="/order" className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">Order of the Blue Rose</Link>
-              <Link to="/about" className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">About</Link>
-              <Link to="/contact" className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">Contact</Link>
+              <Link
+                to="/"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                Home
+              </Link>
+              <Link
+                to="/services"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                Services
+              </Link>
+              <Link
+                to="/school"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                School of Mary
+              </Link>
+              <Link
+                to="/order"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                Order of the Blue Rose
+              </Link>
+              <Link
+                to="/about"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                About
+              </Link>
+              <Link
+                to="/contact"
+                className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                Contact
+              </Link>
             </nav>
           </div>
 
           {/* Policies Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-xl text-[#2C3E50] mb-4">Policies</h3>
+            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">
+              Policies
+            </h3>
             <nav className="space-y-2">
-              <a href="#" className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">Privacy Policy</a>
-              <a href="#" className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">Terms of Service</a>
-              <a href="#" className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">Cookie Policy</a>
-              <a href="#" className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">Disclaimer</a>
-              <a href="#" className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">Refund Policy</a>
+              <a
+                href="#"
+                className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="#"
+                className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                Terms of Service
+              </a>
+              <a
+                href="#"
+                className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                Cookie Policy
+              </a>
+              <a
+                href="#"
+                className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                Disclaimer
+              </a>
+              <a
+                href="#"
+                className="block text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium"
+              >
+                Refund Policy
+              </a>
             </nav>
           </div>
 
           {/* Contact Column */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">Contact Us</h3>
+            <h3 className="font-playfair text-2xl text-[#2C3E50] mb-4 font-semibold">
+              Contact Us
+            </h3>
             <ul className="space-y-4">
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-[#2C3E50]" />
-                <a href="mailto:info@marysophia.com" className="text-gray-800 hover:text-[#2C3E50] transition duration-300 text-base font-medium">
+                <a
+                  href="mailto:info@marysophia.com"
+                  className="hover:text-[#2C3E50] text-base font-medium"
+                >
                   info@marysophia.com
                 </a>
               </li>
@@ -77,17 +146,23 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-[#2C3E50]" />
-                <span className="text-gray-800 text-sm">Spiritual Center, 123 Divine Path</span>
+                <span className="text-gray-800 text-sm">
+                  Spiritual Center, 123 Divine Path
+                </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Clock className="w-4 h-4 text-[#2C3E50]" />
-                <span className="text-gray-800 text-sm">Mon-Fri: 9AM-5PM EST</span>
+                <span className="text-gray-800 text-sm">
+                  Mon-Fri: 9AM-5PM EST
+                </span>
               </li>
             </ul>
 
             {/* Newsletter Signup */}
             <form onSubmit={handleNewsletterSubmit} className="mt-6 space-y-3">
-              <h4 className="font-playfair text-sm text-[#2C3E50]">Join Our Newsletter</h4>
+              <h4 className="font-playfair text-sm text-[#2C3E50]">
+                Join Our Newsletter
+              </h4>
               <input
                 type="text"
                 value={name}
@@ -115,18 +190,41 @@ export default function Footer() {
         {/* Social Media & Copyright */}
         <div className="mt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex space-x-6">
-            <a href="https://www.instagram.com/orderofthebluerose/" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-[#00AEEF] transition duration-300">
+            <a
+              href="https://www.instagram.com/orderofthebluerose/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:text-[#00AEEF] transition duration-300"
+            >
               <Instagram className="w-5 h-5 text-[#2C3E50]" />
             </a>
-            <a href="https://www.youtube.com/@orderofthebluerose3878" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-[#2C3E50] transition duration-300">
+            <a
+              href="https://www.youtube.com/@orderofthebluerose3878"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:text-[#2C3E50] transition duration-300"
+            >
               <Youtube className="w-5 h-5 text-[#2C3E50]" />
             </a>
           </div>
           <div className="text-center md:text-right text-sm text-gray-800">
-            <p className="mb-2 md:mb-0">&copy; {new Date().getFullYear()} Mary Sophia. All rights reserved.</p>
+            <p className="mb-2 md:mb-0">
+              &copy; {new Date().getFullYear()} Mary Sophia. All rights
+              reserved.
+            </p>
             <div className="space-x-4">
-              <a href="#" className="text-gray-800 hover:text-[#00AEEF] transition duration-300">Terms of Use</a>
-              <a href="#" className="text-gray-800 hover:text-[#00AEEF] transition duration-300">Privacy Policy</a>
+              <a
+                href="#"
+                className="text-gray-800 hover:text-[#00AEEF] transition duration-300"
+              >
+                Terms of Use
+              </a>
+              <a
+                href="#"
+                className="text-gray-800 hover:text-[#00AEEF] transition duration-300"
+              >
+                Privacy Policy
+              </a>
             </div>
           </div>
         </div>
