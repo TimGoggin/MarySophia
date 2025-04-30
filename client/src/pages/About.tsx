@@ -7,7 +7,7 @@ export default function About() {
       <Helmet>
         <title>About | Mary Sophia</title>
       </Helmet>
-      <div className="bg-white py-16 pt-40 relative">
+      <div className="bg-white py-16 pt-48 relative">
         <div className="floating-roses-container">
           {[...Array(15)].map((_, i) => {
             const gridRow = Math.floor(i / 3);

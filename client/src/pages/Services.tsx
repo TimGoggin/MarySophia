@@ -30,7 +30,7 @@ export default function Services() {
         </div>
       </section>
 
-      <div className="bg-white py-16 relative">
+      <div className="bg-white py-16 pt-48 relative">
         <div className="floating-roses-container">
           {[...Array(15)].map((_, i) => {
             const gridRow = Math.floor(i / 3);
