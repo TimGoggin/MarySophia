@@ -134,6 +134,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <CtaSection buttonText="Explore Our Services" linkTo="/services" />
     </>
   );
 }

@@ -117,7 +117,11 @@ export default function Order() {
           </div>
         </div>
       </div>
-      <CtaSection />
+      <CtaSection 
+        buttonText="Book Now" 
+        linkTo="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+        isExternal={true}
+      />
     </>
   );
 }
