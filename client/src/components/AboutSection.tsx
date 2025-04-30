@@ -16,7 +16,7 @@ export default function AboutSection() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-12 bg-white/90 p-6 rounded-lg backdrop-blur-sm">
-            <h2 className="font-playfair text-3xl text-[#739EBF] mb-6">
+            <h2 className="font-playfair text-3xl text-[#002147] mb-6">
               Meet Mary Sophia
             </h2>
             <p className="text-gray-700 mb-4 font-open-sans">
@@ -32,7 +32,7 @@ export default function AboutSection() {
             </p>
             <Link
               to="/about"
-              className="inline-flex items-center bg-transparent hover:bg-[#D4AF37] text-[#00AEEF] hover:text-white py-2 px-6 border border-[#00AEEF] hover:border-transparent rounded-full transition duration-300 mt-6"
+              className="inline-flex items-center bg-transparent hover:bg-[#D4AF37] text-[#002147] hover:text-white py-2 px-6 border border-[#002147] hover:border-transparent rounded-full transition duration-300 mt-6"
             >
               Learn More About Mary Sophia
               <ChevronRight className="ml-2 h-4 w-4" />
