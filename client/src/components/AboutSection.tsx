@@ -32,7 +32,7 @@ export default function AboutSection() {
             </p>
             <Link
               to="/about"
-              className="inline-flex items-center bg-transparent hover:bg-[#D4AF37] text-[#002147] hover:text-white py-2 px-6 border border-[#002147] hover:border-transparent rounded-full transition duration-300 mt-6"
+              className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 border border-transparent hover:border-transparent rounded-full transition duration-300 mt-6"
             >
               Learn More About Mary Sophia
               <ChevronRight className="ml-2 h-4 w-4" />
