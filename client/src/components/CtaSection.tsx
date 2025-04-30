@@ -26,7 +26,7 @@ export default function CtaSection() {
         })}
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">
-        <h2 className="font-playfair text-3xl md:text-4xl text-[#739EBF] mb-6">
+        <h2 className="font-playfair text-3xl md:text-4xl text-[#002147] mb-6">
           Join Our Monthly Prayer Circle
         </h2>
         <p className="max-w-2xl mx-auto text-gray-700 mb-8 font-open-sans">
