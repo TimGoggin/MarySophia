@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
-import CtaSection from "../components/CtaSection";
+import CtaSection from "@/components/CtaSection";
 export default function Counseling() {
   return (
     <>
