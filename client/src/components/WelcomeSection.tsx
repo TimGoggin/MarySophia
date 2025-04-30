@@ -7,7 +7,15 @@ export default function WelcomeSection() {
           const gridCol = i % 3;
           const baseDelay = (gridRow * 3 + gridCol) * 2;
 
-          return <div key={i} className="bg-white" />;
+          return (
+            <div 
+              key={`rose-${i}`} 
+              className="bg-white"
+              style={{
+                animationDelay: `${baseDelay}s`
+              }}
+            />
+          );
         })}
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">

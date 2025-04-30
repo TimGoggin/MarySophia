@@ -35,7 +35,7 @@ export default function Contact() {
             const gridCol = i % 3;
             const baseDelay = (gridRow * 3 + gridCol) * 2;
 
-            return <div />;
+            return <div key={`contact-rose-${i}`} />;
           })}
         </div>
         <div className="max-w-7xl mx-auto px-4 relative z-10">
