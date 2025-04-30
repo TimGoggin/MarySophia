@@ -58,7 +58,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? "bg-transparent" : "bg-[#002147]"}`}
+      className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? "bg-transparent" : "bg-white shadow-md"}`}
     >
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
@@ -85,7 +85,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#D4AF37] hover:text-[#D4AF37]"} ${location.pathname === "/" ? "border-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/" ? "border-black" : "border-transparent"}`}
             >
               Home
             </Link>
