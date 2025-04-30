@@ -81,11 +81,11 @@ export default function Navbar() {
           )}
         </button>
 
-        <ul className="hidden md:flex space-x-6 text-black">
+        <ul className="hidden md:flex space-x-6">
           <li>
             <Link
               to="/"
-              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/" ? "border-black text-black" : "border-transparent text-black"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#D4AF37] hover:text-[#D4AF37]"} ${location.pathname === "/" ? "border-black" : "border-transparent"}`}
             >
               Home
             </Link>
@@ -93,7 +93,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/services"
-              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/services" ? "border-black text-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#D4AF37] hover:text-[#D4AF37]"} ${location.pathname === "/services" ? "border-black" : "border-transparent"}`}
             >
               Services
             </Link>
@@ -101,7 +101,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/readings"
-              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/readings" ? "border-black text-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#D4AF37] hover:text-[#D4AF37]"} ${location.pathname === "/readings" ? "border-black" : "border-transparent"}`}
             >
               Private Readings
             </Link>
@@ -109,7 +109,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/counseling"
-              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/counseling" ? "border-black text-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#D4AF37] hover:text-[#D4AF37]"} ${location.pathname === "/counseling" ? "border-black" : "border-transparent"}`}
             >
               Spiritual Counseling
             </Link>
@@ -117,7 +117,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/order"
-              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/order" ? "border-black text-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#D4AF37] hover:text-[#D4AF37]"} ${location.pathname === "/order" ? "border-black" : "border-transparent"}`}
             >
               Order of the Blue Rose
             </Link>
@@ -125,7 +125,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/about"
-              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/about" ? "border-black text-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#D4AF37] hover:text-[#D4AF37]"} ${location.pathname === "/about" ? "border-black" : "border-transparent"}`}
             >
               About
             </Link>
@@ -133,7 +133,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/contact"
-              className={`hover:text-black transition pb-1 border-b-2 ${location.pathname === "/contact" ? "border-black text-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#D4AF37] hover:text-[#D4AF37]"} ${location.pathname === "/contact" ? "border-black" : "border-transparent"}`}
             >
               Contact
             </Link>
