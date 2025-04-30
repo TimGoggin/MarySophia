@@ -44,10 +44,10 @@ export default function CtaSection({
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <h2 className="font-playfair text-3xl md:text-4xl text-[#002147] mb-6">
-          Begin Your Sacred Journey
+          Receive Sacred Messages of Love and Wisdom
         </h2>
         <p className="max-w-2xl mx-auto text-gray-600 mb-8 font-open-sans">
-          Join us in awakening the Divine Feminine within.
+          Sign up to receive channeled transmissions from the Divine Mother, sacred teachings from the Order of the Blue Rose, and soul nourishment for your journey.
         </p>
         {isExternal ? (
           <a

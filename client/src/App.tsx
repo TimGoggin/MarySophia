@@ -34,7 +34,7 @@ function App() {
               <SacredRebirthCta /> {/* Added SacredRebirthCta */}
               <AboutSection />
               <TestimonialsSection />
-              <CtaSection />
+              <CtaSection buttonText="Sign Up Here" />
             </>
           }
         />
