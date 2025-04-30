@@ -56,7 +56,7 @@ export default function Order() {
 
           <div className="space-y-12">
             <div>
-              <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
+              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
                 Introduction
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
@@ -68,7 +68,7 @@ export default function Order() {
             </div>
 
             <div>
-              <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
+              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
                 Historical Background
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
@@ -80,31 +80,31 @@ export default function Order() {
             </div>
 
             <div>
-              <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
+              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
                 Core Teachings
               </h2>
               <ul className="list-none space-y-3 text-gray-700 font-open-sans">
                 <li className="flex items-center">
-                  <span className="text-[#00AEEF] mr-2">•</span>
+                  <span className="text-[#002147] mr-2">•</span>
                   Embodying the Wisdom of the Heart
                 </li>
                 <li className="flex items-center">
-                  <span className="text-[#00AEEF] mr-2">•</span>
+                  <span className="text-[#002147] mr-2">•</span>
                   Alignment with Divine Nature
                 </li>
                 <li className="flex items-center">
-                  <span className="text-[#00AEEF] mr-2">•</span>
+                  <span className="text-[#002147] mr-2">•</span>
                   Sacred Practices for Inner Transformation
                 </li>
                 <li className="flex items-center">
-                  <span className="text-[#00AEEF] mr-2">•</span>
+                  <span className="text-[#002147] mr-2">•</span>
                   Connection with Divine Realms
                 </li>
               </ul>
             </div>
 
             <div>
-              <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
+              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
                 Membership & Community
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
