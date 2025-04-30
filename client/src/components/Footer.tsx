@@ -155,33 +155,6 @@ export default function Footer() {
                 <span className="text-white text-sm">Mon-Fri: 9AM-5PM EST</span>
               </li>
             </ul>
-
-            {/* Newsletter Signup */}
-            <form onSubmit={handleNewsletterSubmit} className="mt-6 space-y-3">
-              <h4 className="font-playfair text-sm text-white">
-                Join Our Newsletter
-              </h4>
-              <input
-                type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                placeholder="Your Name"
-                className="w-full px-3 py-2 bg-blue-900/30 border border-blue-800/50 rounded-md text-sm focus:outline-none focus:border-[#00AEEF] transition"
-              />
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Your Email"
-                className="w-full px-3 py-2 bg-blue-900/30 border border-blue-800/50 rounded-md text-sm focus:outline-none focus:border-[#00AEEF] transition"
-              />
-              <button
-                type="submit"
-                className="w-full bg-[#00AEEF] hover:bg-[#0098DC] text-white font-semibold py-2 px-4 rounded-md transition duration-300 text-sm"
-              >
-                Subscribe
-              </button>
-            </form>
           </div>
         </div>
 
