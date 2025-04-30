@@ -27,11 +27,12 @@ export default function CtaSection() {
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <h2 className="font-playfair text-3xl md:text-4xl text-[#002147] mb-6">
-          Join Our Monthly Prayer Circle
+          Receive Sacred Messages of Love and Wisdom
         </h2>
         <p className="max-w-2xl mx-auto text-gray-700 mb-8 font-open-sans">
-          Connect with our community and receive sacred teachings through our
-          live monthly prayer circle.
+          Sign up to receive channeled transmissions from the Divine Mother,
+          sacred teachings from the Order of the Blue Rose, and soul nourishment
+          for your journey.
         </p>
         <a
           href="https://sacred-rose.teachable.com/purchase?product_id=6205554"
@@ -39,7 +40,7 @@ export default function CtaSection() {
           rel="noopener noreferrer"
           className="bg-[#002147] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-full transition duration-300 inline-flex items-center"
         >
-          Schedule Your Visit
+          Sign Up Here
           <ChevronRight className="ml-2 h-4 w-4" />
         </a>
       </div>
