@@ -85,7 +85,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/" ? "border-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/" ? "border-black" : "border-transparent"}`}
             >
               Home
             </Link>
@@ -93,7 +93,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/services"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#D4AF37] hover:text-[#D4AF37]"} ${location.pathname === "/services" ? "border-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/services" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/services" ? "border-black" : "border-transparent"}`}
             >
               Services
             </Link>
