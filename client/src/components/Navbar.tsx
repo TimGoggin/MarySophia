@@ -85,7 +85,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/" ? "border-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/" ? "text-[#D4AF37] hover:text-[#D4AF37]" : location.pathname === "/" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/" ? "border-black" : "border-transparent"}`}
             >
               Home
             </Link>
@@ -93,7 +93,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/services"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/services" ? "border-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/services" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/services" ? "border-black" : "border-transparent"}`}
             >
               Services
             </Link>
@@ -101,7 +101,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/readings"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/readings" ? "border-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/readings" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/readings" ? "border-black" : "border-transparent"}`}
             >
               Private Readings
             </Link>
@@ -109,7 +109,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/counseling"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/counseling" ? "border-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/counseling" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/counseling" ? "border-black" : "border-transparent"}`}
             >
               Spiritual Counseling
             </Link>
@@ -117,7 +117,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/order"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/order" ? "border-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/order" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/order" ? "border-black" : "border-transparent"}`}
             >
               Order of the Blue Rose
             </Link>
@@ -125,7 +125,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/about"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/about" ? "border-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/about" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/about" ? "border-black" : "border-transparent"}`}
             >
               About
             </Link>
@@ -133,7 +133,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/contact"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/contact" ? "border-black" : "border-transparent"}`}
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/contact" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/contact" ? "border-black" : "border-transparent"}`}
             >
               Contact
             </Link>
