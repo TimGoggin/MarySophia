@@ -53,7 +53,7 @@ export default function BlueRoseReadings() {
         <div className="max-w-4xl mx-auto px-4 relative z-10">
           <div className="space-y-12">
             <div>
-              <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
+              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
                 Sacred Guidance for Your Soul Journey
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
@@ -66,7 +66,7 @@ export default function BlueRoseReadings() {
             </div>
 
             <div>
-              <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
+              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
                 What to Expect
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
@@ -78,28 +78,28 @@ export default function BlueRoseReadings() {
             </div>
 
             <div>
-              <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
+              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
                 Areas of Guidance
               </h2>
               <ul className="list-none space-y-3 text-gray-700 font-open-sans">
                 <li className="flex items-center">
-                  <span className="text-[#00AEEF] mr-2">•</span>
+                  <span className="text-[#002147] mr-2">•</span>
                   Soul Purpose & Life Path
                 </li>
                 <li className="flex items-center">
-                  <span className="text-[#00AEEF] mr-2">•</span>
+                  <span className="text-[#002147] mr-2">•</span>
                   Past Life Connections
                 </li>
                 <li className="flex items-center">
-                  <span className="text-[#00AEEF] mr-2">•</span>
+                  <span className="text-[#002147] mr-2">•</span>
                   Spiritual Growth & Awakening
                 </li>
                 <li className="flex items-center">
-                  <span className="text-[#00AEEF] mr-2">•</span>
+                  <span className="text-[#002147] mr-2">•</span>
                   Divine Feminine Wisdom
                 </li>
                 <li className="flex items-center">
-                  <span className="text-[#00AEEF] mr-2">•</span>
+                  <span className="text-[#002147] mr-2">•</span>
                   Life Transitions & Healing
                 </li>
               </ul>
