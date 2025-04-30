@@ -11,9 +11,9 @@ export default function Services() {
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="/images/AdobeStock_90608445.jpeg"
+            src="/images/angelbackground.jpeg"
             alt="Hero Background"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover opacity-80"
           />
           <div className="wavy-gradient"></div>
         </div>
