@@ -35,7 +35,19 @@ export default function Counseling() {
             const gridCol = i % 3;
             const baseDelay = (gridRow * 3 + gridCol) * 2;
 
-            return <div />;
+            return (
+              <div
+                key={`counseling-rose-${i}`}
+                className="bg-white"
+                style={{
+                  backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
+                  left: `${(i % 3) * 33 + Math.random() * 10}%`,
+                  top: `${Math.floor(i / 3) * 25 + Math.random() * 10}%`,
+                  opacity: 0,
+                  transform: `rotate(${Math.random() * 360}deg)`,
+                }}
+              />
+            );
           })}
         </div>
         <div className="max-w-4xl mx-auto px-4 relative z-10">

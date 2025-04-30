@@ -9,10 +9,15 @@ export default function WelcomeSection() {
 
           return (
             <div 
-              key={`rose-${i}`} 
+              key={`welcome-rose-${i}`} 
               className="bg-white"
               style={{
-                animationDelay: `${baseDelay}s`
+                animationDelay: `${baseDelay}s`,
+                backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
+                left: `${(i % 3) * 33 + Math.random() * 10}%`,
+                top: `${Math.floor(i / 3) * 25 + Math.random() * 10}%`,
+                opacity: 0,
+                transform: `rotate(${Math.random() * 360}deg)`,
               }}
             />
           );
