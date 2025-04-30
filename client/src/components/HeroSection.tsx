@@ -28,7 +28,7 @@ export default function HeroSection() {
     >
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="/images/hero.jpeg"
+          src="/images/bluerosebackground.jpeg"
           alt="Hero Background"
           className="w-full h-full object-cover object-center"
         />
