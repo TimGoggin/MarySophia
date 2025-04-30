@@ -1,4 +1,3 @@
-
 import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -45,10 +44,10 @@ export default function CtaSection({
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <h2 className="font-playfair text-3xl md:text-4xl text-[#002147] mb-6">
-          Ready to Begin Your Journey?
+          Begin Your Sacred Journey
         </h2>
         <p className="max-w-2xl mx-auto text-gray-600 mb-8 font-open-sans">
-          Take the first step towards divine connection and inner transformation.
+          Join us in awakening the Divine Feminine within.
         </p>
         {isExternal ? (
           <a
