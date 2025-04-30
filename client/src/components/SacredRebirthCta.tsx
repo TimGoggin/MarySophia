@@ -45,7 +45,7 @@ export default function SacredRebirthCta() {
           <a
             href="#services"
             onClick={handleScrollToServices}
-            className="bg-white hover:bg-gray-100 text-[#00AEEF] py-3 px-8 rounded-full transition duration-300"
+            className="bg-white hover:bg-gray-100 text-[#002147] py-3 px-8 rounded-full transition duration-300"
           >
             Explore My Offerings
           </a>
