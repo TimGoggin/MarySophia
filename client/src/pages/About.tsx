@@ -31,7 +31,7 @@ export default function About() {
         </div>
         <div className="max-w-4xl mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
-            <h1 className="font-playfair text-4xl text-[#00AEEF] mb-4">
+            <h1 className="font-playfair text-4xl text-[#002147] mb-4">
               About Mary Sophia
             </h1>
             <p className="text-gray-600 font-open-sans text-xl">
@@ -60,28 +60,28 @@ export default function About() {
                 nature and live their Original Blessing on Earth.
               </p>
               <div className="mt-8">
-                <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">
+                <h2 className="font-playfair text-2xl text-[#002147] mb-6">
                   Our Sacred Mission
                 </h2>
                 <ul className="list-none space-y-3 text-gray-800 font-open-sans text-base">
                   <li className="flex items-center">
-                    <span className="text-[#00AEEF] mr-2">•</span>
+                    <span className="text-[#002147] mr-2">•</span>
                     Awakening the Wisdom of the Heart
                   </li>
                   <li className="flex items-center">
-                    <span className="text-[#00AEEF] mr-2">•</span>
+                    <span className="text-[#002147] mr-2">•</span>
                     Embodying Divine Feminine Wisdom
                   </li>
                   <li className="flex items-center">
-                    <span className="text-[#00AEEF] mr-2">•</span>
+                    <span className="text-[#002147] mr-2">•</span>
                     Nurturing Spiritual Growth and Transformation
                   </li>
                   <li className="flex items-center">
-                    <span className="text-[#00AEEF] mr-2">•</span>
+                    <span className="text-[#002147] mr-2">•</span>
                     Creating Sacred Community
                   </li>
                   <li className="flex items-center">
-                    <span className="text-[#00AEEF] mr-2">•</span>
+                    <span className="text-[#002147] mr-2">•</span>
                     Sharing Ancient and Contemporary Spiritual Teachings
                   </li>
                 </ul>
@@ -97,7 +97,7 @@ export default function About() {
           </div>
 
           <div className="mb-16">
-            <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">
+            <h2 className="font-playfair text-2xl text-[#002147] mb-6">
               About Me
             </h2>
             <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
@@ -108,7 +108,7 @@ export default function About() {
           </div>
 
           <div className="mb-16">
-            <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">
+            <h2 className="font-playfair text-2xl text-[#002147] mb-6">
               Philosophy & Approach
             </h2>
             <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
@@ -121,7 +121,7 @@ export default function About() {
           </div>
 
           <div className="mb-16">
-            <h2 className="font-playfair text-2xl text-[#00AEEF] mb-6">
+            <h2 className="font-playfair text-2xl text-[#002147] mb-6">
               Sacred Work
             </h2>
             <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
