@@ -28,13 +28,73 @@ export default function BlueRoseReadings() {
         </div>
       </section>
 
-      <div className="bg-white py-16 pt-48 relative">
-        <div className="mb-12 text-center px-4">
-          <img
-            src="/images/newMary2.jpg"
-            alt="Mary Sophia"
-            className="mx-auto rounded-lg shadow-xl max-w-md w-full"
-          />
+      <div className="bg-white py-16 pt-16 relative">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
+            <div className="md:w-1/2">
+              <img
+                src="/images/newMary2.jpg"
+                alt="Mary Sophia"
+                className="rounded-lg shadow-xl w-full"
+              />
+            </div>
+            <div className="md:w-1/2">
+              <div className="space-y-12">
+                <div>
+                  <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                    Sacred Guidance for Your Soul Journey
+                  </h2>
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    Receive divine guidance and soul remembrance through a deep,
+                    loving transmission from Mother Mary, Mary Magdalene, and the
+                    Angelic Realm. These readings illuminate your soul gifts, past
+                    life connections, and offer wisdom for the path unfolding before
+                    you.
+                  </p>
+                </div>
+
+                <div>
+                  <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                    What to Expect
+                  </h2>
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    Each reading is a sacred space where divine wisdom flows through
+                    to address your deepest questions and soul longings. Through
+                    channeled messages, you'll receive clarity, guidance, and
+                    healing insights tailored to your unique journey.
+                  </p>
+                </div>
+
+                <div>
+                  <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                    Areas of Guidance
+                  </h2>
+                  <ul className="list-none space-y-3 text-gray-700 font-open-sans">
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Soul Purpose & Life Path
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Past Life Connections
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Spiritual Growth & Awakening
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Divine Feminine Wisdom
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Life Transitions & Healing
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="floating-roses-container">
           {[...Array(15)].map((_, i) => {
@@ -56,62 +116,6 @@ export default function BlueRoseReadings() {
               />
             );
           })}
-        </div>
-        <div className="max-w-4xl mx-auto px-4 relative z-10">
-          <div className="space-y-12">
-            <div>
-              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                Sacred Guidance for Your Soul Journey
-              </h2>
-              <p className="text-gray-700 font-open-sans leading-relaxed">
-                Receive divine guidance and soul remembrance through a deep,
-                loving transmission from Mother Mary, Mary Magdalene, and the
-                Angelic Realm. These readings illuminate your soul gifts, past
-                life connections, and offer wisdom for the path unfolding before
-                you.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                What to Expect
-              </h2>
-              <p className="text-gray-700 font-open-sans leading-relaxed">
-                Each reading is a sacred space where divine wisdom flows through
-                to address your deepest questions and soul longings. Through
-                channeled messages, you'll receive clarity, guidance, and
-                healing insights tailored to your unique journey.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                Areas of Guidance
-              </h2>
-              <ul className="list-none space-y-3 text-gray-700 font-open-sans">
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Soul Purpose & Life Path
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Past Life Connections
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Spiritual Growth & Awakening
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Divine Feminine Wisdom
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Life Transitions & Healing
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
       <CtaSection 

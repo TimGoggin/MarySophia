@@ -29,14 +29,16 @@ export default function Counseling() {
         </div>
       </section>
 
-      <div className="bg-white py-16 pt-48 relative">
-        <div className="mb-12 text-center px-4">
-          <img
-            src="/images/newMary3.jpg"
-            alt="Mary Sophia"
-            className="mx-auto rounded-lg shadow-xl max-w-md w-full"
-          />
-        </div>
+      <div className="bg-white py-16 pt-16 relative">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
+            <div className="md:w-1/2">
+              <img
+                src="/images/newMary3.jpg"
+                alt="Mary Sophia"
+                className="rounded-lg shadow-xl w-full"
+              />
+            </div>
         <div className="floating-roses-container">
           {[...Array(15)].map((_, i) => {
             const gridRow = Math.floor(i / 3);
