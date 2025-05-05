@@ -154,7 +154,7 @@ export default function School() {
                 </p>
                 <a
                   href="/contact"
-                  className="inline-flex items-center bg-[#00AEEF] text-white px-6 py-3 rounded-full hover:bg-[#0096CE] transition-colors"
+                  className="inline-flex items-center bg-[#00AEEF] text-white px-6 py-3 rounded-md hover:bg-[#0096CE] transition-colors"
                 >
                   Contact Us to Learn More
                 </a>

@@ -38,14 +38,14 @@ export default function SacredRebirthCta() {
         <div className="flex justify-center gap-6">
           <button
             onClick={handleBookSession}
-            className="bg-[#002147] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-full transition duration-300"
+            className="bg-[#002147] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-md transition duration-300"
           >
             Book a Session
           </button>
           <a
             href="#services"
             onClick={handleScrollToServices}
-            className="bg-white hover:bg-gray-100 text-[#002147] py-3 px-8 rounded-full transition duration-300"
+            className="bg-white hover:bg-gray-100 text-[#002147] py-3 px-8 rounded-md transition duration-300"
           >
             Explore My Offerings
           </a>
