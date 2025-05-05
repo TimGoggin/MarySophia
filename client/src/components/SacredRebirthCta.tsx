@@ -38,7 +38,7 @@ export default function SacredRebirthCta() {
         <div className="flex justify-center gap-6">
           <button
             onClick={handleBookSession}
-            className="bg-[#002147] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-md transition duration-300"
+            className="bg-[#00ACEE] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-md transition duration-300"
           >
             Book a Session
           </button>

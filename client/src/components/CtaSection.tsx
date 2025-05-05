@@ -54,14 +54,14 @@ export default function CtaSection({
             href={linkTo}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
+            className="inline-flex items-center bg-[#00ACEE] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
           >
             <ButtonContent />
           </a>
         ) : (
           <Link
             to={linkTo}
-            className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
+            className="inline-flex items-center bg-[#00ACEE] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
           >
             <ButtonContent />
           </Link>
