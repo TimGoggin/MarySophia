@@ -116,6 +116,9 @@ export default function Counseling() {
             </div>
           </div>
         </div>
+            </div>
+          </div>
+        </div>
       </div>
       <CtaSection 
         buttonText="Book Now" 
