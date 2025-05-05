@@ -31,11 +31,11 @@ export default function Services() {
       </section>
 
       <div className="bg-white py-16 pt-48 relative">
-        <div className="mb-12 text-center">
+        <div className="mb-12 text-center px-4">
           <img
             src="/images/newMary1.jpg"
             alt="Mary Sophia"
-            className="mx-auto rounded-lg shadow-xl max-w-2xl w-full"
+            className="mx-auto rounded-lg shadow-xl max-w-xl w-full"
           />
         </div>
         <div className="floating-roses-container">
