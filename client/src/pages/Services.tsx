@@ -34,11 +34,11 @@ export default function Services() {
       <div className="bg-white py-16 pt-16 relative">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
-            <div className="md:w-1/2">
+            <div className="md:w-1/3">
               <img
                 src="/images/newMary1.jpg"
                 alt="Mary Sophia"
-                className="rounded-lg shadow-xl w-full"
+                className="rounded-lg shadow-xl w-full max-w-md mx-auto"
               />
             </div>
             <div className="md:w-1/2">
