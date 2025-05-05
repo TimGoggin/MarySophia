@@ -1,3 +1,4 @@
+
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -40,6 +41,19 @@ export default function Services() {
                 className="rounded-lg shadow-xl w-full"
               />
             </div>
+            <div className="md:w-1/2">
+              <div>
+                <h2 className="font-playfair text-3xl text-[#002147] mb-4">
+                  Welcome to Our Sacred Services
+                </h2>
+                <p className="text-gray-700 font-open-sans leading-relaxed">
+                  We offer a range of spiritual services designed to support your journey of awakening and transformation. Each service is carefully crafted to provide deep, meaningful experiences of divine connection.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="floating-roses-container">
           {[...Array(15)].map((_, i) => {
             const gridRow = Math.floor(i / 3);
@@ -61,6 +75,7 @@ export default function Services() {
             );
           })}
         </div>
+
         <div className="container mx-auto px-4 relative z-10">
           {/* Blue Rose Readings Section */}
           <section className="mb-20">
@@ -99,12 +114,12 @@ export default function Services() {
                 Spiritual Counseling
               </h2>
               <h3 className="text-xl text-gray-600 mb-6 text-center font-open-sans">
-                Healing Through Life’s Sacred Thresholds ~ A Return to Love and
+                Healing Through Life's Sacred Thresholds ~ A Return to Love and
                 Life
               </h3>
               <p className="text-gray-800 mb-8 font-open-sans leading-relaxed text-base">
                 These sacred sessions offer soul-centered support for women
-                navigating life’s most profound transitions — from loss and
+                navigating life's most profound transitions — from loss and
                 heartbreak to new beginnings and becoming. Whether you are
                 healing from grief, miscarriage, abortion, divorce, or stepping
                 into marriage, motherhood, or the wisdom years, these sessions
@@ -154,7 +169,6 @@ export default function Services() {
             </div>
           </section>
         </div>
-      </div>
       </div>
       <CtaSection buttonText="Get in Touch" linkTo="/contact" />
     </>
