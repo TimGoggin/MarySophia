@@ -35,7 +35,7 @@ export default function Services() {
           <img
             src="/images/newMary1.jpg"
             alt="Mary Sophia"
-            className="mx-auto rounded-lg shadow-xl max-w-xl w-full"
+            className="mx-auto rounded-lg shadow-xl max-w-md w-full"
           />
         </div>
         <div className="floating-roses-container">
