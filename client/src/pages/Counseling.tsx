@@ -1,6 +1,8 @@
+
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
 import CtaSection from "@/components/CtaSection";
+
 export default function Counseling() {
   return (
     <>
@@ -39,6 +41,67 @@ export default function Counseling() {
                 className="rounded-lg shadow-xl w-full"
               />
             </div>
+            <div className="md:w-1/2">
+              <div className="max-w-4xl mx-auto px-4 relative z-10">
+                <div className="space-y-12">
+                  <div>
+                    <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                      Sacred Support for Your Journey
+                    </h2>
+                    <p className="text-gray-700 font-open-sans leading-relaxed">
+                      These sacred sessions offer soul-centered support for women
+                      navigating life's most profound transitions. Whether you are
+                      healing from loss, embracing new beginnings, or seeking deeper
+                      spiritual connection, these sessions provide a sanctuary for
+                      your heart's journey.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                      Our Approach
+                    </h2>
+                    <p className="text-gray-700 font-open-sans leading-relaxed">
+                      Through intuitive guidance, somatic healing, and sacred wisdom
+                      teachings, we create a safe space for deep transformation and
+                      spiritual growth. Each session is tailored to your unique
+                      journey and needs.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                      Areas of Support
+                    </h2>
+                    <ul className="list-none space-y-3 text-gray-700 font-open-sans">
+                      <li className="flex items-center">
+                        <span className="text-[#002147] mr-2">•</span>
+                        Grief and Loss Processing
+                      </li>
+                      <li className="flex items-center">
+                        <span className="text-[#002147] mr-2">•</span>
+                        Life Transitions and New Beginnings
+                      </li>
+                      <li className="flex items-center">
+                        <span className="text-[#002147] mr-2">•</span>
+                        Spiritual Development and Growth
+                      </li>
+                      <li className="flex items-center">
+                        <span className="text-[#002147] mr-2">•</span>
+                        Healing and Integration Work
+                      </li>
+                      <li className="flex items-center">
+                        <span className="text-[#002147] mr-2">•</span>
+                        Divine Feminine Awakening
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="floating-roses-container">
           {[...Array(15)].map((_, i) => {
             const gridRow = Math.floor(i / 3);
@@ -60,66 +123,8 @@ export default function Counseling() {
             );
           })}
         </div>
-        <div className="max-w-4xl mx-auto px-4 relative z-10">
-          <div className="space-y-12">
-            <div>
-              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                Sacred Support for Your Journey
-              </h2>
-              <p className="text-gray-700 font-open-sans leading-relaxed">
-                These sacred sessions offer soul-centered support for women
-                navigating life's most profound transitions. Whether you are
-                healing from loss, embracing new beginnings, or seeking deeper
-                spiritual connection, these sessions provide a sanctuary for
-                your heart's journey.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                Our Approach
-              </h2>
-              <p className="text-gray-700 font-open-sans leading-relaxed">
-                Through intuitive guidance, somatic healing, and sacred wisdom
-                teachings, we create a safe space for deep transformation and
-                spiritual growth. Each session is tailored to your unique
-                journey and needs.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                Areas of Support
-              </h2>
-              <ul className="list-none space-y-3 text-gray-700 font-open-sans">
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Grief and Loss Processing
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Life Transitions and New Beginnings
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Spiritual Development and Growth
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Healing and Integration Work
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Divine Feminine Awakening
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-            </div>
-          </div>
-        </div>
       </div>
+
       <CtaSection 
         buttonText="Book Now" 
         linkTo="https://sacred-rose.teachable.com/purchase?product_id=6140178"
