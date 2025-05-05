@@ -1,4 +1,3 @@
-
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -98,7 +97,7 @@ export default function Services() {
                   href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
+                  className="inline-flex items-center bg-[#00ACEE] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
                 >
                   Book a Reading
                   <ChevronRight className="ml-2 h-4 w-4" />
@@ -130,7 +129,7 @@ export default function Services() {
               <div className="text-center">
                 <Link
                   to="/readings"
-                  className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
+                  className="inline-flex items-center bg-[#00ACEE] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
                 >
                   Explore the School
                   <ChevronRight className="ml-2 h-4 w-4" />
@@ -160,7 +159,7 @@ export default function Services() {
               <div className="text-center">
                 <Link
                   to="/order"
-                  className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
+                  className="inline-flex items-center bg-[#00ACEE] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
                 >
                   Join the Order
                   <ChevronRight className="ml-2 h-4 w-4" />
