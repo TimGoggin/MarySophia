@@ -1,6 +1,8 @@
+
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
 import CtaSection from "@/components/CtaSection";
+
 export default function Order() {
   return (
     <>
@@ -50,89 +52,92 @@ export default function Order() {
               </div>
             </div>
           </div>
-        <div className="floating-roses-container">
-          {[...Array(15)].map((_, i) => {
-            const gridRow = Math.floor(i / 3);
-            const gridCol = i % 3;
-            const baseDelay = (gridRow * 3 + gridCol) * 2;
 
-            return (
-              <div
-                key={`order-rose-${i}`}
-                className="bg-white"
-                style={{
-                  backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
-                  left: `${(i % 3) * 33 + Math.random() * 10}%`,
-                  top: `${Math.floor(i / 3) * 25 + Math.random() * 10}%`,
-                  opacity: 0,
-                  transform: `rotate(${Math.random() * 360}deg)`,
-                }}
-              />
-            );
-          })}
-        </div>
-        <div className="max-w-4xl mx-auto px-4 relative z-10">
-          <div className="text-center mb-12"></div>
+          <div className="floating-roses-container">
+            {[...Array(15)].map((_, i) => {
+              const gridRow = Math.floor(i / 3);
+              const gridCol = i % 3;
+              const baseDelay = (gridRow * 3 + gridCol) * 2;
 
-          <div className="space-y-12">
-            <div>
-              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                Introduction
-              </h2>
-              <p className="text-gray-700 font-open-sans leading-relaxed">
-                The Order of the Blue Rose is a sacred lineage dedicated to
-                embodying divine love and wisdom. We stand as guardians of
-                ancient spiritual traditions, facilitating awakening and
-                transformation through the divine feminine wisdom.
-              </p>
-            </div>
+              return (
+                <div
+                  key={`order-rose-${i}`}
+                  className="bg-white"
+                  style={{
+                    backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
+                    left: `${(i % 3) * 33 + Math.random() * 10}%`,
+                    top: `${Math.floor(i / 3) * 25 + Math.random() * 10}%`,
+                    opacity: 0,
+                    transform: `rotate(${Math.random() * 360}deg)`,
+                  }}
+                />
+              );
+            })}
+          </div>
 
-            <div>
-              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                Historical Background
-              </h2>
-              <p className="text-gray-700 font-open-sans leading-relaxed">
-                Rooted in ancient wisdom traditions, the Order carries forward
-                the teachings of Mother Mary and Mary Magdalene. Through
-                generations, we have preserved and transmitted sacred knowledge
-                that bridges earthly existence with divine consciousness.
-              </p>
-            </div>
+          <div className="max-w-4xl mx-auto px-4 relative z-10">
+            <div className="text-center mb-12"></div>
 
-            <div>
-              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                Core Teachings
-              </h2>
-              <ul className="list-none space-y-3 text-gray-700 font-open-sans">
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Embodying the Wisdom of the Heart
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Alignment with Divine Nature
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Sacred Practices for Inner Transformation
-                </li>
-                <li className="flex items-center">
-                  <span className="text-[#002147] mr-2">•</span>
-                  Connection with Divine Realms
-                </li>
-              </ul>
-            </div>
+            <div className="space-y-12">
+              <div>
+                <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                  Introduction
+                </h2>
+                <p className="text-gray-700 font-open-sans leading-relaxed">
+                  The Order of the Blue Rose is a sacred lineage dedicated to
+                  embodying divine love and wisdom. We stand as guardians of
+                  ancient spiritual traditions, facilitating awakening and
+                  transformation through the divine feminine wisdom.
+                </p>
+              </div>
 
-            <div>
-              <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                Membership & Community
-              </h2>
-              <p className="text-gray-700 font-open-sans leading-relaxed">
-                Our community comprises seekers dedicated to the path of love,
-                service, and spiritual growth. Through regular gatherings,
-                mentorship programs, and sacred circles, we support each other's
-                journey toward divine connection and inner peace.
-              </p>
+              <div>
+                <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                  Historical Background
+                </h2>
+                <p className="text-gray-700 font-open-sans leading-relaxed">
+                  Rooted in ancient wisdom traditions, the Order carries forward
+                  the teachings of Mother Mary and Mary Magdalene. Through
+                  generations, we have preserved and transmitted sacred knowledge
+                  that bridges earthly existence with divine consciousness.
+                </p>
+              </div>
+
+              <div>
+                <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                  Core Teachings
+                </h2>
+                <ul className="list-none space-y-3 text-gray-700 font-open-sans">
+                  <li className="flex items-center">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Embodying the Wisdom of the Heart
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Alignment with Divine Nature
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Sacred Practices for Inner Transformation
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Connection with Divine Realms
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                  Membership & Community
+                </h2>
+                <p className="text-gray-700 font-open-sans leading-relaxed">
+                  Our community comprises seekers dedicated to the path of love,
+                  service, and spiritual growth. Through regular gatherings,
+                  mentorship programs, and sacred circles, we support each other's
+                  journey toward divine connection and inner peace.
+                </p>
+              </div>
             </div>
           </div>
         </div>
