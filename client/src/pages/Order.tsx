@@ -39,6 +39,17 @@ export default function Order() {
                 className="rounded-lg shadow-xl w-full"
               />
             </div>
+            <div className="md:w-1/2">
+              <div>
+                <h2 className="font-playfair text-3xl text-[#002147] mb-4">
+                  Welcome to the Order of the Blue Rose
+                </h2>
+                <p className="text-gray-700 font-open-sans leading-relaxed">
+                  The Order of the Blue Rose is a sacred lineage dedicated to embodying divine love and wisdom. Through our teachings and practices, we facilitate awakening and transformation through divine feminine wisdom.
+                </p>
+              </div>
+            </div>
+          </div>
         <div className="floating-roses-container">
           {[...Array(15)].map((_, i) => {
             const gridRow = Math.floor(i / 3);
