@@ -148,7 +148,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               Home
@@ -157,7 +157,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/services"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/services" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/services" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               Services
