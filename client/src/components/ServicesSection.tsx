@@ -5,7 +5,7 @@ export default function ServicesSection() {
     {
       id: 1,
       icon: (
-        <img src="/icons/angel.svg" alt="Star" className="w-[120%] h-[120%]" />
+        <img src="/icons/angel.svg" alt="Star" className="w-16 h-16" />
       ),
       title: "Private Readings",
       description:

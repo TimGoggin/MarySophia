@@ -142,9 +142,9 @@ export default function Navbar() {
       </nav>
 
       <div
-        className={`bg-[#002147] md:hidden w-full ${mobileMenuOpen ? "block" : "hidden"}`}
+        className={`fixed top-[96px] left-0 right-0 bg-[#002147] md:hidden w-full ${mobileMenuOpen ? "block" : "hidden"}`}
       >
-        <ul className="container mx-auto px-4 py-4 space-y-3 text-white">
+        <ul className="container mx-auto px-4 py-6 space-y-4 text-white">
           <li>
             <Link
               to="/"
