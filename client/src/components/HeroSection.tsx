@@ -37,7 +37,7 @@ export default function HeroSection() {
       <div className="relative z-20 w-full">
         <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 text-left mb-12 md:mb-0">
-            <h1 className="font-dancing-script text-4xl md:text-6xl text-white mb-3">
+            <h1 className="font-playfair text-4xl md:text-5xl text-white mb-4 drop-shadow-lg">
               Mary Sophia Welcomes You
             </h1>
             <p className="text-white text-lg md:text-xl mb-6 max-w-2xl font-open-sans">
