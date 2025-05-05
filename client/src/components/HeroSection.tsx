@@ -46,7 +46,7 @@ export default function HeroSection() {
             </p>
             <a
               href="#services"
-              className="inline-flex items-center bg-transparent hover:bg-[#D4AF37] text-white font-semibold hover:text-white py-2 px-6 border border-white hover:border-transparent rounded-full transition duration-300"
+              className="inline-flex items-center bg-transparent hover:bg-[#D4AF37] text-white font-semibold hover:text-white py-2 px-6 border border-white hover:border-transparent rounded-md transition duration-300"
               onClick={handleScrollToServices}
             >
               Find Your Sacred Space
