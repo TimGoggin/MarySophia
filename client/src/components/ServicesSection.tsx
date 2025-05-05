@@ -5,7 +5,7 @@ export default function ServicesSection() {
     {
       id: 1,
       icon: (
-        <img src="/icons/star.svg" alt="Star" className="w-[120%] h-[120%]" />
+        <img src="/icons/angel.svg" alt="Star" className="w-[120%] h-[120%]" />
       ),
       title: "Private Readings",
       description:
@@ -16,7 +16,7 @@ export default function ServicesSection() {
     {
       id: 2,
       icon: (
-        <img src="/icons/female.svg" alt="Female" className="w-full h-full" />
+        <img src="/icons/dove.svg" alt="Female" className="w-full h-full" />
       ),
       title: "Spiritual Counseling",
       description:
