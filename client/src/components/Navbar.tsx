@@ -165,17 +165,26 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              to="/school"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/school" ? "text-[#00AEEF] font-semibold" : ""}`}
+              to="/readings"
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/readings" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              School of Mary
+              Private Readings
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/counseling"
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/counseling" ? "text-[#D4AF37] font-semibold" : ""}`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Spiritual Counseling
             </Link>
           </li>
           <li>
             <Link
               to="/order"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/order" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/order" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               Order of the Blue Rose
@@ -184,7 +193,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/about"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/about" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/about" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               About
@@ -193,7 +202,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/contact"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/contact" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/contact" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact
