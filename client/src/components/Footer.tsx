@@ -60,10 +60,16 @@ export default function Footer() {
                 Services
               </Link>
               <Link
-                to="/school"
+                to="/readings"
                 className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
-                School of Mary
+                Private Readings
+              </Link>
+              <Link
+                to="/counseling"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
+              >
+                Spiritual Counseling
               </Link>
               <Link
                 to="/order"
