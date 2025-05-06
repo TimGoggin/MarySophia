@@ -19,31 +19,13 @@ export default function Footer() {
       {/* Main Footer */}
       <div className="container mx-auto px-4 pt-12 pb-6 relative z-10">
         <div className="flex justify-center mb-12">
-          <img src="/images/stacked_logo.png" alt="Mary Sophia" className="h-40 w-auto" />
+          <img
+            src="/images/stacked_logo.png"
+            alt="Mary Sophia"
+            className="h-40 w-auto"
+          />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 border-b border-gray-200 pb-8">
-          {/* About Column */}
-          <div className="space-y-4">
-            <h3 className="font-playfair text-2xl text-white mb-4 font-semibold">
-              About Us
-            </h3>
-            <div className="space-y-4">
-              <h4 className="font-playfair text-2xl text-white font-semibold">
-                Mary Sophia
-              </h4>
-              <p className="text-white font-open-sans text-base leading-relaxed">
-                Guiding you on your spiritual journey toward divine connection
-                and inner peace through the wisdom of sacred teachings.
-              </p>
-              <Link
-                to="/about"
-                className="inline-block text-white hover:text-white/80 transition duration-300 text-base font-bold"
-              >
-                Learn More →
-              </Link>
-            </div>
-          </div>
-
           {/* Quick Links Column */}
           <div className="space-y-4">
             <h3 className="font-playfair text-2xl text-white mb-4 font-semibold">
