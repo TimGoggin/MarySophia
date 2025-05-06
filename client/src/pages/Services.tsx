@@ -46,8 +46,14 @@ export default function Services() {
                 <h2 className="font-playfair text-3xl text-[#002147] mb-4">
                   Welcome to Our Sacred Services
                 </h2>
-                <p className="text-gray-700 font-open-sans leading-relaxed">
+                <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
                   We offer a range of spiritual services designed to support your journey of awakening and transformation. Each service is carefully crafted to provide deep, meaningful experiences of divine connection.
+                </p>
+                <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
+                  Through our sacred offerings, you'll discover pathways to healing, growth, and spiritual awakening. Whether you're seeking personal guidance, spiritual counseling, or deep transformation, our services are tailored to meet you where you are on your journey.
+                </p>
+                <p className="text-gray-700 font-open-sans leading-relaxed">
+                  Join us in this sacred space where ancient wisdom meets contemporary understanding, where every soul is honored, and where divine love guides the way forward.
                 </p>
               </div>
             </div>
