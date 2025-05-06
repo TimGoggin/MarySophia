@@ -142,13 +142,13 @@ export default function Navbar() {
       </nav>
 
       <div
-        className={`fixed top-[96px] left-0 right-0 bg-[#002147] md:hidden w-full ${mobileMenuOpen ? "block" : "hidden"}`}
+        className={`fixed top-[96px] left-0 right-0 bg-[#002147] md:hidden w-full shadow-lg ${mobileMenuOpen ? "block" : "hidden"}`}
       >
         <ul className="container mx-auto px-4 py-6 space-y-4 text-white">
           <li>
             <Link
               to="/"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               Home
@@ -157,7 +157,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/services"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/services" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/services" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               Services
@@ -166,7 +166,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/school"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/school" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/school" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               School of Mary
@@ -175,7 +175,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/order"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/order" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/order" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               Order of the Blue Rose
@@ -184,7 +184,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/about"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/about" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/about" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               About
@@ -193,7 +193,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/contact"
-              className={`block py-2 hover:text-[#00AEEF] transition ${location.pathname === "/contact" ? "text-[#00AEEF] font-semibold" : ""}`}
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/contact" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact
