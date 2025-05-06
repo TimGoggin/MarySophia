@@ -18,7 +18,7 @@ export default function School() {
         </div>
         <div className="relative z-20 w-full">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="font-playfair text-4xl md:text-5xl text-white mb-4 drop-shadow-lg">
+            <h1 className="font-dancing-script text-5xl md:text-6xl text-white mb-4 drop-shadow-lg">
               School of Mary
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">

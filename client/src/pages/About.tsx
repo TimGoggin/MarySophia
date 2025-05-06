@@ -32,7 +32,7 @@ export default function About() {
         </div>
         <div className="max-w-4xl mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
-            <h1 className="font-playfair text-4xl text-[#002147] mb-4">
+            <h1 className="font-dancing-script text-5xl text-[#002147] mb-4">
               About Mary Sophia
             </h1>
             <p className="text-gray-600 font-open-sans text-xl">
