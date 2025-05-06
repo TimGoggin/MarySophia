@@ -65,7 +65,7 @@ export default function ServicesSection() {
                           ? "/order"
                           : "/services"
                     }
-                    className="block bg-[#00ACEE] hover:bg-[#D4AF37] text-white font-semibold py-2 px-4 rounded-md transition duration-300 text-center"
+                    className="block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-2 px-4 rounded-md transition duration-300 text-center"
                   >
                     {service.cta}
                   </Link>
