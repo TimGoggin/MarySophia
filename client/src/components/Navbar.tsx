@@ -165,11 +165,20 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              to="/school"
-              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/school" ? "text-[#D4AF37] font-semibold" : ""}`}
+              to="/readings"
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/readings" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              School of Mary
+              Private Readings
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/counseling"
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/counseling" ? "text-[#D4AF37] font-semibold" : ""}`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Spiritual Counseling
             </Link>
           </li>
           <li>
