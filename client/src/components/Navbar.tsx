@@ -63,9 +63,9 @@ export default function Navbar() {
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img
-            src="/images/mary-sophia-logo.png"
+            src="/images/horizontal_logo.png"
             alt="Mary Sophia"
-            className="h-28 w-auto"
+            className="h-20 w-auto"
           />
         </Link>
 

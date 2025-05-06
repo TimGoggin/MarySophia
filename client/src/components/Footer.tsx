@@ -18,6 +18,9 @@ export default function Footer() {
       <div className="bg-[#003864] opacity-40"></div>
       {/* Main Footer */}
       <div className="container mx-auto px-4 pt-12 pb-6 relative z-10">
+        <div className="flex justify-center mb-12">
+          <img src="/images/stacked_logo.png" alt="Mary Sophia" className="h-40 w-auto" />
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 border-b border-gray-200 pb-8">
           {/* About Column */}
           <div className="space-y-4">
