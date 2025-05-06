@@ -34,7 +34,7 @@ export default function Footer() {
               </p>
               <Link
                 to="/about"
-                className="inline-block text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-bold"
+                className="inline-block text-white hover:text-white/80 transition duration-300 text-base font-bold"
               >
                 Learn More →
               </Link>
@@ -49,43 +49,43 @@ export default function Footer() {
             <nav className="flex flex-col space-y-3">
               <Link
                 to="/"
-                className="text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Home
               </Link>
               <Link
                 to="/services"
-                className="text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Services
               </Link>
               <Link
                 to="/readings"
-                className="text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Private Readings
               </Link>
               <Link
                 to="/counseling"
-                className="text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Spiritual Counseling
               </Link>
               <Link
                 to="/order"
-                className="text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Order of the Blue Rose
               </Link>
               <Link
                 to="/about"
-                className="text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 About
               </Link>
               <Link
                 to="/contact"
-                className="text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Contact
               </Link>
@@ -100,31 +100,31 @@ export default function Footer() {
             <nav className="space-y-2">
               <a
                 href="#"
-                className="block text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="block text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Privacy Policy
               </a>
               <a
                 href="#"
-                className="block text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="block text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Terms of Service
               </a>
               <a
                 href="#"
-                className="block text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="block text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Cookie Policy
               </a>
               <a
                 href="#"
-                className="block text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="block text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Disclaimer
               </a>
               <a
                 href="#"
-                className="block text-[#D4AF37] hover:text-[#003864] transition duration-300 text-base font-medium"
+                className="block text-white hover:text-white/80 transition duration-300 text-base font-medium"
               >
                 Refund Policy
               </a>
@@ -171,7 +171,7 @@ export default function Footer() {
               href="https://www.instagram.com/orderofthebluerose/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#D4AF37] hover:text-[#003864] transition duration-300"
+              className="text-white hover:text-white/80 transition duration-300"
             >
               <Instagram className="w-5 h-5 text-white" />
             </a>
@@ -179,7 +179,7 @@ export default function Footer() {
               href="https://www.youtube.com/@orderofthebluerose3878"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#D4AF37] hover:text-[#003864] transition duration-300"
+              className="text-white hover:text-white/80 transition duration-300"
             >
               <Youtube className="w-5 h-5 text-white" />
             </a>
@@ -192,13 +192,13 @@ export default function Footer() {
             <div className="space-x-4">
               <a
                 href="#"
-                className="text-[#D4AF37] hover:text-[#003864] transition duration-300"
+                className="text-white hover:text-white/80 transition duration-300"
               >
                 Terms of Use
               </a>
               <a
                 href="#"
-                className="text-[#D4AF37] hover:text-[#003864] transition duration-300"
+                className="text-white hover:text-white/80 transition duration-300"
               >
                 Privacy Policy
               </a>
