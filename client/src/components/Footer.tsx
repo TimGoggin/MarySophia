@@ -15,8 +15,8 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative bg-[#003864]">
-      <div className="bg-[#003864] opacity-40"></div>
+    <footer className="relative bg-[#002147]">
+      <div className="bg-[#002147] opacity-40"></div>
       {/* Main Footer */}
       <div className="container mx-auto px-4 py-12 relative z-10">
         <div className="flex flex-col md:flex-row justify-between">
