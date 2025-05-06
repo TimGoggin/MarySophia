@@ -17,15 +17,17 @@ export default function Footer() {
     <footer className="relative bg-[#003864]">
       <div className="bg-[#003864] opacity-40"></div>
       {/* Main Footer */}
-      <div className="container mx-auto px-4 pt-12 pb-6 relative z-10">
-        <div className="flex justify-center mb-12">
-          <img
-            src="/images/stacked_logo.png"
-            alt="Mary Sophia"
-            className="h-40 w-auto"
-          />
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 border-b border-gray-200 pb-8 max-w-4xl mx-auto">
+      <div className="container mx-auto px-4 py-12 relative z-10">
+        <div className="flex flex-col md:flex-row justify-between">
+          <div className="md:w-1/4 mb-8 md:mb-0">
+            <img
+              src="/images/stacked_logo.png"
+              alt="Mary Sophia"
+              className="h-40 w-auto mx-auto md:mx-0 mb-8"
+            />
+          </div>
+          <div className="md:w-3/4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 border-l border-gray-200 md:pl-8">
           {/* Quick Links Column */}
           <div className="space-y-4">
             <h3 className="font-playfair text-2xl text-white mb-4 font-semibold">
@@ -187,6 +189,7 @@ export default function Footer() {
               >
                 Privacy Policy
               </a>
+            </div>
             </div>
           </div>
         </div>
