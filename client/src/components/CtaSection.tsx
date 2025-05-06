@@ -21,23 +21,6 @@ export default function CtaSection({
 
   return (
     <section id="contact" className="py-16 bg-gray-50 relative">
-      
-
-          return (
-            <div
-              key={`cta-rose-${i}`}
-              className="bg-white"
-              style={{
-                backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
-                left: `${(i % 3) * 33 + Math.random() * 10}%`,
-                top: `${Math.floor(i / 3) * 25 + Math.random() * 10}%`,
-                opacity: 0,
-                transform: `rotate(${Math.random() * 360}deg)`,
-              }}
-            />
-          );
-        })}
-      </div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <h2 className="font-playfair text-3xl md:text-4xl text-[#002147] mb-6">
           Receive Sacred Messages of Love and Wisdom
