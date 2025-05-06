@@ -1,4 +1,3 @@
-
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -13,7 +12,7 @@ export default function Services() {
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src={import.meta.env.BASE_URL + "images/bluerosebackground.jpeg"}
+            src={import.meta.env.BASE_URL + "images/servicesbackground.jpg"}
             alt="Hero Background"
             className="w-full h-full object-cover opacity-80"
           />
@@ -47,13 +46,22 @@ export default function Services() {
                   Welcome to Our Sacred Services
                 </h2>
                 <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
-                  We offer a range of spiritual services designed to support your journey of awakening and transformation. Each service is carefully crafted to provide deep, meaningful experiences of divine connection.
+                  We offer a range of spiritual services designed to support
+                  your journey of awakening and transformation. Each service is
+                  carefully crafted to provide deep, meaningful experiences of
+                  divine connection.
                 </p>
                 <p className="text-gray-700 font-open-sans leading-relaxed mb-4">
-                  Through our sacred offerings, you'll discover pathways to healing, growth, and spiritual awakening. Whether you're seeking personal guidance, spiritual counseling, or deep transformation, our services are tailored to meet you where you are on your journey.
+                  Through our sacred offerings, you'll discover pathways to
+                  healing, growth, and spiritual awakening. Whether you're
+                  seeking personal guidance, spiritual counseling, or deep
+                  transformation, our services are tailored to meet you where
+                  you are on your journey.
                 </p>
                 <p className="text-gray-700 font-open-sans leading-relaxed">
-                  Join us in this sacred space where ancient wisdom meets contemporary understanding, where every soul is honored, and where divine love guides the way forward.
+                  Join us in this sacred space where ancient wisdom meets
+                  contemporary understanding, where every soul is honored, and
+                  where divine love guides the way forward.
                 </p>
               </div>
             </div>
