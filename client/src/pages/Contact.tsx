@@ -98,7 +98,7 @@ export default function Contact() {
                 href="https://www.instagram.com/orderofthebluerose/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#002147] hover:text-[#D4AF37]"
+                className="text-[#D4AF37] hover:text-[#003864] transition-colors duration-300"
               >
                 <span className="sr-only">Instagram</span>
                 <svg
@@ -113,7 +113,7 @@ export default function Contact() {
                 href="https://www.youtube.com/@orderofthebluerose3878"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#002147] hover:text-[#D4AF37]"
+                className="text-[#D4AF37] hover:text-[#003864] transition-colors duration-300"
               >
                 <span className="sr-only">Youtube</span>
                 <svg
