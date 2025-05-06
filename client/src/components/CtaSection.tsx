@@ -21,11 +21,7 @@ export default function CtaSection({
 
   return (
     <section id="contact" className="py-16 bg-gray-50 relative">
-      <div className="floating-roses-container">
-        {[...Array(15)].map((_, i) => {
-          const gridRow = Math.floor(i / 3);
-          const gridCol = i % 3;
-          const baseDelay = (gridRow * 3 + gridCol) * 2;
+      
 
           return (
             <div
