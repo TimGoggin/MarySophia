@@ -174,24 +174,23 @@ export default function Footer() {
 
             {/* Copyright */}
             <div className="mt-8 text-center md:text-right text-sm text-white">
-                <p className="mb-2 md:mb-0">
-                  &copy; {new Date().getFullYear()} Mary Sophia. All rights
-                  reserved.
-                </p>
-                <div className="space-x-4">
-                  <a
-                    href="#"
-                    className="text-white hover:text-white/80 transition duration-300"
-                  >
-                    Terms of Use
-                  </a>
-                  <a
-                    href="#"
-                    className="text-white hover:text-white/80 transition duration-300"
-                  >
-                    Privacy Policy
-                  </a>
-                </div>
+              <p className="mb-2 md:mb-0">
+                &copy; {new Date().getFullYear()} Mary Sophia. All rights
+                reserved.
+              </p>
+              <div className="space-x-4">
+                <a
+                  href="#"
+                  className="text-white hover:text-white/80 transition duration-300"
+                >
+                  Terms of Use
+                </a>
+                <a
+                  href="#"
+                  className="text-white hover:text-white/80 transition duration-300"
+                >
+                  Privacy Policy
+                </a>
               </div>
             </div>
           </div>
