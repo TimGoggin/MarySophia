@@ -148,31 +148,32 @@ export default function Footer() {
                     <Clock className="w-4 h-4 text-white" />
                     <span className="text-white text-sm">Mon-Fri: 9AM-5PM EST</span>
                   </li>
+                  <li className="flex items-center space-x-3 mt-4">
+                    <div className="flex space-x-4">
+                      <a
+                        href="https://www.instagram.com/orderofthebluerose/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-white/80 transition duration-300"
+                      >
+                        <Instagram className="w-5 h-5 text-white" />
+                      </a>
+                      <a
+                        href="https://www.youtube.com/@orderofthebluerose3878"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-white/80 transition duration-300"
+                      >
+                        <Youtube className="w-5 h-5 text-white" />
+                      </a>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
 
-            {/* Social Media & Copyright */}
-            <div className="mt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-              <div className="flex space-x-6">
-                <a
-                  href="https://www.instagram.com/orderofthebluerose/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:text-white/80 transition duration-300"
-                >
-                  <Instagram className="w-5 h-5 text-white" />
-                </a>
-                <a
-                  href="https://www.youtube.com/@orderofthebluerose3878"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:text-white/80 transition duration-300"
-                >
-                  <Youtube className="w-5 h-5 text-white" />
-                </a>
-              </div>
-              <div className="text-center md:text-right text-sm text-white">
+            {/* Copyright */}
+            <div className="mt-8 text-center md:text-right text-sm text-white">
                 <p className="mb-2 md:mb-0">
                   &copy; {new Date().getFullYear()} Mary Sophia. All rights
                   reserved.
