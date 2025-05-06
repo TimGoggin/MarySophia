@@ -25,7 +25,7 @@ export default function Footer() {
             className="h-40 w-auto"
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 border-b border-gray-200 pb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 border-b border-gray-200 pb-8 max-w-4xl mx-auto">
           {/* Quick Links Column */}
           <div className="space-y-4">
             <h3 className="font-playfair text-2xl text-white mb-4 font-semibold">
