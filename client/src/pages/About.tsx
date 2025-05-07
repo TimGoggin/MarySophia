@@ -36,29 +36,20 @@ export default function About() {
               About Mary Sophia
             </h1>
             <p className="text-gray-600 font-open-sans text-xl">
-              Teacher of the Way of Mary, devoted to the Divine Feminine
+              Teacher of the Way of Mary, Keeper of the Light of Sophia
             </p>
           </div>
 
           <div className="flex flex-col md:flex-row gap-12 mb-16">
             <div className="md:w-2/3">
               <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-                As a teacher of the Way of Mary and a follower of Christ, I
-                serve as a channel for the divine wisdom of Mother Mary, Mary
-                Magdalene, and the Angelic Realm. My mission is to help others
-                remember their Original Essence and embody the Wisdom of the
-                Heart.
+                There is a sacred voice — quiet, ancient, and deeply feminine — that has long whispered through the hearts of women across time. It is known by many names, but to me, it is the Light of Sophia. This divine feminine wisdom — the indwelling light of love, intuition, and soul remembrance — lives within you.
               </p>
               <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-                Through the Order of the Blue Rose, we work to awaken and
-                nurture the divine feminine wisdom that resides within each of
-                us. This sacred work combines ancient spiritual teachings with
-                direct guidance from the divine realms.
+                I walk with this light as a messenger and a guide, through the Lineage of Sophia, Mother Mary and Mary Magdalene. I am a keeper of the Order of the Blue Rose — a sacred stream of love and remembrance that carries the original teachings of the Christ Light through the heart of the Feminine.
               </p>
               <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-                I am dedicated to supporting individuals on their journey of
-                spiritual awakening, helping them connect with their divine
-                nature and live their Original Blessing on Earth.
+                My work is here to support your return to that remembrance — through channeled guidance, intuitive healing, spiritual counseling and ancient wisdom. Through the Order of the Blue Rose, we work to awaken and nurture the divine feminine wisdom that resides within each of us.
               </p>
               <div className="mt-8">
                 <h2 className="font-playfair text-2xl text-[#002147] mb-6">
