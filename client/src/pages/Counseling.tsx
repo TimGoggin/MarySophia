@@ -1,3 +1,4 @@
+import React from "react";
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
 import CtaSection from "@/components/CtaSection";
