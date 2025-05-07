@@ -106,6 +106,26 @@ export default function BlueRoseReadings() {
                   </p>
                 </div>
 
+                <div className="mt-12">
+                  <div className="bg-white p-8 rounded-lg shadow-lg border border-[#002147]/20 max-w-lg mx-auto">
+                    <h3 className="font-playfair text-2xl text-[#002147] mb-4 text-center">
+                      Blue Rose Reading
+                    </h3>
+                    <div className="text-3xl font-playfair text-[#002147] mb-4 text-center">
+                      $155
+                    </div>
+                    <p className="text-gray-600 mb-6 text-center">60 minutes via Zoom</p>
+                    <a
+                      href="https://checkout.teachable.com/secure/1018167/checkout/order_qn7199k6"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block w-full bg-[#002147] hover:bg-[#D4AF37] text-white text-center py-3 px-6 rounded-md transition duration-300"
+                    >
+                      Book Your Reading
+                    </a>
+                  </div>
+                </div>
+
                 <div className="mt-8"></div>
               </div>
             </div>
