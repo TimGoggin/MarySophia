@@ -1,33 +1,8 @@
-import React from "react";
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
 import CtaSection from "@/components/CtaSection";
 
 export default function Counseling() {
-  const [isImageVisible, setIsImageVisible] = React.useState(true);
-  const imgContainerRef = React.useRef<HTMLDivElement>(null);
-
-  React.useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsImageVisible(entry.isIntersecting);
-      },
-      {
-        threshold: 0,
-      }
-    );
-
-    if (imgContainerRef.current) {
-      observer.observe(imgContainerRef.current);
-    }
-
-    return () => {
-      if (imgContainerRef.current) {
-        observer.unobserve(imgContainerRef.current);
-      }
-    };
-  }, []);
-
   return (
     <>
       <Helmet>
@@ -59,24 +34,13 @@ export default function Counseling() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-start gap-12 mb-16">
             <div className="md:w-1/3">
-              <div ref={imgContainerRef} className="relative">
-                <img
-                  src="/images/newMary3.jpg"
-                  alt="Mary Sophia"
-                  className="rounded-lg shadow-xl w-full max-w-md mx-auto"
-                />
-                {!isImageVisible && (
-                  <div className="fixed top-8 w-[calc(33.333%-3rem)] max-h-[calc(100vh-8rem)] overflow-hidden">
-                    <img
-                      src="/images/newMary3.jpg"
-                      alt="Mary Sophia"
-                      className="rounded-lg shadow-xl w-full max-w-md mx-auto object-cover"
-                    />
-                  </div>
-                )}
-              </div>
+              <img
+                src="/images/newMary3.jpg"
+                alt="Mary Sophia"
+                className="rounded-lg shadow-xl w-full max-w-md mx-auto"
+              />
             </div>
-            <div className="md:w-1/2 pb-32">
+            <div className="md:w-1/2">
               <div className="max-w-4xl mx-auto px-4 relative z-10">
                 <div className="space-y-12">
                   <div className="space-y-6">
