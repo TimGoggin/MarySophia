@@ -98,6 +98,23 @@ export default function BlueRoseReadings() {
                     Please note that the Angels and Ascended Masters cannot tell the future. They can provide guidance and wisdom that will assist you on your journey. Think of it like you are receiving advice from your most trusted friends who can shine a light onto your path.
                   </p>
                 </div>
+
+                <div className="mt-8">
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    Blue Rose Readings are 60 minutes over Zoom. You will receive both a video recording and an audio recording immediately after the reading.
+                  </p>
+                  <div className="mt-8">
+                    <a
+                      href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-md transition duration-300"
+                    >
+                      Book Now
+                      <ChevronRight className="ml-2 h-4 w-4" />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
