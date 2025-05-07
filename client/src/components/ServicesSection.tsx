@@ -18,10 +18,10 @@ export default function ServicesSection() {
       icon: (
         <img src="/icons/dove.svg" alt="Female" className="w-full h-full" />
       ),
-      title: "Spiritual Counseling",
+      title: "School of Sophia",
       description:
         "Deepen your spiritual growth through courses, workshops, and mentorship.",
-      cta: "Thrive in our Environment",
+      cta: "Begin Your Journey",
       link: "#",
     },
     {

@@ -4,7 +4,7 @@ export default function School() {
   return (
     <>
       <Helmet>
-        <title>School of Mary | Mary Sophia</title>
+        <title>School of Sophia | Mary Sophia</title>
       </Helmet>
 
       <section className="relative min-h-[40vh] flex items-center pt-16">
@@ -19,17 +19,16 @@ export default function School() {
         <div className="relative z-20 w-full">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-dancing-script text-5xl md:text-6xl text-white mb-4 drop-shadow-lg">
-              School of Mary
+              School of Sophia
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
-              A Sacred Path of Spiritual Formation Through the Heart of Mary
+              A Sacred Path of Spiritual Formation Through Divine Feminine Wisdom
             </p>
           </div>
         </div>
       </section>
 
       <div className="bg-white py-16 pt-48 relative">
-        
         <div className="max-w-4xl mx-auto px-4 relative z-10">
           <div className="space-y-12">
             <div>
@@ -37,11 +36,7 @@ export default function School() {
                 Introduction
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
-                The School of Mary is a transformative spiritual formation path
-                deeply rooted in the teachings and example of the Blessed Virgin
-                Mary. Here, seekers find guidance toward a profound union with
-                Christ through Mary's immaculate heart, embracing a journey of
-                divine love and wisdom.
+                The School of Sophia is a transformative path of spiritual formation deeply rooted in the Divine Feminine wisdom traditions. Here, seekers find guidance toward awakening their inner wisdom and embracing the sacred feminine through teachings that bridge ancient mysteries with contemporary understanding.
               </p>
             </div>
 
@@ -50,11 +45,7 @@ export default function School() {
                 Our Mission
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
-                We are committed to nurturing spiritual growth, fostering
-                holiness, and cultivating lives rich in prayer and service.
-                While grounded in Catholic tradition, our doors are open to all
-                souls seeking deeper spiritual enrichment and connection with
-                the Divine through Mary's guidance.
+                We are dedicated to awakening the wisdom of Sophia in each heart, fostering spiritual growth through feminine mysticism, and cultivating a deep connection with divine love. Our teachings welcome all souls seeking to embrace the sacred feminine wisdom tradition.
               </p>
             </div>
 
@@ -65,20 +56,19 @@ export default function School() {
               <ul className="list-none space-y-3 text-gray-700 font-open-sans">
                 <li className="flex items-center">
                   <span className="text-[#00AEEF] mr-2">•</span>
-                  Embracing Marian Virtues: Humility, Obedience, and Charity
+                  Sacred Feminine Mysteries and Wisdom Traditions
                 </li>
                 <li className="flex items-center">
                   <span className="text-[#00AEEF] mr-2">•</span>
-                  Sacred Practices: Rosary, Lectio Divina, and Marian
-                  Consecration
+                  Heart-Centered Spiritual Practices and Sacred Rituals
                 </li>
                 <li className="flex items-center">
                   <span className="text-[#00AEEF] mr-2">•</span>
-                  Contemplative Prayer and Active Discipleship
+                  Divine Feminine Embodiment and Soul Work
                 </li>
                 <li className="flex items-center">
                   <span className="text-[#00AEEF] mr-2">•</span>
-                  Living the Way of Divine Love
+                  Living the Way of Sacred Love
                 </li>
               </ul>
             </div>
@@ -90,20 +80,18 @@ export default function School() {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
-                    Introductory Studies
+                    Sacred Beginnings
                   </h3>
                   <p className="text-gray-700 font-open-sans">
-                    Begin your journey with foundational courses in Marian
-                    spirituality and contemplative practices.
+                    Begin your journey with foundational teachings in feminine spirituality and sacred practices.
                   </p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
-                    Advanced Formation
+                    Wisdom Immersion
                   </h3>
                   <p className="text-gray-700 font-open-sans">
-                    Deepen your spiritual life through advanced studies of
-                    mystical writings and sacred traditions.
+                    Deepen your spiritual journey through advanced studies of mystical traditions and sacred feminine wisdom.
                   </p>
                 </div>
               </div>
@@ -111,13 +99,10 @@ export default function School() {
 
             <div>
               <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
-                Community Life
+                Sacred Community
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
-                Join our vibrant community of seekers gathering regularly for
-                prayer, study, and fellowship. Experience the transformative
-                power of collective devotion and mutual support on your
-                spiritual journey.
+                Join our circle of seekers gathering in sacred community for spiritual practice, study, and celebration. Experience the transformative power of feminine wisdom shared in devoted sisterhood.
               </p>
             </div>
 
@@ -128,8 +113,7 @@ export default function School() {
                   Begin Your Journey
                 </h2>
                 <p className="mb-8 max-w-2xl mx-auto">
-                  Take the first step on your transformative journey with the
-                  School of Mary.
+                  Take the first step on your sacred journey with the School of Sophia.
                 </p>
                 <a
                   href="/contact"
