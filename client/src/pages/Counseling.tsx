@@ -66,17 +66,17 @@ export default function Counseling() {
                   className="rounded-lg shadow-xl w-full max-w-md mx-auto"
                 />
                 {!isImageVisible && (
-                  <div className="fixed top-8 w-[calc(33.333%-3rem)]">
+                  <div className="fixed top-8 w-[calc(33.333%-3rem)] max-h-[calc(100vh-8rem)] overflow-hidden">
                     <img
                       src="/images/newMary3.jpg"
                       alt="Mary Sophia"
-                      className="rounded-lg shadow-xl w-full max-w-md mx-auto"
+                      className="rounded-lg shadow-xl w-full max-w-md mx-auto object-cover"
                     />
                   </div>
                 )}
               </div>
             </div>
-            <div className="md:w-1/2">
+            <div className="md:w-1/2 pb-32">
               <div className="max-w-4xl mx-auto px-4 relative z-10">
                 <div className="space-y-12">
                   <div className="space-y-6">
