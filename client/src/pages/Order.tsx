@@ -47,69 +47,68 @@ export default function Order() {
                   <h2 className="font-playfair text-3xl text-[#002147] mb-4">
                     Welcome to the Order of the Blue Rose
                   </h2>
-                  <p className="text-gray-700 font-open-sans leading-relaxed">
-                    The Order of the Blue Rose is a sacred lineage dedicated to embodying divine love and wisdom. Through our teachings and practices, we facilitate awakening and transformation through divine feminine wisdom.
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-8">
+                    The Order of the Blue Rose is a Lineage of Light that holds the Frequency of the Truly Awakened Heart. This Lineage is of the Holy Bloodline and originated with Mother Mary and Mary Magdalene as they carried forth the teachings of Christ.
                   </p>
                 </div>
 
-                <div>
-                  <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                    Introduction
-                  </h2>
+                <div className="space-y-8">
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    The Order of the Blue Rose is a sacred lineage dedicated to
-                    embodying divine love and wisdom. We stand as guardians of
-                    ancient spiritual traditions, facilitating awakening and
-                    transformation through the divine feminine wisdom.
+                    The Order of the Blue Rose holds the Holy Family's most faithful followers who were devoted to bringing through the purity of the Christ Message, not by reciting teachings learned but through their embodiment as they have truly anchored these frequencies within their beings and lived as the Heart of God on Earth.
                   </p>
-                </div>
 
-                <div>
-                  <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                    Historical Background
-                  </h2>
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    Rooted in ancient wisdom traditions, the Order carries forward
-                    the teachings of Mother Mary and Mary Magdalene. Through
-                    generations, we have preserved and transmitted sacred knowledge
-                    that bridges earthly existence with divine consciousness.
+                    This is a process of becoming Fully Human through the Embodiment of One's True Nature. A spiritual alignment that occurs within the Heart. As we become One Being, One Heart, One Will we transmit these frequencies through our own Immaculate Alignment and as Mary has said "are able to turn hearts to Good".
                   </p>
-                </div>
 
-                <div>
-                  <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                    Core Teachings
-                  </h2>
-                  <ul className="list-none space-y-3 text-gray-700 font-open-sans">
-                    <li className="flex items-center">
-                      <span className="text-[#002147] mr-2">•</span>
-                      Embodying the Wisdom of the Heart
-                    </li>
-                    <li className="flex items-center">
-                      <span className="text-[#002147] mr-2">•</span>
-                      Alignment with Divine Nature
-                    </li>
-                    <li className="flex items-center">
-                      <span className="text-[#002147] mr-2">•</span>
-                      Sacred Practices for Inner Transformation
-                    </li>
-                    <li className="flex items-center">
-                      <span className="text-[#002147] mr-2">•</span>
-                      Connection with Divine Realms
-                    </li>
-                  </ul>
-                </div>
+                  <div className="text-center italic font-playfair text-xl text-[#002147] my-12">
+                    It is time for those of us who hold the frequency of the Blue Rose to step forward and to come together once again.
+                  </div>
 
-                <div>
-                  <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                    Membership & Community
-                  </h2>
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    Our community comprises seekers dedicated to the path of love,
-                    service, and spiritual growth. Through regular gatherings,
-                    mentorship programs, and sacred circles, we support each other's
-                    journey toward divine connection and inner peace.
+                    You know if you do. Your Heart will sing the Song of the Blue Rose.
                   </p>
+
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    This Song doesn't come in words as those of us who carry this frequency can at times be challenged by finding words to express its purity and simplicity.
+                  </p>
+
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    It comes through the Wholeness of our Soul, the Purity of our Heart and the Knowing that we are the Heart of God and are here to be Vessels of God's Love.
+                  </p>
+
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    I say this with humbleness and the deepest respect and reverence as those of us who walk The Way of Mary know this is not the easy path AND at the same time it is the only path we Truly Know.
+                  </p>
+
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    I am here to help you on this Path. As a Priestess of Avalon, an Ordained Priestess of Mary Magdalene and an Initiated Member of the Order of the Blue Rose, I have walked The Way for as long as my Soul can Remember.
+                  </p>
+
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    For it is a Remembering, as you hold the Wisdom and Teachings of the Blue Rose within your Sacred Heart.
+                  </p>
+
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    I am here to guide you on this Mystical Path. Sharing the Truth and the Wisdom that I have embodied as I continue to walk the Way of the Mary with humility and grace.
+                  </p>
+
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    My devoted commitment is to guide you with Faith, as you Remember and Awaken the Blue Rose within you, Fully Embody your Original Essence and live as the Heart of God on Earth.
+                  </p>
+
+                  <div className="text-center italic font-playfair text-xl text-[#002147] my-12">
+                    Welcome home Dear Sister! I have been awaiting you.
+                  </div>
+
+                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                    In the fullness of the Blue Rose that is Blooming within your Sacred Heart…IT IS TIME.
+                  </p>
+
+                  <div className="mt-12 text-right">
+                    <p className="text-gray-700 font-open-sans mb-4">In Her Holy Grace,</p>
+                    <p className="font-dancing-script text-2xl text-[#002147]">Mary Sophia</p>
+                  </div>
                 </div>
               </div>
             </div>
