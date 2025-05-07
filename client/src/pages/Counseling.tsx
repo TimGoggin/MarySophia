@@ -94,7 +94,7 @@ export default function Counseling() {
                     </p>
 
                     <p className="text-gray-700 font-open-sans leading-relaxed">
-                      All of this lives within you, and when you claim it. your
+                      All of this lives within you, and when you claim it, your
                       True Nature in all of its Wholeness will be revealed to
                       you.
                     </p>
