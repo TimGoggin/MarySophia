@@ -82,33 +82,65 @@ export default function School() {
                   <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
                     Weekly Magdalene Yoga
                   </h3>
-                  <p className="text-gray-700 font-open-sans">
+                  <p className="text-gray-700 font-open-sans mb-4">
                     Join us every week for sacred movement and embodiment practices that connect you with the divine feminine wisdom of Mary Magdalene.
                   </p>
+                  <a
+                    href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-4 rounded-md transition duration-300"
+                  >
+                    Join Next Class
+                  </a>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
                     Monthly Blue Rose Circle
                   </h3>
-                  <p className="text-gray-700 font-open-sans">
+                  <p className="text-gray-700 font-open-sans mb-4">
                     Gather in sacred sisterhood each month to deepen your connection with the mysteries of the Blue Rose lineage.
                   </p>
+                  <a
+                    href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-4 rounded-md transition duration-300"
+                  >
+                    Join Circle
+                  </a>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
                     Sacred Prayer Group
                   </h3>
-                  <p className="text-gray-700 font-open-sans">
+                  <p className="text-gray-700 font-open-sans mb-4">
                     Come together monthly in devotional prayer and meditation, strengthening our connection to the divine through collective practice.
                   </p>
+                  <a
+                    href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-4 rounded-md transition duration-300"
+                  >
+                    Join Prayer Group
+                  </a>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
                     Wisdom Book Club
                   </h3>
-                  <p className="text-gray-700 font-open-sans">
+                  <p className="text-gray-700 font-open-sans mb-4">
                     Explore sacred texts and spiritual writings together in our monthly gathering, deepening our understanding through shared reflection.
                   </p>
+                  <a
+                    href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-4 rounded-md transition duration-300"
+                  >
+                    Join Book Club
+                  </a>
                 </div>
               </div>
             </div>
