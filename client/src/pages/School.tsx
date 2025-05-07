@@ -75,23 +75,39 @@ export default function School() {
 
             <div>
               <h2 className="font-playfair text-2xl text-[#00AEEF] mb-4">
-                Formation Programs
+                Regular Offerings
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
-                    Sacred Beginnings
+                    Weekly Magdalene Yoga
                   </h3>
                   <p className="text-gray-700 font-open-sans">
-                    Begin your journey with foundational teachings in feminine spirituality and sacred practices.
+                    Join us every week for sacred movement and embodiment practices that connect you with the divine feminine wisdom of Mary Magdalene.
                   </p>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
-                    Wisdom Immersion
+                    Monthly Blue Rose Circle
                   </h3>
                   <p className="text-gray-700 font-open-sans">
-                    Deepen your spiritual journey through advanced studies of mystical traditions and sacred feminine wisdom.
+                    Gather in sacred sisterhood each month to deepen your connection with the mysteries of the Blue Rose lineage.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
+                    Sacred Prayer Group
+                  </h3>
+                  <p className="text-gray-700 font-open-sans">
+                    Come together monthly in devotional prayer and meditation, strengthening our connection to the divine through collective practice.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="font-playfair text-xl text-[#00AEEF] mb-3">
+                    Wisdom Book Club
+                  </h3>
+                  <p className="text-gray-700 font-open-sans">
+                    Explore sacred texts and spiritual writings together in our monthly gathering, deepening our understanding through shared reflection.
                   </p>
                 </div>
               </div>
