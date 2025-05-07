@@ -34,17 +34,19 @@ export default function Counseling() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-start gap-12 mb-16">
             <div className="md:w-1/3">
-              <div className="relative space-y-4">
+              <div className="relative">
                 <img
                   src="/images/newMary3.jpg"
                   alt="Mary Sophia"
                   className="rounded-lg shadow-xl w-full max-w-md mx-auto"
                 />
-                <img
-                  src="/images/newMary3.jpg"
-                  alt="Mary Sophia"
-                  className="rounded-lg shadow-xl w-full max-w-md mx-auto"
-                />
+                <div className="mt-[100vh]">
+                  <img
+                    src="/images/newMary3.jpg"
+                    alt="Mary Sophia"
+                    className="rounded-lg shadow-xl w-full max-w-md mx-auto"
+                  />
+                </div>
               </div>
             </div>
             <div className="md:w-1/2">
