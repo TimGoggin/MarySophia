@@ -124,6 +124,14 @@ export default function Navbar() {
           </li>
           <li>
             <Link
+              to="/school"
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/school" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/school" ? "border-black" : "border-transparent"}`}
+            >
+              School of Sophia
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/about"
               className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/about" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/about" ? "border-black" : "border-transparent"}`}
             >
@@ -188,6 +196,15 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Order of the Blue Rose
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/school"
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/school" ? "text-[#D4AF37] font-semibold" : ""}`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              School of Sophia
             </Link>
           </li>
           <li>
