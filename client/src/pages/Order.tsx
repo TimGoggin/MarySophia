@@ -132,6 +132,25 @@ export default function Order() {
           </div>
         </div>
       </div>
+      <section className="bg-[#002147] py-16 relative">
+        <div className="container mx-auto px-4 text-center relative z-10">
+          <h2 className="font-playfair text-3xl md:text-4xl text-white mb-6">
+            Sacred Mentorship Program
+          </h2>
+          <p className="max-w-2xl mx-auto text-white/90 mb-8 font-open-sans">
+            Join our transformative mentorship program beginning September 2025. Walk the mystical path with guidance and support from the Order of the Blue Rose.
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/1s___vHqdD-g-ulsrDfHRuRnNf6YA2Qjg_hP-gA23zB0/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center bg-[#D4AF37] hover:bg-[#B58233] text-white py-3 px-8 rounded-md transition duration-300 font-semibold"
+          >
+            Join the Waitlist
+            <ChevronRight className="ml-2 h-5 w-5" />
+          </a>
+        </div>
+      </section>
       <CtaSection 
         buttonText="Book Now" 
         linkTo="https://sacred-rose.teachable.com/purchase?product_id=6140178"
