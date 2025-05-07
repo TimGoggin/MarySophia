@@ -46,10 +46,10 @@ export default function BlueRoseReadings() {
                   </h2>
                   <p className="text-gray-700 font-open-sans leading-relaxed">
                     Receive divine guidance and soul remembrance through a deep,
-                    loving transmission from Mother Mary, Mary Magdalene, and the
-                    Angelic Realm. These readings illuminate your soul gifts, past
-                    life connections, and offer wisdom for the path unfolding before
-                    you.
+                    loving transmission from Mother Mary, Mary Magdalene, and
+                    the Angelic Realm. These readings illuminate your soul
+                    gifts, past life connections, and offer wisdom for the path
+                    unfolding before you.
                   </p>
                 </div>
 
@@ -58,10 +58,13 @@ export default function BlueRoseReadings() {
                     What to Expect
                   </h2>
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    Each reading is a sacred space where divine wisdom flows through
-                    to address your deepest questions and soul longings. Through
-                    channeled messages, you'll receive clarity, guidance, and
-                    healing insights tailored to your unique journey.
+                    Each reading is a sacred space where divine wisdom flows
+                    through to address your deepest questions and soul longings.
+                    Through channeled messages, you'll receive clarity,
+                    guidance, and healing insights tailored to your unique
+                    journey. Blue Rose Readings are 60 minutes over Zoom. You
+                    will receive both a video recording and an audio recording
+                    immediately after the reading.
                   </p>
                 </div>
 
@@ -95,15 +98,15 @@ export default function BlueRoseReadings() {
 
                 <div>
                   <p className="text-gray-700 font-open-sans leading-relaxed italic mt-8 border-l-4 border-[#002147] pl-4">
-                    Please note that the Angels and Ascended Masters cannot tell the future. They can provide guidance and wisdom that will assist you on your journey. Think of it like you are receiving advice from your most trusted friends who can shine a light onto your path.
+                    Please note that the Angels and Ascended Masters cannot tell
+                    the future. They can provide guidance and wisdom that will
+                    assist you on your journey. Think of it like you are
+                    receiving advice from your most trusted friends who can
+                    shine a light onto your path.
                   </p>
                 </div>
 
-                <div className="mt-8">
-                  <p className="text-gray-700 font-open-sans leading-relaxed">
-                    Blue Rose Readings are 60 minutes over Zoom. You will receive both a video recording and an audio recording immediately after the reading.
-                  </p>
-                </div>
+                <div className="mt-8"></div>
               </div>
             </div>
           </div>
@@ -130,8 +133,8 @@ export default function BlueRoseReadings() {
           })}
         </div>
       </div>
-      <CtaSection 
-        buttonText="Book Now" 
+      <CtaSection
+        buttonText="Book Now"
         linkTo="https://sacred-rose.teachable.com/purchase?product_id=6140178"
         isExternal={true}
       />
