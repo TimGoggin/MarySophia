@@ -73,28 +73,61 @@ export default function Counseling() {
                     <h2 className="font-playfair text-2xl text-[#002147] mb-4">
                       Areas of Support
                     </h2>
-                    <ul className="list-none space-y-3 text-gray-700 font-open-sans">
-                      <li className="flex items-center">
-                        <span className="text-[#002147] mr-2">•</span>
-                        Grief and Loss Processing
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-[#002147] mr-2">•</span>
-                        Life Transitions and New Beginnings
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-[#002147] mr-2">•</span>
-                        Spiritual Development and Growth
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-[#002147] mr-2">•</span>
-                        Healing and Integration Work
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-[#002147] mr-2">•</span>
-                        Divine Feminine Awakening
-                      </li>
-                    </ul>
+                    <div className="space-y-6">
+                      <div>
+                        <h3 className="font-playfair text-xl text-[#002147] mb-2">Love</h3>
+                        <ul className="list-none space-y-2 text-gray-700 font-open-sans">
+                          <li className="flex items-center">
+                            <span className="text-[#002147] mr-2">•</span>
+                            Relationships
+                          </li>
+                          <li className="flex items-center">
+                            <span className="text-[#002147] mr-2">•</span>
+                            Dating
+                          </li>
+                          <li className="flex items-center">
+                            <span className="text-[#002147] mr-2">•</span>
+                            Sexuality
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div>
+                        <h3 className="font-playfair text-xl text-[#002147] mb-2">Loss</h3>
+                        <ul className="list-none space-y-2 text-gray-700 font-open-sans">
+                          <li className="flex items-center">
+                            <span className="text-[#002147] mr-2">•</span>
+                            Miscarriage/Abortion
+                          </li>
+                          <li className="flex items-center">
+                            <span className="text-[#002147] mr-2">•</span>
+                            Divorce
+                          </li>
+                          <li className="flex items-center">
+                            <span className="text-[#002147] mr-2">•</span>
+                            Loss of a Loved One
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div>
+                        <h3 className="font-playfair text-xl text-[#002147] mb-2">Life Transitions</h3>
+                        <ul className="list-none space-y-2 text-gray-700 font-open-sans">
+                          <li className="flex items-center">
+                            <span className="text-[#002147] mr-2">•</span>
+                            Marriage
+                          </li>
+                          <li className="flex items-center">
+                            <span className="text-[#002147] mr-2">•</span>
+                            Motherhood
+                          </li>
+                          <li className="flex items-center">
+                            <span className="text-[#002147] mr-2">•</span>
+                            Menopause
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
