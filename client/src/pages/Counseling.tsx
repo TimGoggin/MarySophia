@@ -134,6 +134,44 @@ export default function Counseling() {
                       </div>
                     </div>
                   </div>
+
+                  <div className="mt-12">
+                    <h2 className="font-playfair text-2xl text-[#002147] mb-6">
+                      Spiritual Counseling and Intuitive Healing Sessions
+                    </h2>
+                    <p className="text-gray-700 font-open-sans mb-8">
+                      Sessions are available in person and over Zoom.
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-8">
+                      <div className="bg-white p-8 rounded-lg shadow-lg border border-[#002147]/20">
+                        <h3 className="font-playfair text-xl text-[#002147] mb-4">Initial Session</h3>
+                        <div className="text-3xl font-playfair text-[#002147] mb-4">$175</div>
+                        <p className="text-gray-600 mb-6">90 minutes</p>
+                        <a
+                          href="https://sacred-rose.teachable.com/purchase?product_id=6251586"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block w-full bg-[#002147] hover:bg-[#D4AF37] text-white text-center py-3 px-6 rounded-md transition duration-300"
+                        >
+                          Book Initial Session
+                        </a>
+                      </div>
+
+                      <div className="bg-white p-8 rounded-lg shadow-lg border border-[#002147]/20">
+                        <h3 className="font-playfair text-xl text-[#002147] mb-4">Continuing Sessions</h3>
+                        <div className="text-3xl font-playfair text-[#002147] mb-4">$144</div>
+                        <p className="text-gray-600 mb-6">1 hour</p>
+                        <a
+                          href="https://sacred-rose.teachable.com/purchase?product_id=6203591"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block w-full bg-[#002147] hover:bg-[#D4AF37] text-white text-center py-3 px-6 rounded-md transition duration-300"
+                        >
+                          Book Continuing Session
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
