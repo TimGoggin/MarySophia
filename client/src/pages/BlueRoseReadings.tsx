@@ -92,6 +92,12 @@ export default function BlueRoseReadings() {
                     </li>
                   </ul>
                 </div>
+
+                <div>
+                  <p className="text-gray-700 font-open-sans leading-relaxed italic mt-8 border-l-4 border-[#002147] pl-4">
+                    Please note that the Angels and Ascended Masters cannot tell the future. They can provide guidance and wisdom that will assist you on your journey. Think of it like you are receiving advice from your most trusted friends who can shine a light onto your path.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
