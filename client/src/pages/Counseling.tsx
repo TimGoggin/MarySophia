@@ -44,28 +44,33 @@ export default function Counseling() {
             <div className="md:w-1/2">
               <div className="max-w-4xl mx-auto px-4 relative z-10">
                 <div className="space-y-12">
-                  <div>
-                    <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                      Sacred Support for Your Journey
-                    </h2>
+                  <div className="space-y-6">
                     <p className="text-gray-700 font-open-sans leading-relaxed">
-                      These sacred sessions offer soul-centered support for women
-                      navigating life's most profound transitions. Whether you are
-                      healing from loss, embracing new beginnings, or seeking deeper
-                      spiritual connection, these sessions provide a sanctuary for
-                      your heart's journey.
+                      You are born whole. Your wholeness is your true nature. It is as natural to you as it is to all creation.
                     </p>
-                  </div>
-
-                  <div>
-                    <h2 className="font-playfair text-2xl text-[#002147] mb-4">
-                      Our Approach
-                    </h2>
+                    
                     <p className="text-gray-700 font-open-sans leading-relaxed">
-                      Through intuitive guidance, somatic healing, and sacred wisdom
-                      teachings, we create a safe space for deep transformation and
-                      spiritual growth. Each session is tailored to your unique
-                      journey and needs.
+                      As women, we are taught to struggle against our true nature. We repress our emotions, shame our bodies, hide our sexuality and live out old patterns in our relationships. We attempt to live in a world that is absent of the rhythms and cycles of nature, a world absent of the feminine. We forget who we truly are because we are too busy trying to be what everyone wants us to be.
+                    </p>
+                    
+                    <p className="text-gray-700 font-open-sans leading-relaxed">
+                      This creates stress, illness, depression and anxiety as we find ourselves living a life that is not truly ours. Eventually life will assist us and what often feels like a breakdown, a loss or a challenging transition is actually a breakthrough that is guiding us to our liberation and to live a more authentic life. We begin a process of awakening to our True Nature.
+                    </p>
+                    
+                    <p className="text-gray-700 font-open-sans leading-relaxed">
+                      My prayer is to assist you in this awakening process, to hold you in the darkness and uncertainty of transitional times and to teach you how to utilize your innate gifts to help you to navigate your life and relationships. When we learn how to use our intuition, to listen to our feelings, to honor the wisdom of our bodies and to align with our innate rhythms and cycles, a new way of living is possible. A way that is built on the foundation of our own wisdom and knowing, rather than on old beliefs that were never really ours. As we remember our wholeness, we remember that we are the love of creation and that it is our loving nature that can truly heal ourselves, our relationships and our world.
+                    </p>
+                    
+                    <p className="text-gray-700 font-open-sans leading-relaxed">
+                      Healing is possible. A new life is possible. Loving relationships are possible. Joy is possible. Peace is possible. An easeful life is possible.
+                    </p>
+                    
+                    <p className="text-gray-700 font-open-sans leading-relaxed">
+                      All of this lives within you, and when you claim it. your True Nature in all of its Wholeness will be revealed to you.
+                    </p>
+                    
+                    <p className="text-gray-700 font-open-sans leading-relaxed italic text-right">
+                      Love, Mary Sophia
                     </p>
                   </div>
 
