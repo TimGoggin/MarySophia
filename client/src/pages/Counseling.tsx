@@ -40,7 +40,7 @@ export default function Counseling() {
                   alt="Mary Sophia"
                   className="rounded-lg shadow-xl w-full max-w-md mx-auto"
                 />
-                <div className="mt-[100vh]">
+                <div className="mt-[80vh]">
                   <img
                     src="/images/newMary3.jpg"
                     alt="Mary Sophia"
