@@ -1,4 +1,3 @@
-
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
 import CtaSection from "@/components/CtaSection";
@@ -47,15 +46,33 @@ export default function Order() {
                   <h2 className="font-playfair text-3xl text-[#002147] mb-4">
                     Welcome to the Order of the Blue Rose
                   </h2>
-                  <p className="text-gray-700 font-open-sans leading-relaxed mb-8">
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-6">
                     The Order of the Blue Rose is a Lineage of Light that holds the Frequency of the Truly Awakened Heart. This Lineage is of the Holy Bloodline and originated with Mother Mary and Mary Magdalene as they carried forth the teachings of Christ.
                   </p>
-                </div>
 
-                <div className="space-y-8">
-                  <p className="text-gray-700 font-open-sans leading-relaxed">
+                  <div className="bg-gray-50 p-6 rounded-lg mb-8">
+                    <h4 className="text-[#002147] font-playfair text-lg mb-4">The Order of the Blue Rose represents:</h4>
+                    <ul className="list-disc pl-6 space-y-3 text-gray-700 font-open-sans">
+                      <li>An ancient lineage of Light Bearers who have carried the Christ frequencies through the ages</li>
+                      <li>A sacred path of embodied spiritual awakening and divine service</li>
+                      <li>The mystical teachings of Mother Mary and Mary Magdalene</li>
+                      <li>A sisterhood devoted to anchoring Heaven on Earth through the awakened heart</li>
+                    </ul>
+                  </div>
+
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-6">
                     The Order of the Blue Rose holds the Holy Family's most faithful followers who were devoted to bringing through the purity of the Christ Message, not by reciting teachings learned but through their embodiment as they have truly anchored these frequencies within their beings and lived as the Heart of God on Earth.
                   </p>
+
+                  <div className="bg-gray-50 p-6 rounded-lg mb-8">
+                    <h4 className="text-[#002147] font-playfair text-lg mb-4">Members of the Order:</h4>
+                    <ul className="list-disc pl-6 space-y-3 text-gray-700 font-open-sans">
+                      <li>Embody the Christ frequencies through daily spiritual practice</li>
+                      <li>Serve as vessels of Divine Love and Wisdom</li>
+                      <li>Walk the mystical path of the heart</li>
+                      <li>Carry forward the living teachings through direct embodiment</li>
+                    </ul>
+                  </div>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
                     This is a process of becoming Fully Human through the Embodiment of One's True Nature. A spiritual alignment that occurs within the Heart. As we become One Being, One Heart, One Will we transmit these frequencies through our own Immaculate Alignment and as Mary has said "are able to turn hearts to Good".
