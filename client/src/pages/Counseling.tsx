@@ -34,7 +34,7 @@ export default function Counseling() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-start gap-12 mb-16">
             <div className="md:w-1/3">
-              <div className="sticky top-24">
+              <div className="sticky top-8" style={{ height: 'fit-content' }}>
                 <img
                   src="/images/newMary3.jpg"
                   alt="Mary Sophia"
