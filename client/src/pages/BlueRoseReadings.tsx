@@ -5,8 +5,49 @@ export default function BlueRoseReadings() {
   return (
     <>
       <Helmet>
+        <link rel="canonical" href="https://www.lightofsophia.com/readings" />
         <title>Private Readings | Mary Sophia</title>
+        <meta
+          name="description"
+          content="Receive sacred, channeled guidance from Mary Sophia through Private Readings. Explore your soul purpose, past lives, and spiritual awakening with loving support from the Divine Mother and Angelic Realm."
+        />
+        <meta
+          name="keywords"
+          content="Private readings, channeled guidance, soul purpose, past life readings, spiritual awakening, Mary Sophia, divine feminine, Blue Rose Readings, angelic guidance, intuitive readings"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Mary Sophia",
+            url: "https://www.lightofsophia.com/readings",
+            image: "https://www.lightofsophia.com/images/newMary2.jpg",
+            description:
+              "Mary Sophia offers sacred, channeled Private Readings that bring through soul wisdom, past life connections, and spiritual guidance from Mother Mary, Mary Magdalene, and the Angelic Realm.",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "1456 Ferry Road #10",
+              addressLocality: "Doylestown",
+              addressRegion: "PA",
+              postalCode: "18901",
+              addressCountry: "US",
+            },
+            sameAs: [
+              "https://www.instagram.com/orderofthebluerose/",
+              "https://www.youtube.com/@orderofthebluerose3878",
+            ],
+            knowsAbout: [
+              "Private Readings",
+              "Channeled Guidance",
+              "Soul Purpose",
+              "Past Life Readings",
+              "Spiritual Awakening",
+              "Divine Feminine Wisdom",
+            ],
+          })}
+        </script>
       </Helmet>
+
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
@@ -114,7 +155,9 @@ export default function BlueRoseReadings() {
                     <div className="text-3xl font-playfair text-[#002147] mb-4 text-center">
                       $155
                     </div>
-                    <p className="text-gray-600 mb-6 text-center">60 minutes via Zoom</p>
+                    <p className="text-gray-600 mb-6 text-center">
+                      60 minutes via Zoom
+                    </p>
                     <a
                       href="https://checkout.teachable.com/secure/1018167/checkout/order_qn7199k6"
                       target="_blank"

@@ -5,8 +5,52 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>About | Mary Sophia</title>
+        <link rel="canonical" href="https://www.lightofsophia.com/about" />
+        <title>
+          Mary Sophia | Teacher of the Way of Mary, Keeper of the Light of
+          Sophia
+        </title>
+        <meta
+          name="description"
+          content="Mary Sophia offers channeled guidance, intuitive healing, and spiritual counseling rooted in the Way of Mary and the Divine Feminine. Discover sacred teachings and nurture your heart’s wisdom."
+        />
+        <meta
+          name="keywords"
+          content="Mary Sophia, Way of Mary, Divine Feminine, spiritual guidance, intuitive healing, sacred teachings, spiritual counseling, Order of the Blue Rose, Mother Mary, Mary Magdalene, angelic wisdom"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Mary Sophia",
+            url: "https://www.lightofsophia.com",
+            image: "https://www.lightofsophia.com/images/mary-sophia-2.jpg",
+            description:
+              "Mary Sophia is a spiritual teacher and guide, offering intuitive readings, spiritual counseling, and teachings rooted in the Divine Feminine and the Way of Mary.",
+            sameAs: [
+              "https://www.instagram.com/marysophia", // Replace with real URLs
+              "https://www.facebook.com/marysophia",
+            ],
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "1456 Ferry Road #10",
+              addressLocality: "Doylestown",
+              addressRegion: "PA",
+              postalCode: "18901",
+              addressCountry: "US",
+            },
+            knowsAbout: [
+              "Divine Feminine Wisdom",
+              "Spiritual Counseling",
+              "Intuitive Readings",
+              "Order of the Blue Rose",
+              "Mary Magdalene",
+              "Mother Mary",
+            ],
+          })}
+        </script>
       </Helmet>
+
       <div className="bg-white py-16 pt-48 relative">
         <div className="floating-roses-container">
           {[...Array(15)].map((_, i) => {
@@ -43,13 +87,25 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-12 mb-16">
             <div className="md:w-2/3">
               <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-                There is a sacred voice — quiet, ancient, and deeply feminine — that has long whispered through the hearts of women across time. It is known by many names, but to me, it is the Light of Sophia. This divine feminine wisdom — the indwelling light of love, intuition, and soul remembrance — lives within you.
+                There is a sacred voice — quiet, ancient, and deeply feminine —
+                that has long whispered through the hearts of women across time.
+                It is known by many names, but to me, it is the Light of Sophia.
+                This divine feminine wisdom — the indwelling light of love,
+                intuition, and soul remembrance — lives within you.
               </p>
               <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-                I walk with this light as a messenger and a guide, through the Lineage of Sophia, Mother Mary and Mary Magdalene. I am a keeper of the Order of the Blue Rose — a sacred stream of love and remembrance that carries the original teachings of the Christ Light through the heart of the Feminine.
+                I walk with this light as a messenger and a guide, through the
+                Lineage of Sophia, Mother Mary and Mary Magdalene. I am a keeper
+                of the Order of the Blue Rose — a sacred stream of love and
+                remembrance that carries the original teachings of the Christ
+                Light through the heart of the Feminine.
               </p>
               <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-                My work is here to support your return to that remembrance — through channeled guidance, intuitive healing, spiritual counseling and ancient wisdom. Through the Order of the Blue Rose, we work to awaken and nurture the divine feminine wisdom that resides within each of us.
+                My work is here to support your return to that remembrance —
+                through channeled guidance, intuitive healing, spiritual
+                counseling and ancient wisdom. Through the Order of the Blue
+                Rose, we work to awaken and nurture the divine feminine wisdom
+                that resides within each of us.
               </p>
               <div className="mt-8">
                 <h2 className="font-playfair text-2xl text-[#002147] mb-6">

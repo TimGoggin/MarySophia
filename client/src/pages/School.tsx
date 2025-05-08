@@ -4,7 +4,51 @@ export default function School() {
   return (
     <>
       <Helmet>
+        <link rel="canonical" href="https://www.lightofsophia.com/school" />
         <title>School of Sophia | Mary Sophia</title>
+        <meta
+          name="description"
+          content="Join the School of Sophia with Mary Sophia — a transformative spiritual path rooted in Divine Feminine wisdom. Explore sacred teachings, heart-centered practices, and a vibrant sisterhood."
+        />
+        <meta
+          name="keywords"
+          content="School of Sophia, Mary Sophia, Divine Feminine, spiritual formation, feminine mysticism, sacred teachings, spiritual practices, Magdalene yoga, Blue Rose Circle, sacred community"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            name: "School of Sophia",
+            url: "https://www.lightofsophia.com/school",
+            image: "https://www.lightofsophia.com/images/lambbackground.jpeg",
+            description:
+              "The School of Sophia, guided by Mary Sophia, offers a sacred path of spiritual formation through Divine Feminine wisdom, sacred practices, and community offerings like Magdalene Yoga, Blue Rose Circle, and Wisdom Book Club.",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "1456 Ferry Road #10",
+              addressLocality: "Doylestown",
+              addressRegion: "PA",
+              postalCode: "18901",
+              addressCountry: "US",
+            },
+            sameAs: [
+              "https://www.instagram.com/orderofthebluerose/",
+              "https://www.youtube.com/@orderofthebluerose3878",
+            ],
+            founder: {
+              "@type": "Person",
+              name: "Mary Sophia",
+            },
+            keywords: [
+              "Divine Feminine",
+              "Spiritual Formation",
+              "Sacred Practices",
+              "Magdalene Yoga",
+              "Blue Rose Circle",
+              "Sacred Community",
+            ],
+          })}
+        </script>
       </Helmet>
 
       <section className="relative min-h-[40vh] flex items-center pt-16">

@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MapPin, Instagram, Youtube, Clock } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -141,12 +140,14 @@ export default function Footer() {
                   <li className="flex items-center space-x-3">
                     <MapPin className="w-4 h-4 text-white" />
                     <span className="text-white text-sm">
-                      Spiritual Center, 123 Divine Path
+                      4920 York Road Suite 2200 Buckingham, PA 18912
                     </span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <Clock className="w-4 h-4 text-white" />
-                    <span className="text-white text-sm">Mon-Fri: 9AM-5PM EST</span>
+                    <span className="text-white text-sm">
+                      Mon-Fri: 9AM-5PM EST
+                    </span>
                   </li>
                   <li className="flex items-center space-x-3 mt-4">
                     <div className="flex space-x-4">

@@ -7,8 +7,49 @@ export default function Services() {
   return (
     <>
       <Helmet>
+        <link rel="canonical" href="https://www.lightofsophia.com/services" />
         <title>Services | Mary Sophia</title>
+        <meta
+          name="description"
+          content="Explore the sacred services of Mary Sophia, including private readings, spiritual counseling, and mentorship through the Order of the Blue Rose. Awaken your soul and embody divine feminine wisdom."
+        />
+        <meta
+          name="keywords"
+          content="Mary Sophia services, private readings, spiritual counseling, Order of the Blue Rose, divine feminine, sacred mentorship, soul guidance, spiritual healing, feminine wisdom, sacred offerings"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Mary Sophia",
+            url: "https://www.lightofsophia.com/services",
+            image: "https://www.lightofsophia.com/images/newMary1.jpg",
+            description:
+              "Mary Sophia offers sacred services including private readings, spiritual counseling, and mentorship through the Order of the Blue Rose to support soul awakening and divine embodiment.",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "1456 Ferry Road #10",
+              addressLocality: "Doylestown",
+              addressRegion: "PA",
+              postalCode: "18901",
+              addressCountry: "US",
+            },
+            sameAs: [
+              "https://www.instagram.com/orderofthebluerose/",
+              "https://www.youtube.com/@orderofthebluerose3878",
+            ],
+            knowsAbout: [
+              "Private Readings",
+              "Spiritual Counseling",
+              "Order of the Blue Rose",
+              "Divine Feminine Wisdom",
+              "Sacred Mentorship",
+              "Soul Guidance",
+            ],
+          })}
+        </script>
       </Helmet>
+
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
@@ -67,8 +108,6 @@ export default function Services() {
             </div>
           </div>
         </div>
-
-        
 
         <div className="container mx-auto px-4 relative z-10">
           {/* Blue Rose Readings Section */}

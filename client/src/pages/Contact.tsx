@@ -26,10 +26,50 @@ export default function Contact() {
   return (
     <>
       <Helmet>
+        <link rel="canonical" href="https://www.lightofsophia.com/contact" />
         <title>Contact | Mary Sophia</title>
+        <meta
+          name="description"
+          content="Get in touch with Mary Sophia for questions, session inquiries, or spiritual guidance. Reach out by email or connect via Instagram and YouTube to join our sacred community."
+        />
+        <meta
+          name="keywords"
+          content="Contact Mary Sophia, spiritual guidance contact, divine feminine teacher, Blue Rose community, Instagram, YouTube, email Mary Sophia, spiritual mentor contact"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Mary Sophia",
+            url: "https://www.lightofsophia.com/contact",
+            image: "https://www.lightofsophia.com/images/mary.jpg",
+            description:
+              "Contact Mary Sophia for spiritual inquiries, private sessions, or to connect with the sacred community of the Blue Rose lineage. Reach out via email, Instagram, or YouTube.",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "1456 Ferry Road #10",
+              addressLocality: "Doylestown",
+              addressRegion: "PA",
+              postalCode: "18901",
+              addressCountry: "US",
+            },
+            email: "mailto:hello@bluerose.love",
+            sameAs: [
+              "https://www.instagram.com/orderofthebluerose/",
+              "https://www.youtube.com/@orderofthebluerose3878",
+            ],
+            knowsAbout: [
+              "Spiritual Guidance",
+              "Divine Feminine Wisdom",
+              "Private Sessions",
+              "Community Connection",
+              "Blue Rose Lineage",
+            ],
+          })}
+        </script>
       </Helmet>
+
       <div className="bg-white py-16 pt-48 relative">
-        
         <div className="max-w-7xl mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
             <h1 className="font-dancing-script text-5xl text-[#002147] mb-4">

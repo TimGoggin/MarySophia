@@ -6,8 +6,49 @@ export default function Counseling() {
   return (
     <>
       <Helmet>
+        <link rel="canonical" href="https://www.lightofsophia.com/counseling" />
         <title>Spiritual Counseling | Mary Sophia</title>
+        <meta
+          name="description"
+          content="Experience spiritual counseling and intuitive healing with Mary Sophia. Navigate life transitions, heal relationships, and awaken to your true nature through sacred guidance and support."
+        />
+        <meta
+          name="keywords"
+          content="Spiritual counseling, intuitive healing, Mary Sophia, life transitions, relationship healing, divine feminine, sacred mentorship, spiritual awakening, emotional healing, women’s empowerment"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Mary Sophia",
+            url: "https://www.lightofsophia.com/counseling",
+            image: "https://www.lightofsophia.com/images/newMary3.jpg",
+            description:
+              "Mary Sophia offers spiritual counseling and intuitive healing to support individuals through life’s sacred thresholds. Her work helps awaken true nature, heal emotional wounds, and restore authentic living.",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "1456 Ferry Road #10",
+              addressLocality: "Doylestown",
+              addressRegion: "PA",
+              postalCode: "18901",
+              addressCountry: "US",
+            },
+            sameAs: [
+              "https://www.instagram.com/orderofthebluerose/",
+              "https://www.youtube.com/@orderofthebluerose3878",
+            ],
+            knowsAbout: [
+              "Spiritual Counseling",
+              "Intuitive Healing",
+              "Life Transitions",
+              "Emotional Healing",
+              "Divine Feminine",
+              "Women’s Empowerment",
+            ],
+          })}
+        </script>
       </Helmet>
+
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
