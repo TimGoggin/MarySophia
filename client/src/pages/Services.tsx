@@ -140,7 +140,31 @@ export default function Services() {
             </div>
           </section>
 
-          {/* School of Mary Section */}
+          {/* School of Sophia Section */}
+          <section className="mb-20">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="font-playfair text-3xl text-[#002147] mb-2 text-center">
+                School of Sophia
+              </h2>
+              <h3 className="text-xl text-gray-600 mb-6 text-center font-open-sans">
+                Sacred Formation Through Divine Feminine Wisdom
+              </h3>
+              <p className="text-gray-800 mb-8 font-open-sans leading-relaxed text-base">
+                The School of Sophia is a transformative path of spiritual formation deeply rooted in Divine Feminine wisdom traditions. Through weekly Magdalene Yoga, monthly Blue Rose Circles, Sacred Prayer Groups, and our Wisdom Book Club, you'll discover ancient mysteries bridged with contemporary understanding. Join our sacred community to awaken your inner wisdom and embrace the divine feminine through heart-centered practices and teachings.
+              </p>
+              <div className="text-center">
+                <Link
+                  to="/school"
+                  className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
+                >
+                  Join the School
+                  <ChevronRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+          </section>
+
+          {/* Spiritual Counseling Section */}
           <section className="mb-20">
             <div className="max-w-4xl mx-auto">
               <h2 className="font-playfair text-3xl text-[#002147] mb-2 text-center">
@@ -162,10 +186,10 @@ export default function Services() {
               </p>
               <div className="text-center">
                 <Link
-                  to="/readings"
+                  to="/counseling"
                   className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300"
                 >
-                  Explore the School
+                  Learn More
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </Link>
               </div>
