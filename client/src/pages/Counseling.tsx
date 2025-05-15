@@ -179,7 +179,8 @@ export default function Counseling() {
                               Loss
                             </h3>
                             <ul className="text-gray-600 mb-6 font-open-sans space-y-2">
-                              <li>Miscarriage/Abortion</li>
+                              <li>Miscarriage</li>
+                              <li>Abortion</li>
                               <li>Divorce</li>
                               <li>Loss of a Loved One</li>
                             </ul>
