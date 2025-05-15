@@ -54,7 +54,7 @@ export default function School() {
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="/images/lambbackground.jpeg"
+            src="/images/dovebackground.jpeg"
             alt="Hero Background"
             className="w-full h-full object-cover"
           />
@@ -141,7 +141,7 @@ export default function School() {
                     of Mary Magdalene.
                   </p>
                   <a
-                    href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                    href="https://sacred-rose.teachable.com/l/pdp/magdalene-yoga"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-4 rounded-md transition duration-300"
@@ -158,7 +158,7 @@ export default function School() {
                     connection with the mysteries of the Blue Rose lineage.
                   </p>
                   <a
-                    href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                    href="sacred-rose.teachable.com/l/pdp/blue-rose-circles"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-4 rounded-md transition duration-300"

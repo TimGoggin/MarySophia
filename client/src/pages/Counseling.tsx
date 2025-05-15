@@ -113,7 +113,7 @@ export default function Counseling() {
                     </p>
 
                     <p className="text-gray-700 font-open-sans leading-relaxed">
-                      My prayer is to assist you in this awakening process, to
+                      Our prayer is to assist you in this awakening process, to
                       hold you in the darkness and uncertainty of transitional
                       times and to teach you how to utilize your innate gifts to
                       help you to navigate your life and relationships. When we
@@ -122,26 +122,19 @@ export default function Counseling() {
                       innate rhythms and cycles, a new way of living is
                       possible. A way that is built on the foundation of our own
                       wisdom and knowing, rather than on old beliefs that were
-                      never really ours. As we remember our wholeness, we
-                      remember that we are the love of creation and that it is
-                      our loving nature that can truly heal ourselves, our
-                      relationships and our world.
+                      never really ours.As we remember our wholeness, we
+                      remember that we are love itself — and it is through this
+                      loving nature that true healing begins.
                     </p>
 
                     <p className="text-gray-700 font-open-sans leading-relaxed">
-                      Healing is possible. A new life is possible. Loving
-                      relationships are possible. Joy is possible. Peace is
-                      possible. An easeful life is possible.
+                      Healing is possible. Peace is possible. A life of joy,
+                      connection, and ease is possible.
                     </p>
 
                     <p className="text-gray-700 font-open-sans leading-relaxed">
-                      All of this lives within you, and when you claim it, your
-                      True Nature in all of its Wholeness will be revealed to
-                      you.
-                    </p>
-
-                    <p className="text-gray-700 font-open-sans leading-relaxed italic text-right">
-                      Love, Mary Sophia
+                      It all lives within you. And when you claim it, your true
+                      nature will rise to meet you — whole, radiant, and free.
                     </p>
                   </div>
 
@@ -154,7 +147,11 @@ export default function Counseling() {
                         <div className="p-6 flex flex-col h-full">
                           <div className="text-center">
                             <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
-                              <img src="/icons/rose.svg" alt="Rose" className="w-16 h-16" />
+                              <img
+                                src="/icons/rose.svg"
+                                alt="Rose"
+                                className="w-16 h-16"
+                              />
                             </div>
                             <h3 className="font-playfair text-xl text-[#003864] mb-4">
                               Love
@@ -172,7 +169,11 @@ export default function Counseling() {
                         <div className="p-6 flex flex-col h-full">
                           <div className="text-center">
                             <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
-                              <img src="/icons/angel.svg" alt="Angel" className="w-16 h-16" />
+                              <img
+                                src="/icons/angel.svg"
+                                alt="Angel"
+                                className="w-16 h-16"
+                              />
                             </div>
                             <h3 className="font-playfair text-xl text-[#003864] mb-4">
                               Loss
@@ -190,7 +191,11 @@ export default function Counseling() {
                         <div className="p-6 flex flex-col h-full">
                           <div className="text-center">
                             <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
-                              <img src="/icons/dove.svg" alt="Dove" className="w-16 h-16" />
+                              <img
+                                src="/icons/dove.svg"
+                                alt="Dove"
+                                className="w-16 h-16"
+                              />
                             </div>
                             <h3 className="font-playfair text-xl text-[#003864] mb-4">
                               Life Transitions
