@@ -4,9 +4,7 @@ export default function ServicesSection() {
   const services = [
     {
       id: 1,
-      icon: (
-        <img src="/icons/angel.svg" alt="Star" className="w-16 h-16" />
-      ),
+      icon: <img src="/icons/angel.svg" alt="Star" className="w-16 h-16" />,
       title: "Private Readings",
       description:
         "Connect with divine guidance through personal readings tailored to your spiritual journey.",
@@ -35,9 +33,7 @@ export default function ServicesSection() {
     },
     {
       id: 4,
-      icon: (
-        <img src="/icons/angel.svg" alt="Star" className="w-16 h-16" />
-      ),
+      icon: <img src="/icons/angel2.svg" alt="Star" className="w-16 h-16" />,
       title: "Spiritual Counseling",
       description:
         "Receive sacred support through life's transitions with heart-centered guidance and healing.",
