@@ -49,7 +49,7 @@ export default function HeroSection() {
               className="inline-flex items-center bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-2 px-6 rounded-md transition duration-300"
               onClick={handleScrollToServices}
             >
-              Find Your Sacred Space
+              Enter the Sanctuary
               <ChevronRight className="ml-2 h-4 w-4" />
             </a>
           </div>
