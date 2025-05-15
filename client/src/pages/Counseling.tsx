@@ -199,7 +199,7 @@ export default function Counseling() {
                               />
                             </div>
                             <h3 className="font-playfair text-xl text-[#003864] mb-4">
-                              Life Transitions
+                              Life
                             </h3>
                             <ul className="text-gray-600 mb-6 font-open-sans space-y-2">
                               <li>Marriage</li>

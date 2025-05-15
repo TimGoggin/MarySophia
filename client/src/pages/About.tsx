@@ -107,8 +107,8 @@ export default function About() {
                 through channeled guidance, intuitive healing, spiritual
                 counseling and ancient wisdom traditions. Rooted in the Order of
                 the Blue Rose, this work gently nurtures the awakening of the
-                Sacred Feminine within, guiding you home to the wisdom of the
-                Sacred Feminine that lives within you.
+                Sacred Feminine within, guiding you home to the wisdom that
+                lives within you.
               </p>
               <div className="mt-8">
                 <h2 className="font-playfair text-2xl text-[#002147] mb-6">
