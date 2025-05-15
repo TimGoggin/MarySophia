@@ -11,7 +11,7 @@ export default function ServicesSection() {
       description:
         "Connect with divine guidance through personal readings tailored to your spiritual journey.",
       cta: "Experience a Reading",
-      link: "#",
+      link: "/readings",
     },
     {
       id: 2,
@@ -22,23 +22,34 @@ export default function ServicesSection() {
       description:
         "Deepen your spiritual growth through courses, workshops, and mentorship.",
       cta: "Begin Your Journey",
-      link: "#",
+      link: "/school",
     },
     {
       id: 3,
       icon: <img src="/icons/rose.svg" alt="Rose" className="w-full h-full" />,
       title: "Order of the Blue Rose",
       description:
-        "Deepen your spiritual growth through courses, workshops, and mentorship.",
+        "Join our sacred sisterhood and embody the radiance of your truly awakened heart.",
       cta: "Find Your Path",
-      link: "#",
+      link: "/order",
+    },
+    {
+      id: 4,
+      icon: (
+        <img src="/icons/angel.svg" alt="Star" className="w-16 h-16" />
+      ),
+      title: "Spiritual Counseling",
+      description:
+        "Receive sacred support through life's transitions with heart-centered guidance and healing.",
+      cta: "Learn More",
+      link: "/counseling",
     },
   ];
 
   return (
     <section id="services" className="bg-gray-50 py-16">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service) => (
             <div
               key={service.id}
