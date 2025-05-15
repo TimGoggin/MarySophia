@@ -91,11 +91,18 @@ export default function Order() {
                     Welcome to the Order of the Blue Rose
                   </h2>
                   <p className="text-gray-700 font-open-sans leading-relaxed mb-6">
-                    The Order of the Blue Rose is a Lineage of Light that holds
-                    the Frequency of the Truly Awakened Heart. This Lineage is
-                    of the Holy Bloodline and originated with Mother Mary and
-                    Mary Magdalene as they carried forth the teachings of
-                    Christ.
+                    The Order of the Blue Rose is a sacred Lineage of Light — a
+                    living frequency that holds the wisdom of the truly awakened
+                    heart. It originated through Mother Mary and Mary Magdalene,
+                    who carried forth the pure teachings of Christ through the
+                    embodied path of love.
+                  </p>
+
+                  <p className="text-gray-700 font-open-sans leading-relaxed mb-6">
+                    This lineage is not bound by religion or doctrine. It is a
+                    path of remembrance — of truth, of healing, of the Feminine
+                    Face of God — and it continues to awaken through those who
+                    are called to carry the Blue Rose within.
                   </p>
 
                   <div className="bg-gray-50 p-6 rounded-lg mb-8">
@@ -122,12 +129,12 @@ export default function Order() {
                   </div>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed mb-6">
-                    The Order of the Blue Rose holds the Holy Family's most
-                    faithful followers who were devoted to bringing through the
-                    purity of the Christ Message, not by reciting teachings
-                    learned but through their embodiment as they have truly
-                    anchored these frequencies within their beings and lived as
-                    the Heart of God on Earth.
+                    The Order of the Blue Rose holds the devoted hearts of the
+                    Holy Family’s most faithful followers — those who carried
+                    the Christ Message not by words alone, but through pure
+                    embodiment. They did not merely speak of love; they became
+                    it. They anchored the frequencies of Divine Truth within
+                    their beings and lived as the Heart of God on Earth.
                   </p>
 
                   <div className="bg-gray-50 p-6 rounded-lg mb-8">
@@ -163,60 +170,63 @@ export default function Order() {
                   </div>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    You know if you do. Your Heart will sing the Song of the
+                    You know if you do. Your heart will sing the song of the
                     Blue Rose.
                   </p>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    This Song doesn't come in words as those of us who carry
-                    this frequency can at times be challenged by finding words
-                    to express its purity and simplicity.
+                    This song doesn't come through words as those of us who
+                    carry this frequency can at times be challenged by finding
+                    words to express its purity and simplicity.
                   </p>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    It comes through the Wholeness of our Soul, the Purity of
-                    our Heart and the Knowing that we are the Heart of God and
-                    are here to be Vessels of God's Love.
+                    It comes through the wholeness of our soul, the purity of
+                    our heart and the quiet knowing that you are the Heart of
+                    God, here to be a vessel of Divine Love.
                   </p>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    I say this with humbleness and the deepest respect and
-                    reverence as those of us who walk The Way of Mary know this
-                    is not the easy path AND at the same time it is the only
-                    path we Truly Know.
+                    I say this with the deepest humility, reverence, and
+                    respect. For those who walk the Way of Mary know this is not
+                    the easy path — and yet, it is the only path our soul truly
+                    knows.
                   </p>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    I am here to help you on this Path. As a Priestess of
-                    Avalon, an Ordained Priestess of Mary Magdalene and an
-                    Initiated Member of the Order of the Blue Rose, I have
-                    walked The Way for as long as my Soul can Remember.
+                    I am here to walk beside you on this sacred journey. As a
+                    Priestess of Avalon, an Ordained Priestess of Mary
+                    Magdalene, and an Initiated Member of the Order of the Blue
+                    Rose, I have walked this path for as long as my soul can
+                    remember.
                   </p>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    For it is a Remembering, as you hold the Wisdom and
-                    Teachings of the Blue Rose within your Sacred Heart.
+                    For it is a remembering — one that lives within you. The
+                    wisdom and teachings of the Blue Rose are already seeded
+                    within your sacred heart. I am simply here to help you
+                    awaken them.
                   </p>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    I am here to guide you on this Mystical Path. Sharing the
-                    Truth and the Wisdom that I have embodied as I continue to
-                    walk the Way of the Mary with humility and grace.
+                    With grace, devotion, and deep faith, I offer what I have
+                    embodied — and continue to embody — as I walk the Way of
+                    Mary, the foundational path of the Order of the Blue Rose.
                   </p>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    My devoted commitment is to guide you with Faith, as you
-                    Remember and Awaken the Blue Rose within you, Fully Embody
-                    your Original Essence and live as the Heart of God on Earth.
+                    It is my sacred commitment to walk with you as you remember
+                    the Blue Rose within, fully embody your Original Essence,
+                    and live as the Heart of God on Earth.
                   </p>
 
                   <div className="text-center italic font-playfair text-xl text-[#002147] my-12">
-                    Welcome home Dear Sister! I have been awaiting you.
+                    Welcome home, dear sister. I have been waiting for you.
                   </div>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    In the fullness of the Blue Rose that is Blooming within
-                    your Sacred Heart…IT IS TIME.
+                    The Blue Rose is blooming within your sacred heart… IT IS
+                    TIME.
                   </p>
 
                   <div className="mt-12 text-right">

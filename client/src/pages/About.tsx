@@ -80,7 +80,9 @@ export default function About() {
               About Mary Sophia
             </h1>
             <p className="text-gray-600 font-open-sans text-xl">
-              Teacher of the Way of Mary, Keeper of the Light of Sophia
+              Mary Sophia is a teacher of the Way of Mary and a devoted follower
+              of Christ. She serves as a messenger and channel for Mother Mary,
+              Mary Magdalene, the Angelic Realm and the Wisdom of Sophia.
             </p>
           </div>
 
@@ -103,9 +105,10 @@ export default function About() {
               <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
                 My work is here to support your return to that remembrance —
                 through channeled guidance, intuitive healing, spiritual
-                counseling and ancient wisdom. Through the Order of the Blue
-                Rose, we work to awaken and nurture the divine feminine wisdom
-                that resides within each of us.
+                counseling and ancient wisdom traditions. Rooted in the Order of
+                the Blue Rose, this work gently nurtures the awakening of the
+                Sacred Feminine within, guiding you home to the wisdom of the
+                Sacred Feminine that lives within you.
               </p>
               <div className="mt-8">
                 <h2 className="font-playfair text-2xl text-[#002147] mb-6">

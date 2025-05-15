@@ -176,7 +176,7 @@ export default function School() {
                     collective practice.
                   </p>
                   <a
-                    href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                    href="https://sacred-rose.teachable.com/l/pdp/sacred-prayer-group"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-4 rounded-md transition duration-300"
@@ -194,7 +194,7 @@ export default function School() {
                     shared reflection.
                   </p>
                   <a
-                    href="https://sacred-rose.teachable.com/purchase?product_id=6140178"
+                    href="sacred-rose.teachable.com/l/pdp/wisdom-book-club"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-4 rounded-md transition duration-300"
