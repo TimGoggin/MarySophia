@@ -29,10 +29,10 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
+    assetsInclude: ['**/*.xml'],
     rollupOptions: {
       input: {
-        main: path.resolve(import.meta.dirname, "client/index.html"),
-        sitemap: path.resolve(import.meta.dirname, "client/public/sitemap.xml")
+        main: path.resolve(import.meta.dirname, "client/index.html")
       }
     }
   },
