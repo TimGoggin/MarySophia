@@ -1,4 +1,5 @@
 import { ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function SacredRebirthCta() {
   const handleScrollToServices = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -36,12 +37,12 @@ export default function SacredRebirthCta() {
           You are ready. You are held. You are loved.
         </p>
         <div className="flex justify-center gap-6">
-          <button
-            onClick={handleBookSession}
-            className="bg-[#D4AF37] hover:bg-[#003864] text-white py-3 px-8 rounded-md transition duration-300"
+          <Link
+            to="/services"
+            className="bg-[#003864] hover:bg-[#D4AF37] text-white py-3 px-8 rounded-md transition duration-300 inline-block"
           >
             Book a Session
-          </button>
+          </Link>
           <a
             href="#services"
             onClick={handleScrollToServices}
