@@ -79,7 +79,7 @@ export default function Footer() {
                 </nav>
               </div>
 
-              {/* Policies Column */}
+              {/* Policies Column - Temporarily commented out
               <div className="space-y-4">
                 <h3 className="font-playfair text-2xl text-white mb-4 font-semibold">
                   Policies
@@ -117,6 +117,7 @@ export default function Footer() {
                   </a>
                 </nav>
               </div>
+              */}
 
               {/* Contact Column */}
               <div className="space-y-4">
@@ -133,10 +134,7 @@ export default function Footer() {
                       info@marysophia.com
                     </a>
                   </li>
-                  <li className="flex items-center space-x-3">
-                    <Phone className="w-4 h-4 text-white" />
-                    <span className="text-white text-sm">(555) 123-4567</span>
-                  </li>
+                  
                   <li className="flex items-center space-x-3">
                     <MapPin className="w-4 h-4 text-white" />
                     <span className="text-white text-sm">
