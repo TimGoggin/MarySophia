@@ -146,68 +146,62 @@ export default function Counseling() {
                   </div>
 
                   <div>
-                    <h2 className="font-playfair text-2xl text-[#002147] mb-4">
+                    <h2 className="font-playfair text-2xl text-[#002147] mb-8 text-center">
                       Areas of Support
                     </h2>
-                    <div className="space-y-6">
-                      <div>
-                        <h3 className="font-playfair text-xl text-[#002147] mb-2">
-                          Love
-                        </h3>
-                        <ul className="list-none space-y-2 text-gray-700 font-open-sans">
-                          <li className="flex items-center">
-                            <span className="text-[#002147] mr-2">•</span>
-                            Relationships
-                          </li>
-                          <li className="flex items-center">
-                            <span className="text-[#002147] mr-2">•</span>
-                            Dating
-                          </li>
-                          <li className="flex items-center">
-                            <span className="text-[#002147] mr-2">•</span>
-                            Sexuality
-                          </li>
-                        </ul>
+                    <div className="grid md:grid-cols-3 gap-8">
+                      <div className="bg-white border border-[#B58233] overflow-hidden h-full">
+                        <div className="p-6 flex flex-col h-full">
+                          <div className="text-center">
+                            <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+                              <img src="/icons/rose.svg" alt="Rose" className="w-16 h-16" />
+                            </div>
+                            <h3 className="font-playfair text-xl text-[#003864] mb-4">
+                              Love
+                            </h3>
+                            <ul className="text-gray-600 mb-6 font-open-sans space-y-2">
+                              <li>Relationships</li>
+                              <li>Dating</li>
+                              <li>Sexuality</li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
 
-                      <div>
-                        <h3 className="font-playfair text-xl text-[#002147] mb-2">
-                          Loss
-                        </h3>
-                        <ul className="list-none space-y-2 text-gray-700 font-open-sans">
-                          <li className="flex items-center">
-                            <span className="text-[#002147] mr-2">•</span>
-                            Miscarriage/Abortion
-                          </li>
-                          <li className="flex items-center">
-                            <span className="text-[#002147] mr-2">•</span>
-                            Divorce
-                          </li>
-                          <li className="flex items-center">
-                            <span className="text-[#002147] mr-2">•</span>
-                            Loss of a Loved One
-                          </li>
-                        </ul>
+                      <div className="bg-white border border-[#B58233] overflow-hidden h-full">
+                        <div className="p-6 flex flex-col h-full">
+                          <div className="text-center">
+                            <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+                              <img src="/icons/angel.svg" alt="Angel" className="w-16 h-16" />
+                            </div>
+                            <h3 className="font-playfair text-xl text-[#003864] mb-4">
+                              Loss
+                            </h3>
+                            <ul className="text-gray-600 mb-6 font-open-sans space-y-2">
+                              <li>Miscarriage/Abortion</li>
+                              <li>Divorce</li>
+                              <li>Loss of a Loved One</li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
 
-                      <div>
-                        <h3 className="font-playfair text-xl text-[#002147] mb-2">
-                          Life Transitions
-                        </h3>
-                        <ul className="list-none space-y-2 text-gray-700 font-open-sans">
-                          <li className="flex items-center">
-                            <span className="text-[#002147] mr-2">•</span>
-                            Marriage
-                          </li>
-                          <li className="flex items-center">
-                            <span className="text-[#002147] mr-2">•</span>
-                            Motherhood
-                          </li>
-                          <li className="flex items-center">
-                            <span className="text-[#002147] mr-2">•</span>
-                            Menopause
-                          </li>
-                        </ul>
+                      <div className="bg-white border border-[#B58233] overflow-hidden h-full">
+                        <div className="p-6 flex flex-col h-full">
+                          <div className="text-center">
+                            <div className="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+                              <img src="/icons/dove.svg" alt="Dove" className="w-16 h-16" />
+                            </div>
+                            <h3 className="font-playfair text-xl text-[#003864] mb-4">
+                              Life Transitions
+                            </h3>
+                            <ul className="text-gray-600 mb-6 font-open-sans space-y-2">
+                              <li>Marriage</li>
+                              <li>Motherhood</li>
+                              <li>Menopause</li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
