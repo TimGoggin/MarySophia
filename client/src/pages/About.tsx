@@ -152,9 +152,10 @@ export default function About() {
               About Me
             </h2>
             <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-              Mary Sophia is a teacher of the Way of Mary and a follower of
-              Christ. She is also a messenger and a channel for Mother Mary,
-              Mary Magdalene, and the Angelic Realm.
+              Mary Sophia is a teacher of the Way of Mary and a devoted follower
+              of Christ. She serves as a messenger and channel for Mother Mary,
+              Mary Magdalene, and the Angelic Realm, offering spiritual guidance
+              rooted in love, remembrance, and the Divine Feminine Wisdom.
             </p>
           </div>
 
