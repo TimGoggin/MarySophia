@@ -225,6 +225,58 @@ export default function Services() {
               </div>
             </div>
           </section>
+
+          {/* FAQ Section */}
+          <section className="mb-20">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="font-playfair text-3xl text-[#002147] mb-8 text-center">
+                Frequently Asked Questions
+              </h2>
+              <div className="space-y-8">
+                <div>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">What is the Light of Sophia?</h3>
+                  <p className="text-gray-800 font-open-sans leading-relaxed">
+                    The Light of Sophia is the indwelling Divine Feminine Wisdom — the sacred voice of love, intuition, and soul remembrance that lives within each of us. It is a quiet, ancient presence that guides us back to our true essence and to the heart of the Divine.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">What is the Order of the Blue Rose?</h3>
+                  <p className="text-gray-800 font-open-sans leading-relaxed">
+                    The Order of the Blue Rose is a sacred lineage of light rooted in the heart of the Divine Feminine. It traces back to Mother Mary and Mary Magdalene, who embodied the Christ Light through love, devotion, and spiritual embodiment. This lineage continues to awaken in those called to walk the Way of Mary and to live as vessels of Divine Love.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">Do I need a specific spiritual background to work with you?</h3>
+                  <p className="text-gray-800 font-open-sans leading-relaxed">
+                    Not at all. This work is open to all who feel called, regardless of religious or spiritual background. Whether you're just beginning your spiritual journey or have walked this path for years, you're warmly welcomed into this sacred space.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">What is spiritual counseling, and how does it differ from traditional therapy?</h3>
+                  <p className="text-gray-800 font-open-sans leading-relaxed">
+                    Spiritual counseling is a heart-centered approach that supports your soul's journey toward wholeness and alignment with your True Nature. Unlike traditional therapy, which often focuses on mental and emotional aspects, spiritual counseling integrates the spiritual dimension, helping you connect with your inner wisdom and the Divine Feminine presence within.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">What can I expect during a session with you?</h3>
+                  <p className="text-gray-800 font-open-sans leading-relaxed">
+                    Each session is a sacred space tailored to your unique needs. We may engage in channeled guidance, intuitive healing, spiritual counseling, or explore ancient wisdom traditions. The intention is always to support your return to remembrance, helping you embody your true essence and live as the Heart of God on Earth.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">How do I know if this path is right for me?</h3>
+                  <p className="text-gray-800 font-open-sans leading-relaxed">
+                    If your heart resonates with the teachings of the Divine Feminine, the wisdom of Sophia, or the sacred lineage of the Blue Rose, you may feel an inner calling. This path is about remembering and embodying your divine essence. If you feel drawn to this work, trust that inner knowing — it's a sign that your soul is ready to awaken.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
       <CtaSection buttonText="Get in Touch" linkTo="/contact" />
