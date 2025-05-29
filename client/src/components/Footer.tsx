@@ -190,6 +190,12 @@ export default function Footer() {
                 >
                   Privacy Policy
                 </a>
+                <a
+                  href="/sitemap.xml"
+                  className="text-white hover:text-white/80 transition duration-300"
+                >
+                  Sitemap
+                </a>
               </div>
             </div>
           </div>
