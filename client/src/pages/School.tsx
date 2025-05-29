@@ -158,7 +158,7 @@ export default function School() {
                     connection with the mysteries of the Blue Rose lineage.
                   </p>
                   <a
-                    href="https://sacred-rose.teachable.com/p/blue-rose-circles"
+                    href="https://sacred-rose.teachable.com/l/pdp/blue-rose-circles"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-4 rounded-md transition duration-300"
