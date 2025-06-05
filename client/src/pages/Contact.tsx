@@ -6,12 +6,13 @@ export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    subject: "",
     message: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    // Netlify will handle the form submission automatically
+    // You can add additional client-side logic here if needed
     console.log("Form submitted:", formData);
   };
 
@@ -96,11 +97,79 @@ export default function Contact() {
 
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="w-full md:w-[55%] md:pr-12">
-              <iframe
-                src={"https://bv6w3pwoi5y.typeform.com/to/br75lVwu"}
-                style={{ width: "100%", height: "600px", border: "0" }}
-                allow="camera; microphone; autoplay; encrypted-media;"
-              />
+              <form
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                netlify-honeypot="bot-field"
+                onSubmit={handleSubmit}
+                className="bg-white p-8 rounded-lg shadow-lg"
+              >
+                {/* Hidden field for Netlify */}
+                <input type="hidden" name="form-name" value="contact" />
+                
+                {/* Honeypot field for spam protection */}
+                <div style={{ display: 'none' }}>
+                  <label>
+                    Don't fill this out if you're human: <input name="bot-field" />
+                  </label>
+                </div>
+
+                <div className="mb-6">
+                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                    Name *
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D4AF37] focus:border-transparent"
+                    placeholder="Your full name"
+                  />
+                </div>
+
+                <div className="mb-6">
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    Email *
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D4AF37] focus:border-transparent"
+                    placeholder="your.email@example.com"
+                  />
+                </div>
+
+                <div className="mb-6">
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                    Message *
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                    rows={6}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#D4AF37] focus:border-transparent resize-vertical"
+                    placeholder="Please share your message, questions, or how we can support you on your journey..."
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full bg-[#D4AF37] hover:bg-[#003864] text-white font-medium py-3 px-6 rounded-md transition duration-300 focus:outline-none focus:ring-2 focus:ring-[#D4AF37] focus:ring-offset-2"
+                >
+                  Send Message
+                </button>
+              </form>
             </div>
 
             <div className="w-full md:w-[35%] md:pl-16">
