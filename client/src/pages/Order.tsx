@@ -8,7 +8,7 @@ export default function Order() {
       <Helmet>
         <link
           rel="canonical"
-          href="https://lightofsophia.com/order-of-the-blue-rose"
+          href={`${window.location.origin}/order`}
         />
         <title>
           Order of the Blue Rose | Sacred Sisterhood & Divine Remembrance
@@ -34,11 +34,11 @@ export default function Order() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://lightofsophia.com/order-of-the-blue-rose"
+          content={`${window.location.origin}/order`}
         />
         <meta
           property="og:image"
-          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+          content={`${window.location.origin}/images/Mary_Sophia_v2.png`}
         />
 
         {/* Structured Data (JSON-LD) */}
@@ -47,8 +47,8 @@ export default function Order() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: "https://lightofsophia.com/order-of-the-blue-rose",
-            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
+            url: `${window.location.origin}/order`,
+            image: `${window.location.origin}/images/Mary_Sophia_v2.png`,
             description:
               "The Order of the Blue Rose is a sacred spiritual lineage and community led by Mary Sophia, guiding women to embody Divine Love and wisdom. Through mentorship, remembrance, and sacred teachings, members walk the Way of Mary and the Divine Feminine.",
             openingHours: "Mo-Fr 09:00-17:00",

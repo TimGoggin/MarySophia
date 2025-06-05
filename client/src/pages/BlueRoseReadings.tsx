@@ -7,7 +7,7 @@ export default function BlueRoseReadings() {
       <Helmet>
         <link
           rel="canonical"
-          href="https://lightofsophia.com/private-readings"
+          href={`${window.location.origin}/readings`}
         />
         <title>
           Private Readings | Channeled Divine Guidance with Mary Sophia
@@ -33,11 +33,11 @@ export default function BlueRoseReadings() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://lightofsophia.com/private-readings"
+          content={`${window.location.origin}/readings`}
         />
         <meta
           property="og:image"
-          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+          content={`${window.location.origin}/images/Mary_Sophia_v2.png`}
         />
 
         {/* Structured Data (JSON-LD) */}
@@ -46,8 +46,8 @@ export default function BlueRoseReadings() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: "https://lightofsophia.com/private-readings",
-            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
+            url: `${window.location.origin}/readings`,
+            image: `${window.location.origin}/images/Mary_Sophia_v2.png`,
             description:
               "Mary Sophia offers private spiritual readings—channeled guidance from the Divine Mother and angelic realms to illuminate your soul purpose and path. Sessions are held via Zoom and include a recording.",
             openingHours: "Mo-Fr 09:00-17:00",
