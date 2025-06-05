@@ -26,49 +26,61 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://www.lightofsophia.com/contact-us" />
-        <title>Contact | Mary Sophia</title>
+        <link rel="canonical" href="https://lightofsophia.com/contact-us" />
+        <title>Contact Mary Sophia | Send a Message or Connect Online</title>
         <meta
           name="description"
-          content="Get in touch with Mary Sophia for questions, session inquiries, or spiritual guidance. Reach out by email or connect via Instagram and YouTube to join our sacred community."
+          content="Get in touch with Mary Sophia. Reach out via contact form or email for spiritual support, session inquiries, or guidance on your sacred journey."
         />
         <meta
           name="keywords"
-          content="Contact Mary Sophia, spiritual guidance contact, divine feminine teacher, Blue Rose community, Instagram, YouTube, email Mary Sophia, spiritual mentor contact"
+          content="contact Mary Sophia, spiritual guide email, divine feminine teacher contact, Blue Rose connection, send message Mary Sophia"
         />
+
+        {/* Open Graph metadata */}
+        <meta
+          property="og:title"
+          content="Contact Mary Sophia | Send a Message or Connect Online"
+        />
+        <meta
+          property="og:description"
+          content="Reach out to Mary Sophia for spiritual guidance, session inquiries, or messages from the heart. Email and form contact available."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://lightofsophia.com/contact-us"
+        />
+        <meta
+          property="og:image"
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+        />
+
+        {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Person",
-            name: "Mary Sophia",
-            url: "https://www.lightofsophia.com/contact-us",
-            image: "https://www.lightofsophia.com/images/mary.jpg",
+            "@type": "ContactPage",
+            name: "Contact Mary Sophia",
+            url: "https://lightofsophia.com/contact-us",
             description:
-              "Contact Mary Sophia for spiritual inquiries, private sessions, or to connect with the sacred community of the Blue Rose lineage. Reach out via email, Instagram, or YouTube.",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "1456 Ferry Road #10",
-              addressLocality: "Doylestown",
-              addressRegion: "PA",
-              postalCode: "18901",
-              addressCountry: "US",
+              "Reach out to Mary Sophia through our contact form or email. We're here to support your path with compassion and spiritual guidance.",
+            contactOption: [
+              {
+                "@type": "ContactPoint",
+                contactType: "customer support",
+                email: "info@marysophia.com",
+                availableLanguage: ["English"],
+              },
+            ],
+            publisher: {
+              "@type": "Organization",
+              name: "Mary Sophia | Light of Sophia",
+              url: "https://lightofsophia.com",
             },
-            email: "mailto:hello@bluerose.love",
-            sameAs: [
-              "https://www.instagram.com/orderofthebluerose/",
-              "https://www.youtube.com/@orderofthebluerose3878",
-            ],
-            knowsAbout: [
-              "Spiritual Guidance",
-              "Divine Feminine Wisdom",
-              "Private Sessions",
-              "Community Connection",
-              "Blue Rose Lineage",
-            ],
           })}
         </script>
       </Helmet>
-
       <div className="bg-white py-16 pt-48 relative">
         <div className="max-w-7xl mx-auto px-4 relative z-10">
           <div className="text-center mb-12">

@@ -5,48 +5,56 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://www.lightofsophia.com/about-us" />
-        <title>
-          Mary Sophia | Teacher of the Way of Mary, Keeper of the Light of
-          Sophia
-        </title>
+        <link rel="canonical" href="https://lightofsophia.com/about-us" />
+        <title>About Mary Sophia | Divine Feminine Teacher & Messenger</title>
         <meta
           name="description"
-          content="Mary Sophia offers channeled guidance, intuitive healing, and spiritual counseling rooted in the Way of Mary and the Divine Feminine. Discover sacred teachings and nurture your heart’s wisdom."
+          content="Learn about Mary Sophia — teacher of the Way of Mary, intuitive channel, and spiritual counselor offering sacred wisdom from the Divine Feminine lineage."
         />
         <meta
           name="keywords"
-          content="Mary Sophia, Way of Mary, Divine Feminine, spiritual guidance, intuitive healing, sacred teachings, spiritual counseling, Order of the Blue Rose, Mother Mary, Mary Magdalene, angelic wisdom"
+          content="Mary Sophia, about Mary Sophia, divine feminine teacher, spiritual counselor, Way of the Heart, channel for Mary Magdalene, sacred feminine wisdom"
         />
+
+        {/* Open Graph metadata */}
+        <meta
+          property="og:title"
+          content="About Mary Sophia | Divine Feminine Teacher & Messenger"
+        />
+        <meta
+          property="og:description"
+          content="Mary Sophia is a teacher, spiritual counselor, and messenger for Mother Mary and the Wisdom of Sophia. Discover her sacred mission and teachings."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://lightofsophia.com/about-us" />
+        <meta
+          property="og:image"
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+        />
+
+        {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
             name: "Mary Sophia",
-            url: "https://www.lightofsophia.com",
-            image: "https://www.lightofsophia.com/images/mary-sophia-2.jpg",
+            url: "https://lightofsophia.com/about-us",
+            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
-              "Mary Sophia is a spiritual teacher and guide, offering intuitive readings, spiritual counseling, and teachings rooted in the Divine Feminine and the Way of Mary.",
-            sameAs: [
-              "https://www.instagram.com/marysophia", // Replace with real URLs
-              "https://www.facebook.com/marysophia",
-            ],
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "1456 Ferry Road #10",
-              addressLocality: "Doylestown",
-              addressRegion: "PA",
-              postalCode: "18901",
-              addressCountry: "US",
-            },
+              "Mary Sophia is a spiritual teacher, intuitive channel, and counselor devoted to the Divine Feminine. She offers guidance rooted in the Way of the Heart, channeling wisdom from Mother Mary, Mary Magdalene, and the angelic realm.",
+            jobTitle: "Spiritual Teacher and Channel",
             knowsAbout: [
               "Divine Feminine Wisdom",
+              "Way of the Heart",
+              "Mary Magdalene Teachings",
               "Spiritual Counseling",
               "Intuitive Readings",
-              "Order of the Blue Rose",
-              "Mary Magdalene",
-              "Mother Mary",
             ],
+            worksFor: {
+              "@type": "Organization",
+              name: "Mary Sophia | Light of Sophia",
+              url: "https://lightofsophia.com",
+            },
           })}
         </script>
       </Helmet>
