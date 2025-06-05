@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -72,7 +73,7 @@ function App() {
                   itemOffered: {
                     "@type": "Service",
                     name: "Private Readings",
-                    description: "Intuitive guidance sessions tailored to your soul’s journey."
+                    description: "Intuitive guidance sessions tailored to your soul's journey."
                   }
                 },
                 {
@@ -114,7 +115,7 @@ function App() {
               <HeroSection />
               <WelcomeSection />
               <ServicesSection />
-              <SacredRebirthCta /> {/* Added SacredRebirthCta */}
+              <SacredRebirthCta />
               <AboutSection />
               <TestimonialsSection />
               <CtaSection buttonText="Sign Up Here" />
