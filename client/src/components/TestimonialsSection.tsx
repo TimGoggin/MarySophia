@@ -1,7 +1,6 @@
 import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 import { useState } from "react";
-// Added getImageUrl import
-import { getImageUrl } from "../utils/image";
+import { getImageUrl } from "../lib/imageUtils";
 
 export default function TestimonialsSection() {
   const testimonials = [
