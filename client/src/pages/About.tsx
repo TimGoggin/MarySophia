@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://www.lightofsophia.com/about" />
+        <link rel="canonical" href="https://www.lightofsophia.com/about-us" />
         <title>
           Mary Sophia | Teacher of the Way of Mary, Keeper of the Light of
           Sophia

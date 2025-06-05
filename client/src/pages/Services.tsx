@@ -378,7 +378,7 @@ export default function Services() {
           </section>
         </div>
       </div>
-      <CtaSection buttonText="Get in Touch" linkTo="/contact" />
+      <CtaSection buttonText="Get in Touch" linkTo="/contact-us" />
     </>
   );
 }

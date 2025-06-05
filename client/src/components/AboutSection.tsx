@@ -31,7 +31,7 @@ export default function AboutSection() {
               intuitive healing, sacred wisdom, and deep heart presence.
             </p>
             <Link
-              to="/about"
+              to="/about-us"
               className="inline-flex items-center bg-[#002147] hover:bg-[#D4AF37] text-white py-2 px-6 rounded-md transition duration-300 mt-6"
             >
               Learn More About Mary Sophia

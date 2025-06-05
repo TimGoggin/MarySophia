@@ -11,7 +11,7 @@ interface CtaSectionProps {
 
 export default function CtaSection({ 
   buttonText = "Get Started", 
-  linkTo = "/contact",
+  linkTo = "/contact-us",
   isExternal = false 
 }: CtaSectionProps) {
   useEffect(() => {

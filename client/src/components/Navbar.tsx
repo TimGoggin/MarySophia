@@ -6,7 +6,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isAtTop, setIsAtTop] = useState(true);
   const location = useLocation();
-  const isContactPage = location.pathname === "/contact";
+  const isContactPage = location.pathname === "/contact-us";
 
   // Define paths where navbar should be transparent at top
   const transparentPaths = [
@@ -132,16 +132,16 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              to="/about"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/about" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/about" ? "border-black" : "border-transparent"}`}
+              to="/about-us"
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/about-us" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/about-us" ? "border-black" : "border-transparent"}`}
             >
               About
             </Link>
           </li>
           <li>
             <Link
-              to="/contact"
-              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/contact" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/contact" ? "border-black" : "border-transparent"}`}
+              to="/contact-us"
+              className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/contact-us" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/contact-us" ? "border-black" : "border-transparent"}`}
             >
               Contact
             </Link>
@@ -209,8 +209,8 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              to="/about"
-              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/about" ? "text-[#D4AF37] font-semibold" : ""}`}
+              to="/about-us"
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/about-us" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               About
@@ -218,8 +218,8 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              to="/contact"
-              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/contact" ? "text-[#D4AF37] font-semibold" : ""}`}
+              to="/contact-us"
+              className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/contact-us" ? "text-[#D4AF37] font-semibold" : ""}`}
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact

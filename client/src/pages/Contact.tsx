@@ -26,7 +26,7 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://www.lightofsophia.com/contact" />
+        <link rel="canonical" href="https://www.lightofsophia.com/contact-us" />
         <title>Contact | Mary Sophia</title>
         <meta
           name="description"
@@ -41,7 +41,7 @@ export default function Contact() {
             "@context": "https://schema.org",
             "@type": "Person",
             name: "Mary Sophia",
-            url: "https://www.lightofsophia.com/contact",
+            url: "https://www.lightofsophia.com/contact-us",
             image: "https://www.lightofsophia.com/images/mary.jpg",
             description:
               "Contact Mary Sophia for spiritual inquiries, private sessions, or to connect with the sacred community of the Blue Rose lineage. Reach out via email, Instagram, or YouTube.",

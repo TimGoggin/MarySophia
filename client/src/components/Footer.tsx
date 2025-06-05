@@ -65,13 +65,13 @@ export default function Footer() {
                     Order of the Blue Rose
                   </Link>
                   <Link
-                    to="/about"
+                    to="/about-us"
                     className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
                   >
                     About
                   </Link>
                   <Link
-                    to="/contact"
+                    to="/contact-us"
                     className="text-white hover:text-white/80 transition duration-300 text-base font-medium"
                   >
                     Contact
