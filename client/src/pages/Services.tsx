@@ -33,7 +33,7 @@ export default function Services() {
         <meta property="og:url" content="https://lightofsophia.com/services" />
         <meta
           property="og:image"
-          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+          content="https://lightofsophia.com/.netlify/images?url=/images/Mary_Sophia_v2.png&w=1200&h=630&fit=cover"
         />
 
         {/* Structured Data (JSON-LD) */}
@@ -43,7 +43,7 @@ export default function Services() {
             "@type": "LocalBusiness",
             name: "Mary Sophia",
             url: "https://lightofsophia.com/services",
-            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
+            image: "https://lightofsophia.com/.netlify/images?url=/images/Mary_Sophia_v2.png&w=800&h=600&fit=cover",
             description:
               "Mary Sophia offers transformative spiritual services including private readings, intuitive counseling, sacred mentorship, and divine wisdom teachings to support awakening and soul remembrance.",
             openingHours: "Mo-Fr 09:00-17:00",
@@ -104,7 +104,7 @@ export default function Services() {
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src={import.meta.env.BASE_URL + "images/servicesbackground.jpg"}
+            src="/.netlify/images?url=/images/servicesbackground.jpg&w=1920&h=1080&fit=cover"
             alt="Hero Background"
             className="w-full h-full object-cover opacity-80"
           />
@@ -127,7 +127,7 @@ export default function Services() {
           <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
             <div className="md:w-1/3">
               <img
-                src="/images/newMary1.jpg"
+                src="/.netlify/images?url=/images/newMary1.jpg&w=600&h=800&fit=cover"
                 alt="Mary Sophia"
                 className="rounded-lg shadow-xl w-full max-w-md mx-auto"
               />

@@ -105,7 +105,7 @@ export default function Contact() {
             <div className="w-full md:w-[35%] md:pl-16">
               <div className="relative h-full">
                 <img
-                  src="/images/mary.jpg"
+                  src="/.netlify/images?url=/images/mary.jpg&w=600&h=800&fit=cover"
                   alt="Mary Sophia"
                   className="w-full h-auto rounded-lg shadow-xl object-cover md:sticky md:top-32"
                 />

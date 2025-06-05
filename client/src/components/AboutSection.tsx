@@ -40,7 +40,7 @@ export default function AboutSection() {
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <img
-              src="/images/mary-sophia.jpg"
+              src="/.netlify/images?url=/images/mary-sophia.jpg&w=600&h=800&fit=cover"
               alt="Mary Sophia Portrait"
               className="rounded-lg shadow-xl max-w-full h-auto"
             />

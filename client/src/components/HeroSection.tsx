@@ -28,7 +28,7 @@ export default function HeroSection() {
     >
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="/images/bluerosebackground.jpeg"
+          src="/.netlify/images?url=/images/bluerosebackground.jpeg&w=1920&h=1080&fit=cover"
           alt="Hero Background"
           className="w-full h-full object-cover object-center"
         />
@@ -55,7 +55,7 @@ export default function HeroSection() {
           </div>
           <div className="md:w-1/2 flex justify-center mb-8 md:mb-0">
             <img
-              src="/images/Mary_Sophia_v2.png"
+              src="/.netlify/images?url=/images/Mary_Sophia_v2.png&w=800&h=1000&fit=cover"
               alt="Mary Sophia Portrait"
               className="w-2/3 h-2/3 object-contain"
             />

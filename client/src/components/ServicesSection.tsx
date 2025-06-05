@@ -4,7 +4,7 @@ export default function ServicesSection() {
   const services = [
     {
       id: 1,
-      icon: <img src="/icons/angel.svg" alt="Star" className="w-16 h-16" />,
+      icon: <img src="/.netlify/images?url=/icons/angel.svg&w=64&h=64" alt="Star" className="w-16 h-16" />,
       title: "Private Readings",
       description:
         "Connect with divine guidance through personal readings tailored to your spiritual journey.",
@@ -14,7 +14,7 @@ export default function ServicesSection() {
     {
       id: 2,
       icon: (
-        <img src="/icons/dove.svg" alt="Female" className="w-full h-full" />
+        <img src="/.netlify/images?url=/icons/dove.svg&w=64&h=64" alt="Female" className="w-full h-full" />
       ),
       title: "School of Sophia",
       description:
@@ -24,7 +24,7 @@ export default function ServicesSection() {
     },
     {
       id: 3,
-      icon: <img src="/icons/rose.svg" alt="Rose" className="w-full h-full" />,
+      icon: <img src="/.netlify/images?url=/icons/rose.svg&w=64&h=64" alt="Rose" className="w-full h-full" />,
       title: "Order of the Blue Rose",
       description:
         "Join our sacred sisterhood and embody the radiance of your truly awakened heart.",
@@ -33,7 +33,7 @@ export default function ServicesSection() {
     },
     {
       id: 4,
-      icon: <img src="/icons/angel2.svg" alt="Star" className="w-16 h-16" />,
+      icon: <img src="/.netlify/images?url=/icons/angel2.svg&w=64&h=64" alt="Star" className="w-16 h-16" />,
       title: "Spiritual Counseling",
       description:
         "Receive sacred support through life's transitions with heart-centered guidance and healing.",
