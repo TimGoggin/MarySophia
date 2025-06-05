@@ -24,47 +24,83 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <link rel="canonical" href="https://www.lightofsophia.com/" />
-        <title>
-          Mary Sophia | Divine Feminine Guidance, Healing & Spiritual Wisdom
-        </title>
+        <link rel="canonical" href="https://lightofsophia.com/" />
+        <title>Mary Sophia | Divine Feminine Channel & Spiritual Guide</title>
         <meta
           name="description"
-          content="Mary Sophia offers sacred guidance, spiritual counseling, private readings, and teachings rooted in Divine Feminine wisdom. Awaken your soul, embody love, and connect with a sacred community."
+          content="Mary Sophia offers private readings, spiritual counseling, and sacred teachings rooted in the Divine Feminine. Explore the School of Sophia and Order of the Blue Rose."
         />
         <meta
           name="keywords"
-          content="Mary Sophia, Divine Feminine, spiritual guidance, private readings, spiritual counseling, Order of the Blue Rose, School of Sophia, feminine wisdom, soul awakening, sacred community"
+          content="Mary Sophia, Divine Feminine, spiritual counseling, intuitive channeling, private readings, Order of the Blue Rose, School of Sophia"
         />
+
+        {/* Open Graph metadata */}
+        <meta property="og:title" content="Mary Sophia | Divine Feminine Channel & Spiritual Guide" />
+        <meta
+          property="og:description"
+          content="Step into sacred remembrance with Mary Sophia — intuitive channel and messenger of the Divine Feminine Light."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://lightofsophia.com/" />
+        <meta
+          property="og:image"
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+        />
+
+        {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Person",
+            "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: "https://www.lightofsophia.com/",
-            image: "https://www.lightofsophia.com/images/newMary4.jpg",
+            url: "https://lightofsophia.com",
+            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
-              "Mary Sophia is an intuitive channel, spiritual counselor, and teacher offering Divine Feminine guidance, private readings, mentorship, and sacred community through the Order of the Blue Rose and School of Sophia.",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "1456 Ferry Road #10",
-              addressLocality: "Doylestown",
-              addressRegion: "PA",
-              postalCode: "18901",
-              addressCountry: "US",
+              "Mary Sophia is a spiritual teacher, intuitive channel, and sacred guide offering services rooted in the Divine Feminine, including private readings, spiritual counseling, and mentorship through the School of Sophia and Order of the Blue Rose.",
+            openingHours: "Mo-Fr 09:00-17:00",
+            areaServed: {
+              "@type": "Place",
+              name: ["Buckingham", "Doylestown", "New Hope", "Lambertville", "Online Worldwide"]
             },
-            sameAs: [
-              "https://www.instagram.com/orderofthebluerose/",
-              "https://www.youtube.com/@orderofthebluerose3878",
-            ],
-            knowsAbout: [
-              "Divine Feminine Guidance",
-              "Private Readings",
-              "Spiritual Counseling",
-              "Sacred Mentorship",
-              "Order of the Blue Rose",
-              "School of Sophia",
-            ],
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Mary Sophia Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Private Readings",
+                    description: "Intuitive guidance sessions tailored to your soul’s journey."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Spiritual Counseling",
+                    description: "Sacred support sessions for healing, wisdom, and inner alignment."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "School of Sophia",
+                    description: "Courses and mentorship in spiritual awakening and Divine Feminine wisdom."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Order of the Blue Rose",
+                    description: "Sacred sisterhood path of devotion, remembrance, and divine embodiment."
+                  }
+                }
+              ]
+            }
           })}
         </script>
       </Helmet>

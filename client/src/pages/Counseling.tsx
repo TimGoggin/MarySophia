@@ -6,45 +6,88 @@ export default function Counseling() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://www.lightofsophia.com/counseling" />
-        <title>Spiritual Counseling | Mary Sophia</title>
+        <link
+          rel="canonical"
+          href="https://lightofsophia.com/spiritual-counseling"
+        />
+        <title>Spiritual Counseling | Sacred Healing with Mary Sophia</title>
         <meta
           name="description"
-          content="Experience spiritual counseling and intuitive healing with Mary Sophia. Navigate life transitions, heal relationships, and awaken to your true nature through sacred guidance and support."
+          content="Receive intuitive, heart-centered spiritual counseling from Mary Sophia. Support through loss, transitions, and sacred thresholds with divine feminine wisdom."
         />
         <meta
           name="keywords"
-          content="Spiritual counseling, intuitive healing, Mary Sophia, life transitions, relationship healing, divine feminine, sacred mentorship, spiritual awakening, emotional healing, women’s empowerment"
+          content="spiritual counseling, healing support, divine feminine guidance, intuitive counseling, Mary Sophia, women's spiritual healing"
         />
+
+        {/* Open Graph metadata */}
+        <meta
+          property="og:title"
+          content="Spiritual Counseling | Sacred Healing with Mary Sophia"
+        />
+        <meta
+          property="og:description"
+          content="Heart-led spiritual support and intuitive healing from Mary Sophia. Sessions available via Zoom or in-person."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://lightofsophia.com/spiritual-counseling"
+        />
+        <meta
+          property="og:image"
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+        />
+
+        {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Person",
+            "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: "https://www.lightofsophia.com/counseling",
-            image: "https://www.lightofsophia.com/images/newMary3.jpg",
+            url: "https://lightofsophia.com/spiritual-counseling",
+            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
-              "Mary Sophia offers spiritual counseling and intuitive healing to support individuals through life’s sacred thresholds. Her work helps awaken true nature, heal emotional wounds, and restore authentic living.",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "1456 Ferry Road #10",
-              addressLocality: "Doylestown",
-              addressRegion: "PA",
-              postalCode: "18901",
-              addressCountry: "US",
+              "Mary Sophia offers spiritual counseling and intuitive healing rooted in divine feminine wisdom. Sessions address grief, loss, transition, motherhood, and spiritual awakening. Held via Zoom or in-person.",
+            openingHours: "Mo-Fr 09:00-17:00",
+            areaServed: {
+              "@type": "Place",
+              name: ["Online", "Worldwide", "United States"],
             },
-            sameAs: [
-              "https://www.instagram.com/orderofthebluerose/",
-              "https://www.youtube.com/@orderofthebluerose3878",
-            ],
-            knowsAbout: [
-              "Spiritual Counseling",
-              "Intuitive Healing",
-              "Life Transitions",
-              "Emotional Healing",
-              "Divine Feminine",
-              "Women’s Empowerment",
-            ],
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Spiritual Counseling Services",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Initial Session",
+                    description:
+                      "60-minute spiritual counseling session for new clients.",
+                    priceSpecification: {
+                      "@type": "PriceSpecification",
+                      priceCurrency: "USD",
+                      price: 175,
+                    },
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Continuing Session",
+                    description:
+                      "60-minute follow-up spiritual counseling session.",
+                    priceSpecification: {
+                      "@type": "PriceSpecification",
+                      priceCurrency: "USD",
+                      price: 144,
+                    },
+                  },
+                },
+              ],
+            },
           })}
         </script>
       </Helmet>

@@ -6,49 +6,71 @@ export default function Order() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://www.lightofsophia.com/order" />
-        <title>Order of the Blue Rose | Mary Sophia</title>
+        <link
+          rel="canonical"
+          href="https://lightofsophia.com/order-of-the-blue-rose"
+        />
+        <title>
+          Order of the Blue Rose | Sacred Sisterhood & Divine Remembrance
+        </title>
         <meta
           name="description"
-          content="The Order of the Blue Rose is a sacred lineage of Divine Love and Wisdom, guided by Mary Sophia. Discover mystical teachings, spiritual mentorship, and awaken the Christ frequencies within your heart."
+          content="Join the Order of the Blue Rose — a sacred lineage and spiritual sisterhood rooted in Divine Love, remembrance, and the embodiment of the Divine Feminine."
         />
         <meta
           name="keywords"
-          content="Order of the Blue Rose, Mary Sophia, Divine Feminine, Christ frequencies, mystical teachings, spiritual awakening, spiritual mentorship, Mother Mary, Mary Magdalene"
+          content="Order of the Blue Rose, divine sisterhood, sacred lineage, Mary Sophia, spiritual mentorship, blue rose priestess path"
         />
+
+        {/* Open Graph metadata */}
+        <meta
+          property="og:title"
+          content="Order of the Blue Rose | Sacred Sisterhood & Divine Remembrance"
+        />
+        <meta
+          property="og:description"
+          content="Walk the path of Divine Love and sacred embodiment with Mary Sophia and the Order of the Blue Rose. Enrollment open for mentorship programs."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://lightofsophia.com/order-of-the-blue-rose"
+        />
+        <meta
+          property="og:image"
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+        />
+
+        {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "Order of the Blue Rose",
-            url: "https://www.lightofsophia.com/order",
-            image: "https://www.lightofsophia.com/images/newMary4.jpg",
+            "@type": "LocalBusiness",
+            name: "Mary Sophia",
+            url: "https://lightofsophia.com/order-of-the-blue-rose",
+            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
-              "The Order of the Blue Rose is a lineage of Divine Love and Wisdom led by Mary Sophia, offering spiritual mentorship, mystical teachings, and guidance on the Christ path.",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "1456 Ferry Road #10",
-              addressLocality: "Doylestown",
-              addressRegion: "PA",
-              postalCode: "18901",
-              addressCountry: "US",
+              "The Order of the Blue Rose is a sacred spiritual lineage and community led by Mary Sophia, guiding women to embody Divine Love and wisdom. Through mentorship, remembrance, and sacred teachings, members walk the Way of Mary and the Divine Feminine.",
+            openingHours: "Mo-Fr 09:00-17:00",
+            areaServed: {
+              "@type": "Place",
+              name: ["Online", "Worldwide", "United States"],
             },
-            sameAs: [
-              "https://www.instagram.com/orderofthebluerose/",
-              "https://www.youtube.com/@orderofthebluerose3878",
-            ],
-            founder: {
-              "@type": "Person",
-              name: "Mary Sophia",
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Order of the Blue Rose Offerings",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Blue Rose Mentorship Program",
+                    description:
+                      "A transformational spiritual mentorship program rooted in sacred sisterhood and Divine Feminine embodiment.",
+                  },
+                },
+              ],
             },
-            keywords: [
-              "Divine Feminine",
-              "Order of the Blue Rose",
-              "Spiritual Awakening",
-              "Mary Magdalene",
-              "Mother Mary",
-              "Christ frequencies",
-            ],
           })}
         </script>
       </Helmet>

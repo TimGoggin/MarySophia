@@ -7,49 +7,100 @@ export default function Services() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://www.lightofsophia.com/services" />
-        <title>Services | Mary Sophia</title>
+        <link rel="canonical" href="https://lightofsophia.com/services" />
+        <title>
+          Spiritual Services | Private Readings, Counseling & Wisdom Teachings
+        </title>
         <meta
           name="description"
-          content="Explore the sacred services of Mary Sophia, including private readings, spiritual counseling, and mentorship through the Order of the Blue Rose. Awaken your soul and embody divine feminine wisdom."
+          content="Explore Mary Sophia’s spiritual services including private readings, spiritual counseling, the School of Sophia, and the Order of the Blue Rose. Awaken the Divine Feminine within."
         />
         <meta
           name="keywords"
-          content="Mary Sophia services, private readings, spiritual counseling, Order of the Blue Rose, divine feminine, sacred mentorship, soul guidance, spiritual healing, feminine wisdom, sacred offerings"
+          content="spiritual services, private readings, divine feminine wisdom, spiritual counseling, School of Sophia, Order of the Blue Rose, Mary Sophia"
         />
+
+        {/* Open Graph metadata */}
+        <meta
+          property="og:title"
+          content="Spiritual Services | Private Readings, Counseling & Wisdom Teachings"
+        />
+        <meta
+          property="og:description"
+          content="Discover sacred offerings to support your soul's path—readings, counseling, and divine feminine mentorship with Mary Sophia."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://lightofsophia.com/services" />
+        <meta
+          property="og:image"
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+        />
+
+        {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Person",
+            "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: "https://www.lightofsophia.com/services",
-            image: "https://www.lightofsophia.com/images/newMary1.jpg",
+            url: "https://lightofsophia.com/services",
+            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
-              "Mary Sophia offers sacred services including private readings, spiritual counseling, and mentorship through the Order of the Blue Rose to support soul awakening and divine embodiment.",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "1456 Ferry Road #10",
-              addressLocality: "Doylestown",
-              addressRegion: "PA",
-              postalCode: "18901",
-              addressCountry: "US",
+              "Mary Sophia offers transformative spiritual services including private readings, intuitive counseling, sacred mentorship, and divine wisdom teachings to support awakening and soul remembrance.",
+            openingHours: "Mo-Fr 09:00-17:00",
+            areaServed: {
+              "@type": "Place",
+              name: [
+                "Online",
+                "Worldwide",
+                "United States",
+                "Buckingham PA region",
+              ],
             },
-            sameAs: [
-              "https://www.instagram.com/orderofthebluerose/",
-              "https://www.youtube.com/@orderofthebluerose3878",
-            ],
-            knowsAbout: [
-              "Private Readings",
-              "Spiritual Counseling",
-              "Order of the Blue Rose",
-              "Divine Feminine Wisdom",
-              "Sacred Mentorship",
-              "Soul Guidance",
-            ],
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Sacred Services by Mary Sophia",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Private Readings",
+                    description:
+                      "Channeled soul wisdom from the Divine Mother to support your spiritual path.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Spiritual Counseling",
+                    description:
+                      "Heart-centered support sessions for healing, transition, and divine alignment.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "School of Sophia",
+                    description:
+                      "Courses and mentorship in Divine Feminine traditions and spiritual formation.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Order of the Blue Rose",
+                    description:
+                      "Sacred community and lineage devoted to living the Way of the Divine Mother.",
+                  },
+                },
+              ],
+            },
           })}
         </script>
       </Helmet>
-
       <section className="relative min-h-[40vh] flex items-center pt-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
@@ -150,7 +201,13 @@ export default function Services() {
                 Sacred Formation Through Divine Feminine Wisdom
               </h3>
               <p className="text-gray-800 mb-8 font-open-sans leading-relaxed text-base">
-                The School of Sophia is a transformative path of spiritual formation deeply rooted in Divine Feminine wisdom traditions. Through weekly Magdalene Yoga, monthly Blue Rose Circles, Sacred Prayer Groups, and our Wisdom Book Club, you'll discover ancient mysteries bridged with contemporary understanding. Join our sacred community to awaken your inner wisdom and embrace the divine feminine through heart-centered practices and teachings.
+                The School of Sophia is a transformative path of spiritual
+                formation deeply rooted in Divine Feminine wisdom traditions.
+                Through weekly Magdalene Yoga, monthly Blue Rose Circles, Sacred
+                Prayer Groups, and our Wisdom Book Club, you'll discover ancient
+                mysteries bridged with contemporary understanding. Join our
+                sacred community to awaken your inner wisdom and embrace the
+                divine feminine through heart-centered practices and teachings.
               </p>
               <div className="text-center">
                 <Link
@@ -234,44 +291,86 @@ export default function Services() {
               </h2>
               <div className="space-y-8">
                 <div>
-                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">What is the Light of Sophia?</h3>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">
+                    What is the Light of Sophia?
+                  </h3>
                   <p className="text-gray-800 font-open-sans leading-relaxed">
-                    The Light of Sophia is the indwelling Divine Feminine Wisdom — the sacred voice of love, intuition, and soul remembrance that lives within each of us. It is a quiet, ancient presence that guides us back to our true essence and to the heart of the Divine.
+                    The Light of Sophia is the indwelling Divine Feminine Wisdom
+                    — the sacred voice of love, intuition, and soul remembrance
+                    that lives within each of us. It is a quiet, ancient
+                    presence that guides us back to our true essence and to the
+                    heart of the Divine.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">What is the Order of the Blue Rose?</h3>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">
+                    What is the Order of the Blue Rose?
+                  </h3>
                   <p className="text-gray-800 font-open-sans leading-relaxed">
-                    The Order of the Blue Rose is a sacred lineage of light rooted in the heart of the Divine Feminine. It traces back to Mother Mary and Mary Magdalene, who embodied the Christ Light through love, devotion, and spiritual embodiment. This lineage continues to awaken in those called to walk the Way of Mary and to live as vessels of Divine Love.
+                    The Order of the Blue Rose is a sacred lineage of light
+                    rooted in the heart of the Divine Feminine. It traces back
+                    to Mother Mary and Mary Magdalene, who embodied the Christ
+                    Light through love, devotion, and spiritual embodiment. This
+                    lineage continues to awaken in those called to walk the Way
+                    of Mary and to live as vessels of Divine Love.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">Do I need a specific spiritual background to work with you?</h3>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">
+                    Do I need a specific spiritual background to work with you?
+                  </h3>
                   <p className="text-gray-800 font-open-sans leading-relaxed">
-                    Not at all. This work is open to all who feel called, regardless of religious or spiritual background. Whether you're just beginning your spiritual journey or have walked this path for years, you're warmly welcomed into this sacred space.
+                    Not at all. This work is open to all who feel called,
+                    regardless of religious or spiritual background. Whether
+                    you're just beginning your spiritual journey or have walked
+                    this path for years, you're warmly welcomed into this sacred
+                    space.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">What is spiritual counseling, and how does it differ from traditional therapy?</h3>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">
+                    What is spiritual counseling, and how does it differ from
+                    traditional therapy?
+                  </h3>
                   <p className="text-gray-800 font-open-sans leading-relaxed">
-                    Spiritual counseling is a heart-centered approach that supports your soul's journey toward wholeness and alignment with your True Nature. Unlike traditional therapy, which often focuses on mental and emotional aspects, spiritual counseling integrates the spiritual dimension, helping you connect with your inner wisdom and the Divine Feminine presence within.
+                    Spiritual counseling is a heart-centered approach that
+                    supports your soul's journey toward wholeness and alignment
+                    with your True Nature. Unlike traditional therapy, which
+                    often focuses on mental and emotional aspects, spiritual
+                    counseling integrates the spiritual dimension, helping you
+                    connect with your inner wisdom and the Divine Feminine
+                    presence within.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">What can I expect during a session with you?</h3>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">
+                    What can I expect during a session with you?
+                  </h3>
                   <p className="text-gray-800 font-open-sans leading-relaxed">
-                    Each session is a sacred space tailored to your unique needs. We may engage in channeled guidance, intuitive healing, spiritual counseling, or explore ancient wisdom traditions. The intention is always to support your return to remembrance, helping you embody your true essence and live as the Heart of God on Earth.
+                    Each session is a sacred space tailored to your unique
+                    needs. We may engage in channeled guidance, intuitive
+                    healing, spiritual counseling, or explore ancient wisdom
+                    traditions. The intention is always to support your return
+                    to remembrance, helping you embody your true essence and
+                    live as the Heart of God on Earth.
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">How do I know if this path is right for me?</h3>
+                  <h3 className="text-xl text-[#002147] mb-3 font-playfair">
+                    How do I know if this path is right for me?
+                  </h3>
                   <p className="text-gray-800 font-open-sans leading-relaxed">
-                    If your heart resonates with the teachings of the Divine Feminine, the wisdom of Sophia, or the sacred lineage of the Blue Rose, you may feel an inner calling. This path is about remembering and embodying your divine essence. If you feel drawn to this work, trust that inner knowing — it's a sign that your soul is ready to awaken.
+                    If your heart resonates with the teachings of the Divine
+                    Feminine, the wisdom of Sophia, or the sacred lineage of the
+                    Blue Rose, you may feel an inner calling. This path is about
+                    remembering and embodying your divine essence. If you feel
+                    drawn to this work, trust that inner knowing — it's a sign
+                    that your soul is ready to awaken.
                   </p>
                 </div>
               </div>

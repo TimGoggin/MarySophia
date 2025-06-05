@@ -5,45 +5,76 @@ export default function BlueRoseReadings() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://www.lightofsophia.com/readings" />
-        <title>Private Readings | Mary Sophia</title>
+        <link
+          rel="canonical"
+          href="https://lightofsophia.com/private-readings"
+        />
+        <title>
+          Private Readings | Channeled Divine Guidance with Mary Sophia
+        </title>
         <meta
           name="description"
-          content="Receive sacred, channeled guidance from Mary Sophia through Private Readings. Explore your soul purpose, past lives, and spiritual awakening with loving support from the Divine Mother and Angelic Realm."
+          content="Receive sacred soul guidance with Mary Sophia. Her private readings offer divine messages from the Mother and the Angelic Realms to support your spiritual journey."
         />
         <meta
           name="keywords"
-          content="Private readings, channeled guidance, soul purpose, past life readings, spiritual awakening, Mary Sophia, divine feminine, Blue Rose Readings, angelic guidance, intuitive readings"
+          content="private spiritual readings, intuitive guidance, divine feminine messages, Blue Rose Reading, Mary Sophia, soul path reading"
         />
+
+        {/* Open Graph metadata */}
+        <meta
+          property="og:title"
+          content="Private Readings | Channeled Divine Guidance with Mary Sophia"
+        />
+        <meta
+          property="og:description"
+          content="Receive sacred wisdom and soul remembrance through private channeled readings with Mary Sophia. Sessions available by Zoom."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://lightofsophia.com/private-readings"
+        />
+        <meta
+          property="og:image"
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+        />
+
+        {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Person",
+            "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: "https://www.lightofsophia.com/readings",
-            image: "https://www.lightofsophia.com/images/newMary2.jpg",
+            url: "https://lightofsophia.com/private-readings",
+            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
-              "Mary Sophia offers sacred, channeled Private Readings that bring through soul wisdom, past life connections, and spiritual guidance from Mother Mary, Mary Magdalene, and the Angelic Realm.",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "1456 Ferry Road #10",
-              addressLocality: "Doylestown",
-              addressRegion: "PA",
-              postalCode: "18901",
-              addressCountry: "US",
+              "Mary Sophia offers private spiritual readings—channeled guidance from the Divine Mother and angelic realms to illuminate your soul purpose and path. Sessions are held via Zoom and include a recording.",
+            openingHours: "Mo-Fr 09:00-17:00",
+            areaServed: {
+              "@type": "Place",
+              name: ["Online", "Worldwide", "United States"],
             },
-            sameAs: [
-              "https://www.instagram.com/orderofthebluerose/",
-              "https://www.youtube.com/@orderofthebluerose3878",
-            ],
-            knowsAbout: [
-              "Private Readings",
-              "Channeled Guidance",
-              "Soul Purpose",
-              "Past Life Readings",
-              "Spiritual Awakening",
-              "Divine Feminine Wisdom",
-            ],
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Private Reading Offerings",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Blue Rose Reading",
+                    description:
+                      "60-minute channeled reading via Zoom with soul guidance from Mary Sophia.",
+                    priceSpecification: {
+                      "@type": "PriceSpecification",
+                      priceCurrency: "USD",
+                      price: 175,
+                    },
+                  },
+                },
+              ],
+            },
           })}
         </script>
       </Helmet>
