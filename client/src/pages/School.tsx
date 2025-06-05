@@ -4,10 +4,7 @@ export default function School() {
   return (
     <>
       <Helmet>
-        <link
-          rel="canonical"
-          href="https://lightofsophia.com/school-of-sophia"
-        />
+        <link rel="canonical" href="https://lightofsophia.com/school" />
         <title>School of Sophia | Divine Feminine Spiritual Formation</title>
         <meta
           name="description"
@@ -28,10 +25,7 @@ export default function School() {
           content="Join the School of Sophia to deepen your spiritual path through ancient feminine mysteries and contemporary sacred practice."
         />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://lightofsophia.com/school-of-sophia"
-        />
+        <meta property="og:url" content="https://lightofsophia.com/school" />
         <meta
           property="og:image"
           content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
@@ -43,7 +37,7 @@ export default function School() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: "https://lightofsophia.com/school-of-sophia",
+            url: "https://lightofsophia.com/school",
             image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
               "The School of Sophia is a spiritual formation path guided by Mary Sophia. Rooted in Divine Feminine wisdom, it includes classes, circles, book clubs, and sacred practices to awaken, embody, and share the feminine light.",

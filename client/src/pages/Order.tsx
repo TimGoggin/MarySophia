@@ -32,10 +32,7 @@ export default function Order() {
           content="Walk the path of Divine Love and sacred embodiment with Mary Sophia and the Order of the Blue Rose. Enrollment open for mentorship programs."
         />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://lightofsophia.com/order-of-the-blue-rose"
-        />
+        <meta property="og:url" content="https://lightofsophia.com/order" />
         <meta
           property="og:image"
           content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
@@ -47,7 +44,7 @@ export default function Order() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: "https://lightofsophia.com/order-of-the-blue-rose",
+            url: "https://lightofsophia.com/order",
             image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
               "The Order of the Blue Rose is a sacred spiritual lineage and community led by Mary Sophia, guiding women to embody Divine Love and wisdom. Through mentorship, remembrance, and sacred teachings, members walk the Way of Mary and the Divine Feminine.",
