@@ -6,10 +6,7 @@ export default function Counseling() {
   return (
     <>
       <Helmet>
-        <link
-          rel="canonical"
-          href="https://lightofsophia.com/spiritual-counseling"
-        />
+        <link rel="canonical" href="https://lightofsophia.com/counseling" />
         <title>Spiritual Counseling | Sacred Healing with Mary Sophia</title>
         <meta
           name="description"
@@ -32,7 +29,7 @@ export default function Counseling() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://lightofsophia.com/spiritual-counseling"
+          content="https://lightofsophia.com/counseling"
         />
         <meta
           property="og:image"
@@ -45,7 +42,7 @@ export default function Counseling() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: "https://lightofsophia.com/spiritual-counseling",
+            url: "https://lightofsophia.com/counseling",
             image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
               "Mary Sophia offers spiritual counseling and intuitive healing rooted in divine feminine wisdom. Sessions address grief, loss, transition, motherhood, and spiritual awakening. Held via Zoom or in-person.",
