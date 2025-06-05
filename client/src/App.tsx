@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -25,7 +24,7 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <link rel="canonical" href="https://lightofsophia.com/" />
+        <link rel="canonical" href="https://lightofsophia.com" />
         <title>Mary Sophia | Divine Feminine Channel & Spiritual Guide</title>
         <meta
           name="description"
@@ -37,7 +36,10 @@ function App() {
         />
 
         {/* Open Graph metadata */}
-        <meta property="og:title" content="Mary Sophia | Divine Feminine Channel & Spiritual Guide" />
+        <meta
+          property="og:title"
+          content="Mary Sophia | Divine Feminine Channel & Spiritual Guide"
+        />
         <meta
           property="og:description"
           content="Step into sacred remembrance with Mary Sophia — intuitive channel and messenger of the Divine Feminine Light."
@@ -62,7 +64,13 @@ function App() {
             openingHours: "Mo-Fr 09:00-17:00",
             areaServed: {
               "@type": "Place",
-              name: ["Buckingham", "Doylestown", "New Hope", "Lambertville", "Online Worldwide"]
+              name: [
+                "Buckingham",
+                "Doylestown",
+                "New Hope",
+                "Lambertville",
+                "Online Worldwide",
+              ],
             },
             hasOfferCatalog: {
               "@type": "OfferCatalog",
@@ -73,35 +81,39 @@ function App() {
                   itemOffered: {
                     "@type": "Service",
                     name: "Private Readings",
-                    description: "Intuitive guidance sessions tailored to your soul's journey."
-                  }
+                    description:
+                      "Intuitive guidance sessions tailored to your soul's journey.",
+                  },
                 },
                 {
                   "@type": "Offer",
                   itemOffered: {
                     "@type": "Service",
                     name: "Spiritual Counseling",
-                    description: "Sacred support sessions for healing, wisdom, and inner alignment."
-                  }
+                    description:
+                      "Sacred support sessions for healing, wisdom, and inner alignment.",
+                  },
                 },
                 {
                   "@type": "Offer",
                   itemOffered: {
                     "@type": "Service",
                     name: "School of Sophia",
-                    description: "Courses and mentorship in spiritual awakening and Divine Feminine wisdom."
-                  }
+                    description:
+                      "Courses and mentorship in spiritual awakening and Divine Feminine wisdom.",
+                  },
                 },
                 {
                   "@type": "Offer",
                   itemOffered: {
                     "@type": "Service",
                     name: "Order of the Blue Rose",
-                    description: "Sacred sisterhood path of devotion, remembrance, and divine embodiment."
-                  }
-                }
-              ]
-            }
+                    description:
+                      "Sacred sisterhood path of devotion, remembrance, and divine embodiment.",
+                  },
+                },
+              ],
+            },
           })}
         </script>
       </Helmet>
