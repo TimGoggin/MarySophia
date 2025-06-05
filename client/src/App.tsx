@@ -25,7 +25,7 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <link rel="canonical" href="https://lightofsophia.com/" />
+        <link rel="canonical" href={`${window.location.origin}/`} />
         <title>Mary Sophia | Divine Feminine Channel & Spiritual Guide</title>
         <meta
           name="description"
@@ -43,10 +43,10 @@ function App() {
           content="Step into sacred remembrance with Mary Sophia — intuitive channel and messenger of the Divine Feminine Light."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://lightofsophia.com/" />
+        <meta property="og:url" content={`${window.location.origin}/`} />
         <meta
           property="og:image"
-          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+          content={`${window.location.origin}/images/Mary_Sophia_v2.png`}
         />
 
         {/* Structured Data (JSON-LD) */}
@@ -55,8 +55,8 @@ function App() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: "https://lightofsophia.com",
-            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
+            url: window.location.origin,
+            image: `${window.location.origin}/images/Mary_Sophia_v2.png`,
             description:
               "Mary Sophia is a spiritual teacher, intuitive channel, and sacred guide offering services rooted in the Divine Feminine, including private readings, spiritual counseling, and mentorship through the School of Sophia and Order of the Blue Rose.",
             openingHours: "Mo-Fr 09:00-17:00",

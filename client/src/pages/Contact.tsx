@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://lightofsophia.com/contact-us" />
+        <link rel="canonical" href={`${window.location.origin}/contact-us`} />
         <title>Contact Mary Sophia | Send a Message or Connect Online</title>
         <meta
           name="description"
@@ -50,11 +50,11 @@ export default function Contact() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://lightofsophia.com/contact-us"
+          content={`${window.location.origin}/contact-us`}
         />
         <meta
           property="og:image"
-          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+          content={`${window.location.origin}/images/Mary_Sophia_v2.png`}
         />
 
         {/* Structured Data (JSON-LD) */}

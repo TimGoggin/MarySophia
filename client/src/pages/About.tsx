@@ -6,31 +6,28 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://lightofsophia.com/about-us" />
-        <title>About Mary Sophia | Divine Feminine Teacher & Messenger</title>
+        <link rel="canonical" href={`${window.location.origin}/about-us`} />
+        <title>About Mary Sophia | Divine Feminine Channel & Spiritual Guide</title>
         <meta
           name="description"
-          content="Learn about Mary Sophia — teacher of the Way of Mary, intuitive channel, and spiritual counselor offering sacred wisdom from the Divine Feminine lineage."
+          content="Learn about Mary Sophia's journey as a channel of Divine Feminine wisdom, offering spiritual guidance through the Light of Sophia and sacred lineage teachings."
         />
         <meta
           name="keywords"
-          content="Mary Sophia, about Mary Sophia, divine feminine teacher, spiritual counselor, Way of the Heart, channel for Mary Magdalene, sacred feminine wisdom"
+          content="Mary Sophia, Divine Feminine, spiritual teacher, channel, Light of Sophia, Blue Rose lineage, spiritual awakening"
         />
 
         {/* Open Graph metadata */}
-        <meta
-          property="og:title"
-          content="About Mary Sophia | Divine Feminine Teacher & Messenger"
-        />
+        <meta property="og:title" content="About Mary Sophia | Divine Feminine Channel & Spiritual Guide" />
         <meta
           property="og:description"
-          content="Mary Sophia is a teacher, spiritual counselor, and messenger for Mother Mary and the Wisdom of Sophia. Discover her sacred mission and teachings."
+          content="Discover Mary Sophia's sacred journey as a messenger of Divine Feminine wisdom and teacher of the ancient Blue Rose lineage."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://lightofsophia.com/about-us" />
+        <meta property="og:url" content={`${window.location.origin}/about-us`} />
         <meta
           property="og:image"
-          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+          content={`${window.location.origin}/images/Mary_Sophia_v2.png`}
         />
 
         {/* Structured Data (JSON-LD) */}
