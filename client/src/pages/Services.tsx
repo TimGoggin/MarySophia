@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href={`${window.location.origin}/services`} />
+        <link rel="canonical" href="https://lightofsophia.com/services" />
         <title>
           Spiritual Services | Private Readings, Counseling & Wisdom Teachings
         </title>
@@ -31,10 +31,10 @@ export default function Services() {
           content="Discover sacred offerings to support your soul's path—readings, counseling, and divine feminine mentorship with Mary Sophia."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={`${window.location.origin}/services`} />
+        <meta property="og:url" content="https://lightofsophia.com/services" />
         <meta
           property="og:image"
-          content={`${window.location.origin}/images/Mary_Sophia_v2.png`}
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
         />
 
         {/* Structured Data (JSON-LD) */}

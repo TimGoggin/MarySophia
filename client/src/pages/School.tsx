@@ -6,7 +6,7 @@ export default function School() {
       <Helmet>
         <link
           rel="canonical"
-          href={`${window.location.origin}/school`}
+          href="https://lightofsophia.com/school-of-sophia"
         />
         <title>School of Sophia | Divine Feminine Spiritual Formation</title>
         <meta
@@ -30,11 +30,11 @@ export default function School() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={`${window.location.origin}/school`}
+          content="https://lightofsophia.com/school-of-sophia"
         />
         <meta
           property="og:image"
-          content={`${window.location.origin}/images/Mary_Sophia_v2.png`}
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
         />
 
         {/* Structured Data (JSON-LD) */}
@@ -43,8 +43,8 @@ export default function School() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Mary Sophia",
-            url: `${window.location.origin}/school`,
-            image: `${window.location.origin}/images/Mary_Sophia_v2.png`,
+            url: "https://lightofsophia.com/school-of-sophia",
+            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
               "The School of Sophia is a spiritual formation path guided by Mary Sophia. Rooted in Divine Feminine wisdom, it includes classes, circles, book clubs, and sacred practices to awaken, embody, and share the feminine light.",
             openingHours: "Mo-Fr 09:00-17:00",
