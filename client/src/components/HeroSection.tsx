@@ -1,4 +1,5 @@
 import { ChevronRight } from "lucide-react";
+import { getImageUrl } from "../lib/imageUtils";
 
 export default function HeroSection() {
   const handleScrollToServices = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -28,7 +29,7 @@ export default function HeroSection() {
     >
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="/.netlify/images?url=/images/bluerosebackground.jpeg&w=1920&h=1080&fit=cover"
+          src={getImageUrl("images/bluerosebackground.jpeg", { w: 1920, h: 1080, fit: "cover" })}
           alt="Hero Background"
           className="w-full h-full object-cover object-center"
         />
@@ -55,7 +56,7 @@ export default function HeroSection() {
           </div>
           <div className="md:w-1/2 flex justify-center mb-8 md:mb-0">
             <img
-              src="/.netlify/images?url=/images/Mary_Sophia_v2.png&w=800&h=1000&fit=cover"
+              src={getImageUrl("images/Mary_Sophia_v2.png", { w: 800, h: 1000, fit: "cover" })}
               alt="Mary Sophia Portrait"
               className="w-2/3 h-2/3 object-contain"
             />

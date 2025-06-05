@@ -1,5 +1,7 @@
 import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 import { useState } from "react";
+// Added getImageUrl import
+import { getImageUrl } from "../utils/image";
 
 export default function TestimonialsSection() {
   const testimonials = [
@@ -9,7 +11,7 @@ export default function TestimonialsSection() {
         "In this nurturing space of authentic love and faith, I've found not just comfort but also a true acceptance of my essence, filling me with solace and boundless love. The ongoing support has been instrumental in my soul's journey, deepening my relationship with the spiritual realm. My experience working with Mary Sophia has been transformative, to say the least. Through her mentorship, I was able to delve deeper into the crevices of my soul, identifying the traumas that held me back and attaining the healing I desperately sought. This experience brought me clarity and the courage to follow through with humility and zeal. For those questioning their faith or seeking to deepen their spiritual understanding, I wholeheartedly recommend the Order of the Blue Rose. This sacred gathering serves as a profound guide for anyone on the quest to understand their personal spiritual self and the divine path that awaits them.",
       name: "Lisa Bhakti",
       title: "Divine Feminine Spiritual Intuitive Oracle",
-      image: "/.netlify/images?url=/images/testimonial-1.jpg&w=200&h=200&fit=cover",
+      image: getImageUrl("images/testimonial-1.jpg", { w: 200, h: 200, fit: "cover" }),
     },
     {
       id: 2,
@@ -17,7 +19,7 @@ export default function TestimonialsSection() {
         "I am deeply grateful that I said yes to being a part of the Order of the Blue Rose. Joining the Order of the Blue Rose under Mary Sophia's mentorship has been transformative. The structured sessions and abundant resources immediately appealed to my logical side. But what touched my soul were the teachings themselves—Mary Sophia's mastery was evident in every interaction. She created a heart-centered space, guiding us through spiritual practices that were both profound and practical. Most compelling is Mary Sophia's embodiment of her teachings. She doesn't just teach; she lives the principles, making her an authentic and inspiring role model. I'm continually applying what I've learned to my own spiritual journey and counseling practice. If you're considering the Order of the Blue Rose, don't hesitate. It's an extraordinary step for personal and spiritual growth.",
       name: "Dr. Valerie René Sheppard",
       title: "Certified Master Trainer & Spiritual Counselor",
-      image: "/.netlify/images?url=/images/testimonial-2.jpg&w=200&h=200&fit=cover",
+      image: getImageUrl("images/testimonial-2.jpg", { w: 200, h: 200, fit: "cover" }),
     },
     {
       id: 3,
@@ -25,7 +27,7 @@ export default function TestimonialsSection() {
         "Being a part of the Order of the Blue Rose under Mary Sophia's guidance is nothing short of transformative. She doesn't just teach the Way of the Marys, she embodies it — navigating life through the lens of an awakened heart. This mentorship guides you to explore life from the heart's eye, opening doors to the Holy Spirit within. As a conduit for Mary Magdalene and Mother Mary, Mary Sophia reacquaints us with the feminine divine—an aspect of God long-forgotten but vitally essential. The experience has been an eye-opener, heart-expander, and a life-altering journey. It challenges and changes you, awakening you to a deeper understanding of spirituality and existence.",
       name: "Luanne Phillips",
       title: "Psychotherapist, Energy Healer, Reiki Master, Light Worker",
-      image: "/.netlify/images?url=/images/testimonial-3.jpg&w=200&h=200&fit=cover",
+      image: getImageUrl("images/testimonial-3.jpg", { w: 200, h: 200, fit: "cover" }),
     },
   ];
 

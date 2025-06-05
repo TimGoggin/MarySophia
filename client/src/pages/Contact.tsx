@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Helmet } from "react-helmet";
+import { getImageUrl } from "../lib/imageUtils";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -105,7 +106,7 @@ export default function Contact() {
             <div className="w-full md:w-[35%] md:pl-16">
               <div className="relative h-full">
                 <img
-                  src="/.netlify/images?url=/images/mary.jpg&w=600&h=800&fit=cover"
+                  src={getImageUrl("images/mary.jpg", { w: 600, h: 800, fit: "cover" })}
                   alt="Mary Sophia"
                   className="w-full h-auto rounded-lg shadow-xl object-cover md:sticky md:top-32"
                 />

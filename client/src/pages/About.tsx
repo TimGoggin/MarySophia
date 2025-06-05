@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import CtaSection from "@/components/CtaSection";
+import { getImageUrl } from "@/lib/imageUtils";
 
 export default function About() {
   return (
@@ -29,7 +30,7 @@ export default function About() {
         <meta property="og:url" content="https://lightofsophia.com/about-us" />
         <meta
           property="og:image"
-          content="https://lightofsophia.com/.netlify/images?url=/images/Mary_Sophia_v2.png&w=1200&h=630&fit=cover"
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
         />
 
         {/* Structured Data (JSON-LD) */}
@@ -39,7 +40,7 @@ export default function About() {
             "@type": "Person",
             name: "Mary Sophia",
             url: "https://lightofsophia.com/about-us",
-            image: "https://lightofsophia.com/.netlify/images?url=/images/Mary_Sophia_v2.png&w=800&h=600&fit=cover",
+            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
               "Mary Sophia is a spiritual teacher, intuitive channel, and counselor devoted to the Divine Feminine. She offers guidance rooted in the Way of the Heart, channeling wisdom from Mother Mary, Mary Magdalene, and the angelic realm.",
             jobTitle: "Spiritual Teacher and Channel",
@@ -71,7 +72,7 @@ export default function About() {
                 key={i}
                 className="floating-rose"
                 style={{
-                  backgroundImage: `url(/.netlify/images?url=/images/rose-${(i % 3) + 1}.png&w=100&h=100)`,
+                  backgroundImage: `url(${getImageUrl(`images/rose-${(i % 3) + 1}.png`, { w: 100, h: 100 })})`,
                   animationDelay: `${baseDelay + Math.random() * 5}s`,
                   left: `${gridCol * 33 + Math.random() * 10}%`,
                   top: `${gridRow * 25 + Math.random() * 10}%`,
@@ -148,7 +149,7 @@ export default function About() {
             </div>
             <div className="md:w-1/2">
               <img
-                src="/.netlify/images?url=/images/mary-sophia-2.jpg&w=600&h=800&fit=cover"
+                src={getImageUrl("images/mary-sophia-2.jpg", { w: 600, h: 800, fit: "cover" })}
                 alt="Mary Sophia Portrait"
                 className="rounded-lg shadow-xl w-full object-cover h-[500px]"
               />

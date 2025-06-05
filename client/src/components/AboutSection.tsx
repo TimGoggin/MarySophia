@@ -1,5 +1,6 @@
 import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { getImageUrl } from "../lib/imageUtils";
 
 export default function AboutSection() {
   return (
@@ -40,7 +41,7 @@ export default function AboutSection() {
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <img
-              src="/.netlify/images?url=/images/mary-sophia.jpg&w=600&h=800&fit=cover"
+              src={getImageUrl("images/mary-sophia.jpg", { w: 600, h: 800, fit: "cover" })}
               alt="Mary Sophia Portrait"
               className="rounded-lg shadow-xl max-w-full h-auto"
             />

@@ -46,7 +46,7 @@ function App() {
         <meta property="og:url" content="https://lightofsophia.com/" />
         <meta
           property="og:image"
-          content="https://lightofsophia.com/.netlify/images?url=/images/Mary_Sophia_v2.png&w=1200&h=630&fit=cover"
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
         />
 
         {/* Structured Data (JSON-LD) */}
@@ -56,7 +56,7 @@ function App() {
             "@type": "LocalBusiness",
             name: "Mary Sophia",
             url: "https://lightofsophia.com",
-            image: "https://lightofsophia.com/.netlify/images?url=/images/Mary_Sophia_v2.png&w=800&h=600&fit=cover",
+            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
               "Mary Sophia is a spiritual teacher, intuitive channel, and sacred guide offering services rooted in the Divine Feminine, including private readings, spiritual counseling, and mentorship through the School of Sophia and Order of the Blue Rose.",
             openingHours: "Mo-Fr 09:00-17:00",
