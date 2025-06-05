@@ -4,49 +4,96 @@ export default function School() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://www.lightofsophia.com/school" />
-        <title>School of Sophia | Mary Sophia</title>
+        <link
+          rel="canonical"
+          href="https://lightofsophia.com/school-of-sophia"
+        />
+        <title>School of Sophia | Divine Feminine Spiritual Formation</title>
         <meta
           name="description"
-          content="Join the School of Sophia with Mary Sophia — a transformative spiritual path rooted in Divine Feminine wisdom. Explore sacred teachings, heart-centered practices, and a vibrant sisterhood."
+          content="Explore sacred teachings through the School of Sophia — a path of spiritual growth rooted in Divine Feminine wisdom, sacred ritual, and embodiment practices."
         />
         <meta
           name="keywords"
-          content="School of Sophia, Mary Sophia, Divine Feminine, spiritual formation, feminine mysticism, sacred teachings, spiritual practices, Magdalene yoga, Blue Rose Circle, sacred community"
+          content="School of Sophia, spiritual formation, divine feminine school, sacred wisdom teachings, Mary Magdalene practices, blue rose lineage"
         />
+
+        {/* Open Graph metadata */}
+        <meta
+          property="og:title"
+          content="School of Sophia | Divine Feminine Spiritual Formation"
+        />
+        <meta
+          property="og:description"
+          content="Join the School of Sophia to deepen your spiritual path through ancient feminine mysteries and contemporary sacred practice."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://lightofsophia.com/school-of-sophia"
+        />
+        <meta
+          property="og:image"
+          content="https://lightofsophia.com/images/Mary_Sophia_v2.png"
+        />
+
+        {/* Structured Data (JSON-LD) */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            name: "School of Sophia",
-            url: "https://www.lightofsophia.com/school",
-            image: "https://www.lightofsophia.com/images/lambbackground.jpeg",
+            "@type": "LocalBusiness",
+            name: "Mary Sophia",
+            url: "https://lightofsophia.com/school-of-sophia",
+            image: "https://lightofsophia.com/images/Mary_Sophia_v2.png",
             description:
-              "The School of Sophia, guided by Mary Sophia, offers a sacred path of spiritual formation through Divine Feminine wisdom, sacred practices, and community offerings like Magdalene Yoga, Blue Rose Circle, and Wisdom Book Club.",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: "1456 Ferry Road #10",
-              addressLocality: "Doylestown",
-              addressRegion: "PA",
-              postalCode: "18901",
-              addressCountry: "US",
+              "The School of Sophia is a spiritual formation path guided by Mary Sophia. Rooted in Divine Feminine wisdom, it includes classes, circles, book clubs, and sacred practices to awaken, embody, and share the feminine light.",
+            openingHours: "Mo-Fr 09:00-17:00",
+            areaServed: {
+              "@type": "Place",
+              name: ["Online", "Worldwide", "United States"],
             },
-            sameAs: [
-              "https://www.instagram.com/orderofthebluerose/",
-              "https://www.youtube.com/@orderofthebluerose3878",
-            ],
-            founder: {
-              "@type": "Person",
-              name: "Mary Sophia",
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "School of Sophia Programs",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Weekly Magdalene Voice Class",
+                    description:
+                      "Weekly embodiment classes rooted in the wisdom of Mary Magdalene.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Blue Rose Circle",
+                    description:
+                      "Monthly spiritual circles exploring the mysteries of the Blue Rose lineage.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Sacred Prayer Group",
+                    description:
+                      "Devotional prayer gatherings for spiritual grounding and divine connection.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Wisdom Book Club",
+                    description:
+                      "Monthly group reflection on sacred texts and divine feminine themes.",
+                  },
+                },
+              ],
             },
-            keywords: [
-              "Divine Feminine",
-              "Spiritual Formation",
-              "Sacred Practices",
-              "Magdalene Yoga",
-              "Blue Rose Circle",
-              "Sacred Community",
-            ],
           })}
         </script>
       </Helmet>
