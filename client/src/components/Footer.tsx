@@ -20,7 +20,10 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12 relative z-10">
         <div className="flex flex-col md:flex-row justify-between">
           <div className="md:w-1/4 mb-8 md:mb-0">
-            <Link to="/">
+            <Link 
+              to="/"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
               <img
                 src="/images/stacked_logo.png"
                 alt="Mary Sophia"
