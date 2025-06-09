@@ -65,7 +65,7 @@ export default function Navbar() {
           <img
             src="/images/horizontal_logo.png"
             alt="Mary Sophia"
-            className="h-20 w-auto"
+            className="h-20 w-auto hover:opacity-80 transition duration-300"
           />
         </Link>
 
