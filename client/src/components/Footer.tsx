@@ -1,10 +1,23 @@
 import { Mail, Phone, MapPin, Instagram, Youtube, Clock } from "lucide-react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
+  const location = useLocation();
+
+  const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (location.pathname === "/") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      // Let the Link navigate normally, and scroll will happen via onClick
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 100);
+    }
+  };
 
   const handleNewsletterSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -22,7 +35,7 @@ export default function Footer() {
           <div className="md:w-1/4 mb-8 md:mb-0">
             <Link 
               to="/"
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              onClick={handleLogoClick}
             >
               <img
                 src="/images/stacked_logo.png"
