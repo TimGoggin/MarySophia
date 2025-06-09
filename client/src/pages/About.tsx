@@ -193,6 +193,93 @@ export default function About() {
               to all who seek it.
             </p>
           </div>
+
+          <div className="mb-16">
+            <h2 className="font-playfair text-2xl text-[#002147] mb-6">
+              Experience
+            </h2>
+            <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
+              Over 25 years of experience counseling women in areas of relationships, love and dating, eating disorders, body image, female sexuality, sexual trauma, nutrition and spirituality.
+            </p>
+          </div>
+
+          <div className="mb-16">
+            <h2 className="font-playfair text-2xl text-[#002147] mb-6">
+              Education & Certifications
+            </h2>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-playfair text-lg text-[#002147] mb-2">Academic Credentials</h3>
+                <ul className="list-none space-y-2 text-gray-800 font-open-sans text-base ml-4">
+                  <li className="flex items-start">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Masters in Nutrition Education from Immaculata University
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Registered Dietitian/Licensed Dietitian-Nutritionist
+                  </li>
+                </ul>
+              </div>
+              
+              <div>
+                <h3 className="font-playfair text-lg text-[#002147] mb-2">Professional Certifications</h3>
+                <ul className="list-none space-y-2 text-gray-800 font-open-sans text-base ml-4">
+                  <li className="flex items-start">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Certified VITA Sex, Love and Relationship Coach
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Certified VITA Female Sexuality Coach
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Certified REBLOOM Trauma Coach
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Ego State Therapy Certification
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="mb-16">
+            <h2 className="font-playfair text-2xl text-[#002147] mb-6">
+              Initiations & Ordinations
+            </h2>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-playfair text-lg text-[#002147] mb-2">Sacred Initiations</h3>
+                <ul className="list-none space-y-2 text-gray-800 font-open-sans text-base ml-4">
+                  <li className="flex items-start">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Initiated High Priestess of the Order of the Blue Rose through Mary Tobin
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Initiated High Priestess of Avalon through Holly Hamilton at Awakening Avalon Temple
+                  </li>
+                </ul>
+              </div>
+              
+              <div>
+                <h3 className="font-playfair text-lg text-[#002147] mb-2">Sacred Ordinations</h3>
+                <ul className="list-none space-y-2 text-gray-800 font-open-sans text-base ml-4">
+                  <li className="flex items-start">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Ordained Priestess of Mary Magdalene through Ana Otero at The Desert Rose Mystery School
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#002147] mr-2">•</span>
+                    Ordained Priest of Christian Mysticism through Dr. Chris Holder
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <CtaSection buttonText="Explore Our Services" linkTo="/services" />
