@@ -269,7 +269,7 @@ export default function School() {
                   Sophia.
                 </p>
                 <a
-                  href="/contact"
+                  href="/contact-us"
                   className="inline-flex items-center bg-[#00AEEF] text-white px-6 py-3 rounded-md hover:bg-[#0096CE] transition-colors"
                 >
                   Contact Us to Learn More
