@@ -183,6 +183,20 @@ export default function Footer() {
                       >
                         <Youtube className="w-5 h-5 text-white" />
                       </a>
+                      <a
+                        href="https://orderofthebluerose.substack.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-white/80 transition duration-300"
+                      >
+                        <svg
+                          className="w-5 h-5 text-white"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+                        </svg>
+                      </a>
                     </div>
                   </li>
                 </ul>
