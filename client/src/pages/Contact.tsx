@@ -204,7 +204,7 @@ export default function Contact() {
                 {submitStatus === 'error' && (
                   <div className="mt-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded-md">
                     <p className="font-medium">Something went wrong.</p>
-                    <p className="text-sm">Please try again or email us directly at hello@bluerose.love</p>
+                    <p className="text-sm">Please try again or email us directly at michellechristine444@gmail.com</p>
                   </div>
                 )}
               </form>
@@ -230,7 +230,7 @@ export default function Contact() {
                 href="mailto:hello@bluerose.love"
                 className="text-[#002147] hover:underline"
               >
-                hello@bluerose.love
+                michellechristine444@gmail.com
               </a>
             </p>
             <div className="flex justify-center space-x-6">
