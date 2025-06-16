@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 export default function WhereToBeginSection() {
@@ -46,11 +45,11 @@ export default function WhereToBeginSection() {
           <p className="text-xl text-[#003864] mb-12 font-open-sans leading-relaxed max-w-3xl mx-auto">
             Beloved, if you've found your way here, you are answering the quiet call of your soul. Whether you're seeking clarity, healing, or simply a return to your true self, you are held here.
           </p>
-          
+
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* Blue Rose Reading */}
             <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
-              <h3 className="font-playfair text-2xl text-[#003864] mb-4">
+              <h3 className="font-playfair text-xl text-[#003864] mb-4">
                 Soul Guidance & Remembrance
               </h3>
               <p className="text-gray-700 mb-6 font-open-sans">
@@ -67,7 +66,7 @@ export default function WhereToBeginSection() {
 
             {/* Spiritual Counseling */}
             <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
-              <h3 className="font-playfair text-2xl text-[#003864] mb-4">
+              <h3 className="font-playfair text-xl text-[#003864] mb-4">
                 Loss, Transition & Rebirth
               </h3>
               <p className="text-gray-700 mb-6 font-open-sans">
@@ -84,7 +83,7 @@ export default function WhereToBeginSection() {
 
             {/* Order of the Blue Rose */}
             <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
-              <h3 className="font-playfair text-2xl text-[#003864] mb-4">
+              <h3 className="font-playfair text-xl text-[#003864] mb-4">
                 The Path of the Blue Rose
               </h3>
               <p className="text-gray-700 mb-6 font-open-sans">
@@ -101,7 +100,7 @@ export default function WhereToBeginSection() {
 
             {/* School of Sophia */}
             <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
-              <h3 className="font-playfair text-2xl text-[#003864] mb-4">
+              <h3 className="font-playfair text-xl text-[#003864] mb-4">
                 Sacred Feminine Wisdom
               </h3>
               <p className="text-gray-700 mb-6 font-open-sans">
