@@ -39,7 +39,7 @@ export default function WhereToBeginSection() {
 
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-playfair text-4xl md:text-5xl text-[#003864] mb-6">
+          <h2 className="font-playfair text-3xl md:text-4xl text-[#003864] mb-6">
             Where to Begin
           </h2>
           <p className="text-xl text-[#003864] mb-12 font-open-sans leading-relaxed max-w-3xl mx-auto">
