@@ -50,23 +50,6 @@ export default function WhereToBeginSection() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* Blue Rose Reading */}
             <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
-              <div className="flex justify-center mb-6">
-                <svg
-                  width="80"
-                  height="80"
-                  viewBox="0 0 1200 1200"
-                  className="text-[#003864] group-hover:text-[#D4AF37] transition-colors duration-300"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m1123.3 429.19c-30.984-67.5-95.344-98.625-115.73-107.06-36.516-118.22-224.11-152.26-233.34-153.79-1.3125-0.23438-2.5781-0.23438-3.8906-0.14063h-0.14062c-63.844-43.453-171.84-74.203-268.6-21.938-7.4062 3.9844-14.344 8.2031-20.672 12.562-9.75-1.1719-170.11-18.188-252.84 101.06-1.3125 1.875-2.5781 3.8906-3.8906 5.7656-27.703 11.953-195.24 92.625-159.19 299.21 5.625 32.156 14.438 60.094 25.453 84.188-0.09375 0.14062 0 0.23438 0.14062 0.375 4.6875 19.125 96.984 374.95 363.32 412.5 17.25 2.3438 33.234 3.5156 48.234 3.5156 19.828 0 37.688-2.0156 54.141-5.625 14.438 4.3594 78.047 21.375 151.92 21.375 65.625 0 139.36-13.5 193.92-61.641 124.31-109.55 158.26-208.5 170.34-322.92 17.016-24.516 32.531-53.859 46.5-89.109 26.484-66.891 27.891-126.89 4.3125-178.31z"
-                    stroke="currentColor"
-                    strokeWidth="8"
-                    fill="none"
-                  />
-                </svg>
-              </div>
               <h3 className="font-playfair text-2xl text-[#003864] mb-4">
                 Soul Guidance & Remembrance
               </h3>
@@ -83,23 +66,6 @@ export default function WhereToBeginSection() {
 
             {/* Spiritual Counseling */}
             <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
-              <div className="flex justify-center mb-6">
-                <svg
-                  width="80"
-                  height="80"
-                  viewBox="0 0 1200 1200"
-                  className="text-[#003864] group-hover:text-[#D4AF37] transition-colors duration-300"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m1123.3 429.19c-30.984-67.5-95.344-98.625-115.73-107.06-36.516-118.22-224.11-152.26-233.34-153.79-1.3125-0.23438-2.5781-0.23438-3.8906-0.14063h-0.14062c-63.844-43.453-171.84-74.203-268.6-21.938-7.4062 3.9844-14.344 8.2031-20.672 12.562-9.75-1.1719-170.11-18.188-252.84 101.06-1.3125 1.875-2.5781 3.8906-3.8906 5.7656-27.703 11.953-195.24 92.625-159.19 299.21 5.625 32.156 14.438 60.094 25.453 84.188-0.09375 0.14062 0 0.23438 0.14062 0.375 4.6875 19.125 96.984 374.95 363.32 412.5 17.25 2.3438 33.234 3.5156 48.234 3.5156 19.828 0 37.688-2.0156 54.141-5.625 14.438 4.3594 78.047 21.375 151.92 21.375 65.625 0 139.36-13.5 193.92-61.641 124.31-109.55 158.26-208.5 170.34-322.92 17.016-24.516 32.531-53.859 46.5-89.109 26.484-66.891 27.891-126.89 4.3125-178.31z"
-                    stroke="currentColor"
-                    strokeWidth="8"
-                    fill="none"
-                  />
-                </svg>
-              </div>
               <h3 className="font-playfair text-2xl text-[#003864] mb-4">
                 Loss, Transition & Rebirth
               </h3>
@@ -116,23 +82,6 @@ export default function WhereToBeginSection() {
 
             {/* Order of the Blue Rose */}
             <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
-              <div className="flex justify-center mb-6">
-                <svg
-                  width="80"
-                  height="80"
-                  viewBox="0 0 1200 1200"
-                  className="text-[#003864] group-hover:text-[#D4AF37] transition-colors duration-300"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m1123.3 429.19c-30.984-67.5-95.344-98.625-115.73-107.06-36.516-118.22-224.11-152.26-233.34-153.79-1.3125-0.23438-2.5781-0.23438-3.8906-0.14063h-0.14062c-63.844-43.453-171.84-74.203-268.6-21.938-7.4062 3.9844-14.344 8.2031-20.672 12.562-9.75-1.1719-170.11-18.188-252.84 101.06-1.3125 1.875-2.5781 3.8906-3.8906 5.7656-27.703 11.953-195.24 92.625-159.19 299.21 5.625 32.156 14.438 60.094 25.453 84.188-0.09375 0.14062 0 0.23438 0.14062 0.375 4.6875 19.125 96.984 374.95 363.32 412.5 17.25 2.3438 33.234 3.5156 48.234 3.5156 19.828 0 37.688-2.0156 54.141-5.625 14.438 4.3594 78.047 21.375 151.92 21.375 65.625 0 139.36-13.5 193.92-61.641 124.31-109.55 158.26-208.5 170.34-322.92 17.016-24.516 32.531-53.859 46.5-89.109 26.484-66.891 27.891-126.89 4.3125-178.31z"
-                    stroke="currentColor"
-                    strokeWidth="8"
-                    fill="none"
-                  />
-                </svg>
-              </div>
               <h3 className="font-playfair text-2xl text-[#003864] mb-4">
                 The Path of the Blue Rose
               </h3>
@@ -149,23 +98,6 @@ export default function WhereToBeginSection() {
 
             {/* School of Sophia */}
             <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
-              <div className="flex justify-center mb-6">
-                <svg
-                  width="80"
-                  height="80"
-                  viewBox="0 0 1200 1200"
-                  className="text-[#003864] group-hover:text-[#D4AF37] transition-colors duration-300"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m1123.3 429.19c-30.984-67.5-95.344-98.625-115.73-107.06-36.516-118.22-224.11-152.26-233.34-153.79-1.3125-0.23438-2.5781-0.23438-3.8906-0.14063h-0.14062c-63.844-43.453-171.84-74.203-268.6-21.938-7.4062 3.9844-14.344 8.2031-20.672 12.562-9.75-1.1719-170.11-18.188-252.84 101.06-1.3125 1.875-2.5781 3.8906-3.8906 5.7656-27.703 11.953-195.24 92.625-159.19 299.21 5.625 32.156 14.438 60.094 25.453 84.188-0.09375 0.14062 0 0.23438 0.14062 0.375 4.6875 19.125 96.984 374.95 363.32 412.5 17.25 2.3438 33.234 3.5156 48.234 3.5156 19.828 0 37.688-2.0156 54.141-5.625 14.438 4.3594 78.047 21.375 151.92 21.375 65.625 0 139.36-13.5 193.92-61.641 124.31-109.55 158.26-208.5 170.34-322.92 17.016-24.516 32.531-53.859 46.5-89.109 26.484-66.891 27.891-126.89 4.3125-178.31z"
-                    stroke="currentColor"
-                    strokeWidth="8"
-                    fill="none"
-                  />
-                </svg>
-              </div>
               <h3 className="font-playfair text-2xl text-[#003864] mb-4">
                 Sacred Feminine Wisdom
               </h3>
