@@ -44,10 +44,7 @@ export default function WhereToBeginSection() {
             Where to Begin
           </h2>
           <p className="text-xl text-[#003864] mb-12 font-open-sans leading-relaxed max-w-3xl mx-auto">
-            Beloved, if you've found your way here, you are answering the quiet call of your soul.
-            <br />
-            <br />
-            Whether you're seeking clarity, healing, or simply a return to your true self, you are held here.
+            Beloved, if you've found your way here, you are answering the quiet call of your soul. Whether you're seeking clarity, healing, or simply a return to your true self, you are held here.
           </p>
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
