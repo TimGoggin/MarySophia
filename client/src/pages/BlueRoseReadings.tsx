@@ -94,7 +94,7 @@ export default function BlueRoseReadings() {
               Private Readings
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
-              Channeled Soul Wisdom from the Heart of the Divine Mother
+              Channeled wisdom from the heart of the Divine Mother ~ illuminating your path with love, remembrance and grace.
             </p>
           </div>
         </div>

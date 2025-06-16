@@ -117,7 +117,7 @@ export default function Services() {
               Sacred Services
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
-              Discover pathways to divine connection and spiritual growth
+              Sacred offerings to hold you through life's thresholds and guide you home to your truest self.
             </p>
           </div>
         </div>

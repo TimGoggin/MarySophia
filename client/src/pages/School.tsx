@@ -107,8 +107,7 @@ export default function School() {
               School of Sophia
             </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
-              A Sacred Path of Spiritual Formation Through Divine Feminine
-              Wisdom
+              A Mystical and Embodied Path for Women Returning to Love, Truth and Divine Feminine Wisdom
             </p>
           </div>
         </div>
@@ -122,11 +121,9 @@ export default function School() {
                 Introduction
               </h2>
               <p className="text-gray-700 font-open-sans leading-relaxed">
-                The School of Sophia is a transformative path of spiritual
-                formation deeply rooted in the Divine Feminine wisdom
-                traditions. Here, seekers find guidance toward awakening their
-                inner wisdom and embracing the sacred feminine through teachings
-                that bridge ancient mysteries with contemporary understanding.
+                The School of Sophia is a sacred path of transformation and remembrance, rooted in the timeless wisdom of the Divine Feminine.
+
+                Here, you are gently guided inward — to awaken the deep knowing within your soul, and to embody the grace, power, and love of the sacred feminine. These teachings weave ancient mysteries with present day revelation, offering a space for healing, clarity, and heartfelt awakening.
               </p>
             </div>
 

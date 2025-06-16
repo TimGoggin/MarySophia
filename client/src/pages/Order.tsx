@@ -240,12 +240,11 @@ export default function Order() {
                   </p>
 
                   <div className="text-center italic font-playfair text-xl text-[#002147] my-12">
-                    Welcome home, dear sister. I have been waiting for you.
+                    The blue rose is blooming within your Sacred Heart, as we anchor the Feminine Face of God on earth once again.
                   </div>
 
                   <p className="text-gray-700 font-open-sans leading-relaxed">
-                    The Blue Rose is blooming within your sacred heart… IT IS
-                    TIME.
+                    Welcome home, dear sister! Our time is now.
                   </p>
 
                   <div className="mt-12 text-right">

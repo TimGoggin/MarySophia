@@ -112,12 +112,7 @@ export default function About() {
                 Light through the heart of the Feminine.
               </p>
               <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-                My work is here to support your return to that remembrance —
-                through channeled guidance, intuitive healing, spiritual
-                counseling and ancient wisdom traditions. Rooted in the Order of
-                the Blue Rose, this work gently nurtures the awakening of the
-                Sacred Feminine within, guiding you home to the wisdom that
-                lives within you.
+                My work is here to support your return to that remembrance — through channeled guidance, intuitive healing, spiritual counseling and ancient wisdom teachings. Rooted in the Way of the Heart, this work gently nurtures the awakening of the Sacred Feminine within, guiding you home to the wisdom that lives within you.
               </p>
               <div className="mt-8">
                 <h2 className="font-playfair text-2xl text-[#002147] mb-6">
@@ -161,10 +156,7 @@ export default function About() {
               About Me
             </h2>
             <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-              Mary Sophia is a teacher of the Way of Mary and a devoted follower
-              of Christ. She serves as a messenger and channel for Mother Mary,
-              Mary Magdalene, and the Angelic Realm, offering spiritual guidance
-              rooted in love, remembrance, and the Divine Feminine Wisdom.
+              I am a teacher of the Way of Mary and a devoted follower of Christ. I serve as a messenger and channel for Mother Mary, Mary Magdalene, and the Angelic Realm, offering spiritual guidance rooted in love, remembrance, and Divine Feminine Wisdom.
             </p>
           </div>
 
@@ -199,7 +191,7 @@ export default function About() {
               Experience
             </h2>
             <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-              Over 25 years of experience counseling women in areas of relationships, love and dating, eating disorders, body image, female sexuality, sexual trauma, nutrition and spirituality.
+              I have over 25 years of experience counseling women in areas of relationships, love and dating, eating disorders, body image, female sexuality, sexual trauma, nutrition and spirituality.
             </p>
           </div>
 
