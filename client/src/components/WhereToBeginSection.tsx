@@ -48,68 +48,68 @@ export default function WhereToBeginSection() {
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* Blue Rose Reading */}
-            <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
+            <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group flex flex-col h-full">
               <h3 className="font-playfair text-xl text-[#003864] mb-4">
                 Soul Guidance & Remembrance
               </h3>
-              <p className="text-gray-700 mb-6 font-open-sans">
+              <p className="text-gray-700 mb-6 font-open-sans flex-grow">
                 If you feel ready to receive soul guidance and remembrance
               </p>
               <Link
                 to="/readings"
                 onClick={handleLinkClick}
-                className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300"
+                className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300 mt-auto"
               >
                 Explore a Blue Rose Reading
               </Link>
             </div>
 
             {/* Spiritual Counseling */}
-            <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
+            <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group flex flex-col h-full">
               <h3 className="font-playfair text-xl text-[#003864] mb-4">
                 Loss, Transition & Rebirth
               </h3>
-              <p className="text-gray-700 mb-6 font-open-sans">
+              <p className="text-gray-700 mb-6 font-open-sans flex-grow">
                 If you're navigating loss, transition, or rebirth
               </p>
               <Link
                 to="/counseling"
                 onClick={handleLinkClick}
-                className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300"
+                className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300 mt-auto"
               >
                 Discover Spiritual Counseling
               </Link>
             </div>
 
             {/* Order of the Blue Rose */}
-            <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
+            <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group flex flex-col h-full">
               <h3 className="font-playfair text-xl text-[#003864] mb-4">
                 The Path of the Blue Rose
               </h3>
-              <p className="text-gray-700 mb-6 font-open-sans">
+              <p className="text-gray-700 mb-6 font-open-sans flex-grow">
                 If you're called to walk the Path of the Blue Rose
               </p>
               <Link
                 to="/order"
                 onClick={handleLinkClick}
-                className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300"
+                className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300 mt-auto"
               >
                 Enter the Order of the Blue Rose
               </Link>
             </div>
 
             {/* School of Sophia */}
-            <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group">
+            <div className="bg-gradient-to-b from-white to-gray-50 p-8 rounded-lg border-2 border-[#003864]/20 hover:border-[#D4AF37] hover:shadow-lg transition-all duration-300 group flex flex-col h-full">
               <h3 className="font-playfair text-xl text-[#003864] mb-4">
                 Sacred Feminine Wisdom
               </h3>
-              <p className="text-gray-700 mb-6 font-open-sans">
+              <p className="text-gray-700 mb-6 font-open-sans flex-grow">
                 If you're longing to study the sacred feminine and deepen in wisdom
               </p>
               <Link
                 to="/school"
                 onClick={handleLinkClick}
-                className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300"
+                className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300 mt-auto"
               >
                 Visit the School of Sophia
               </Link>
