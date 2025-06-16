@@ -149,7 +149,7 @@ export default function Footer() {
                       href="mailto:info@marysophia.com"
                       className="hover:text-white/80 text-base font-medium text-white"
                     >
-                      michellechristine444@gmail.com
+                      maryrosesophia444@gmail.com
                     </a>
                   </li>
                   

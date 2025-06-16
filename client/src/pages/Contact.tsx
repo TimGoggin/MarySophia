@@ -230,7 +230,7 @@ export default function Contact() {
                 href="mailto:hello@bluerose.love"
                 className="text-[#002147] hover:underline"
               >
-                michellechristine444@gmail.com
+                maryrosesophia444@gmail.com
               </a>
             </p>
             <div className="flex justify-center space-x-6">
