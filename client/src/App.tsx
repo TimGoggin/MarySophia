@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import WelcomeSection from "./components/WelcomeSection";
+import WhereToBeginSection from "./components/WhereToBeginSection";
 import ServicesSection from "./components/ServicesSection";
 import AboutSection from "./components/AboutSection";
 import CtaSection from "./components/CtaSection";
@@ -126,6 +127,7 @@ function App() {
             <>
               <HeroSection />
               <WelcomeSection />
+              <WhereToBeginSection />
               <ServicesSection />
               <SacredRebirthCta />
               <AboutSection />
