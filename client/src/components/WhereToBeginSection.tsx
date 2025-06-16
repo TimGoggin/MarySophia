@@ -2,6 +2,9 @@
 import { Link } from "react-router-dom";
 
 export default function WhereToBeginSection() {
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <section className="bg-white py-16 relative overflow-hidden">
       {/* Blue Rose Background Pattern */}
@@ -58,6 +61,7 @@ export default function WhereToBeginSection() {
               </p>
               <Link
                 to="/readings"
+                onClick={handleLinkClick}
                 className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300"
               >
                 Explore a Blue Rose Reading
@@ -74,6 +78,7 @@ export default function WhereToBeginSection() {
               </p>
               <Link
                 to="/counseling"
+                onClick={handleLinkClick}
                 className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300"
               >
                 Discover Spiritual Counseling
@@ -90,6 +95,7 @@ export default function WhereToBeginSection() {
               </p>
               <Link
                 to="/order"
+                onClick={handleLinkClick}
                 className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300"
               >
                 Enter the Order of the Blue Rose
@@ -106,6 +112,7 @@ export default function WhereToBeginSection() {
               </p>
               <Link
                 to="/school"
+                onClick={handleLinkClick}
                 className="inline-block bg-[#003864] hover:bg-[#D4AF37] text-white font-semibold py-3 px-8 rounded-md transition duration-300"
               >
                 Visit the School of Sophia
