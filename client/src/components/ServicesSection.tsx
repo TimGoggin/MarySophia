@@ -13,17 +13,6 @@ export default function ServicesSection() {
       link: "/readings",
     },
     {
-      id: 2,
-      icon: (
-        <img src={getImageUrl("icons/dove.svg", { w: 64, h: 64 })} alt="Female" className="w-full h-full" />
-      ),
-      title: "School of Sophia",
-      description:
-        "Deepen your spiritual growth through courses, workshops, and mentorship.",
-      cta: "Begin Your Journey",
-      link: "/school",
-    },
-    {
       id: 3,
       icon: <img src={getImageUrl("icons/rose.svg", { w: 64, h: 64 })} alt="Rose" className="w-full h-full" />,
       title: "Order of the Blue Rose",
@@ -40,6 +29,17 @@ export default function ServicesSection() {
         "Receive sacred support through life's transitions with heart-centered guidance and healing.",
       cta: "Learn More",
       link: "/counseling",
+    },
+    {
+      id: 2,
+      icon: (
+        <img src={getImageUrl("icons/dove.svg", { w: 64, h: 64 })} alt="Female" className="w-full h-full" />
+      ),
+      title: "School of Sophia",
+      description:
+        "Deepen your spiritual growth through courses, workshops, and mentorship.",
+      cta: "Begin Your Journey",
+      link: "/school",
     },
   ];
 

@@ -42,8 +42,7 @@ export default function HeroSection() {
               Mary Sophia Welcomes You
             </h1>
             <p className="text-white text-lg md:text-xl mb-6 max-w-2xl font-open-sans">
-              Step into a space of divine remembrance, where wisdom, love, and
-              sacred connection guide your path.
+              Enter a sanctuary of remembrance, where love, revelation and sacred feminine wisdom illuminate your way.
             </p>
             <a
               href="#services"

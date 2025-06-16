@@ -37,15 +37,15 @@ export default function WelcomeSection() {
           awakening to the Sacred Feminine within.
           <br />
           <br />
-          Here, you are invited to return to life, to love, and to the eternal
-          embrace of Sophia — the Divine Wisdom that lives within your soul.
+          Step into a space of divine remembrance, where wisdom, love, and sacred connection guide your path.
+          Here, you are invited to return to life, to love, and to the eternal embrace of Sophia — the Divine Feminine Wisdom that lives within your soul.
           <br />
-          <br />
-          You are not alone.
           <br />
           You are deeply loved.
           <br />
-          And you are being called home.
+          You are intimately known.
+          <br />
+          You are eternally held.
         </p>
       </div>
     </section>
