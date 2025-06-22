@@ -127,8 +127,8 @@ function App() {
             <>
               <HeroSection />
               <WelcomeSection />
-              <WhereToBeginSection />
               <ServicesSection />
+              <WhereToBeginSection />
               <SacredRebirthCta />
               <AboutSection />
               <TestimonialsSection />
