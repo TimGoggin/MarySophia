@@ -69,7 +69,7 @@ export default function Navbar() {
     <header
       className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? "bg-transparent" : "bg-white shadow-md"}`}
     >
-      <nav className="container mx-auto px-4 py-4 flex justify-between items-center border-none">
+      <nav className="container mx-auto px-4 py-4 flex justify-between items-center border-none max-w-[1500px]">
         <Link to="/" onClick={handleInternalLinkClick} className="flex items-center">
           <img
             src="/images/horizontal_logo.png"
