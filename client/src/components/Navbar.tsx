@@ -56,12 +56,21 @@ export default function Navbar() {
     }
   };
 
+  const handleInternalLinkClick = () => {
+    setMobileMenuOpen(false);
+    // Scroll to top of page
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <header
       className={`fixed w-full top-0 z-50 transition-colors duration-300 ${shouldBeTransparent ? "bg-transparent" : "bg-white shadow-md"}`}
     >
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center border-none">
-        <Link to="/" className="flex items-center">
+        <Link to="/" onClick={handleInternalLinkClick} className="flex items-center">
           <img
             src="/images/horizontal_logo.png"
             alt="Mary Sophia"
@@ -85,6 +94,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/"
+              onClick={handleInternalLinkClick}
               className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/" ? "text-[#D4AF37] hover:text-[#D4AF37]" : location.pathname === "/" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/" ? "border-black" : "border-transparent"}`}
             >
               Home
@@ -93,6 +103,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/services"
+              onClick={handleInternalLinkClick}
               className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/services" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/services" ? "border-black" : "border-transparent"}`}
             >
               Services
@@ -101,6 +112,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/readings"
+              onClick={handleInternalLinkClick}
               className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/readings" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/readings" ? "border-black" : "border-transparent"}`}
             >
               Private Readings
@@ -109,6 +121,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/counseling"
+              onClick={handleInternalLinkClick}
               className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/counseling" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/counseling" ? "border-black" : "border-transparent"}`}
             >
               Spiritual Counseling
@@ -117,6 +130,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/order"
+              onClick={handleInternalLinkClick}
               className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/order" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/order" ? "border-black" : "border-transparent"}`}
             >
               Order of the Blue Rose
@@ -125,6 +139,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/school"
+              onClick={handleInternalLinkClick}
               className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/school" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/school" ? "border-black" : "border-transparent"}`}
             >
               School of Sophia
@@ -133,6 +148,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/about-us"
+              onClick={handleInternalLinkClick}
               className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/about-us" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/about-us" ? "border-black" : "border-transparent"}`}
             >
               About
@@ -141,6 +157,7 @@ export default function Navbar() {
           <li>
             <Link
               to="/contact-us"
+              onClick={handleInternalLinkClick}
               className={`transition pb-1 border-b-2 ${shouldBeTransparent ? "text-black hover:text-black" : location.pathname === "/contact-us" ? "text-[#D4AF37] hover:text-[#D4AF37]" : "text-[#003864] hover:text-[#00AEEF]"} ${location.pathname === "/contact-us" ? "border-black" : "border-transparent"}`}
             >
               Contact
@@ -157,7 +174,7 @@ export default function Navbar() {
             <Link
               to="/"
               className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/" ? "text-[#D4AF37] font-semibold" : ""}`}
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleInternalLinkClick}
             >
               Home
             </Link>
@@ -166,7 +183,7 @@ export default function Navbar() {
             <Link
               to="/services"
               className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/services" ? "text-[#D4AF37] font-semibold" : ""}`}
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleInternalLinkClick}
             >
               Services
             </Link>
@@ -175,7 +192,7 @@ export default function Navbar() {
             <Link
               to="/readings"
               className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/readings" ? "text-[#D4AF37] font-semibold" : ""}`}
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleInternalLinkClick}
             >
               Private Readings
             </Link>
@@ -184,7 +201,7 @@ export default function Navbar() {
             <Link
               to="/counseling"
               className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/counseling" ? "text-[#D4AF37] font-semibold" : ""}`}
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleInternalLinkClick}
             >
               Spiritual Counseling
             </Link>
@@ -193,7 +210,7 @@ export default function Navbar() {
             <Link
               to="/order"
               className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/order" ? "text-[#D4AF37] font-semibold" : ""}`}
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleInternalLinkClick}
             >
               Order of the Blue Rose
             </Link>
@@ -202,7 +219,7 @@ export default function Navbar() {
             <Link
               to="/school"
               className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/school" ? "text-[#D4AF37] font-semibold" : ""}`}
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleInternalLinkClick}
             >
               School of Sophia
             </Link>
@@ -211,7 +228,7 @@ export default function Navbar() {
             <Link
               to="/about-us"
               className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/about-us" ? "text-[#D4AF37] font-semibold" : ""}`}
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleInternalLinkClick}
             >
               About
             </Link>
@@ -220,7 +237,7 @@ export default function Navbar() {
             <Link
               to="/contact-us"
               className={`block py-2 hover:text-[#D4AF37] transition ${location.pathname === "/contact-us" ? "text-[#D4AF37] font-semibold" : ""}`}
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={handleInternalLinkClick}
             >
               Contact
             </Link>
