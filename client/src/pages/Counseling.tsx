@@ -177,12 +177,20 @@ export default function Counseling() {
                       nature will rise to meet you — whole, radiant, and free.
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                  <div>
-                    <h2 className="font-playfair text-2xl text-[#002147] mb-8 text-center">
-                      Areas of Support
-                    </h2>
-                    <div className="grid md:grid-cols-3 gap-8">
+        {/* Full-width sections start here */}
+        <div className="bg-white py-16">
+          <div className="container mx-auto px-4">
+            <div>
+              <h2 className="font-playfair text-2xl text-[#002147] mb-8 text-center">
+                Areas of Support
+              </h2>
+              <div className="grid md:grid-cols-3 gap-8">
                       <div className="bg-white border border-[#B58233] overflow-hidden h-full">
                         <div className="p-6 flex flex-col h-full">
                           <div className="text-center">
@@ -249,82 +257,60 @@ export default function Counseling() {
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-
-                  <div className="mt-12">
-                    <h2 className="font-playfair text-2xl text-[#002147] mb-6">
-                      Spiritual Counseling and Intuitive Healing Sessions
-                    </h2>
-                    <p className="text-gray-700 font-open-sans mb-8">
-                      Sessions are available in person and over Zoom.
-                    </p>
-                    <div className="grid md:grid-cols-2 gap-8">
-                      <div className="bg-white p-8 rounded-lg shadow-lg border border-[#002147]/20">
-                        <h3 className="font-playfair text-xl text-[#002147] mb-4">
-                          Initial Session
-                        </h3>
-                        <div className="text-3xl font-playfair text-[#002147] mb-4">
-                          $175
-                        </div>
-                        <p className="text-gray-600 mb-6">90 minutes</p>
-                        <a
-                          href="https://sacred-rose.teachable.com/purchase?product_id=6251586"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="block w-full bg-[#002147] hover:bg-[#D4AF37] text-white text-center py-3 px-6 rounded-md transition duration-300"
-                        >
-                          Book Initial Session
-                        </a>
-                      </div>
-
-                      <div className="bg-white p-8 rounded-lg shadow-lg border border-[#002147]/20">
-                        <h3 className="font-playfair text-xl text-[#002147] mb-4">
-                          Continuing Sessions
-                        </h3>
-                        <div className="text-3xl font-playfair text-[#002147] mb-4">
-                          $144
-                        </div>
-                        <p className="text-gray-600 mb-6">60 minutes</p>
-                        <a
-                          href="https://sacred-rose.teachable.com/purchase?product_id=6203591"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="block w-full bg-[#002147] hover:bg-[#D4AF37] text-white text-center py-3 px-6 rounded-md transition duration-300"
-                        >
-                          Book Continuing Session
-                        </a>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="floating-roses-container">
-          {[...Array(15)].map((_, i) => {
-            const gridRow = Math.floor(i / 3);
-            const gridCol = i % 3;
-            const baseDelay = (gridRow * 3 + gridCol) * 2;
+        {/* Sessions section - full width */}
+        <div className="bg-gray-50 py-16">
+          <div className="container mx-auto px-4">
+            <h2 className="font-playfair text-2xl text-[#002147] mb-6 text-center">
+              Spiritual Counseling and Intuitive Healing Sessions
+            </h2>
+            <p className="text-gray-700 font-open-sans mb-8 text-center">
+              Sessions are available in person and over Zoom.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <div className="bg-white p-8 rounded-lg shadow-lg border border-[#002147]/20">
+                <h3 className="font-playfair text-xl text-[#002147] mb-4">
+                  Initial Session
+                </h3>
+                <div className="text-3xl font-playfair text-[#002147] mb-4">
+                  $175
+                </div>
+                <p className="text-gray-600 mb-6">90 minutes</p>
+                <a
+                  href="https://sacred-rose.teachable.com/purchase?product_id=6251586"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full bg-[#002147] hover:bg-[#D4AF37] text-white text-center py-3 px-6 rounded-md transition duration-300"
+                >
+                  Book Initial Session
+                </a>
+              </div>
 
-            return (
-              <div
-                key={`counseling-rose-${i}`}
-                className="bg-white"
-                style={{
-                  backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
-                  left: `${(i % 3) * 33 + Math.random() * 10}%`,
-                  top: `${Math.floor(i / 3) * 25 + Math.random() * 10}%`,
-                  opacity: 0,
-                  transform: `rotate(${Math.random() * 360}deg)`,
-                }}
-              />
-            );
-          })}
+              <div className="bg-white p-8 rounded-lg shadow-lg border border-[#002147]/20">
+                <h3 className="font-playfair text-xl text-[#002147] mb-4">
+                  Continuing Sessions
+                </h3>
+                <div className="text-3xl font-playfair text-[#002147] mb-4">
+                  $144
+                </div>
+                <p className="text-gray-600 mb-6">60 minutes</p>
+                <a
+                  href="https://sacred-rose.teachable.com/purchase?product_id=6203591"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full bg-[#002147] hover:bg-[#D4AF37] text-white text-center py-3 px-6 rounded-md transition duration-300"
+                >
+                  Book Continuing Session
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 
       <CtaSection
         buttonText="Book Now"
