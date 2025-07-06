@@ -296,11 +296,11 @@ export default function Counseling() {
                   Continuing Sessions
                 </h3>
                 <div className="text-3xl font-playfair text-[#002147] mb-4">
-                  $144
+                  $155
                 </div>
                 <p className="text-gray-600 mb-6">60 minutes</p>
                 <a
-                  href="https://sacred-rose.teachable.com/purchase?product_id=6203591"
+                  href="https://sacred-rose.teachable.com/purchase?product_id=6349889"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-[#002147] hover:bg-[#D4AF37] text-white text-center py-3 px-6 rounded-md transition duration-300"
