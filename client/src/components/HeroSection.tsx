@@ -57,7 +57,7 @@ export default function HeroSection() {
             <img
               src={getImageUrl("images/Mary_Sophia_v2.png", { w: 800, h: 1000, fit: "cover" })}
               alt="Mary Sophia Portrait"
-              className="w-2/3 h-2/3 object-contain"
+              className="w-2/3 h-2/3 object-contain max-h-[600px]"
             />
           </div>
         </div>
