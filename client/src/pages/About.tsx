@@ -95,72 +95,79 @@ export default function About() {
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-12 mb-16">
-            <div className="md:w-2/3">
-              <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-                There is a sacred voice — quiet, ancient, and deeply feminine —
-                that has long whispered through the hearts of women across time.
-                It is known by many names, but to me, it is the Light of Sophia.
-                This divine feminine wisdom — the indwelling light of love,
-                intuition, and soul remembrance — lives within you.
-              </p>
-              <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-                I walk with this light as a messenger and a guide, through the
-                Lineage of Sophia, Mother Mary and Mary Magdalene. I am a keeper
-                of the Order of the Blue Rose — a sacred stream of love and
-                remembrance that carries the original teachings of the Christ
-                Light through the heart of the Feminine.
-              </p>
-              <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
-                My work is here to support your return to that remembrance — through channeled guidance, intuitive healing, spiritual counseling and ancient wisdom teachings. Rooted in the Way of the Heart, this work gently nurtures the awakening of the Sacred Feminine within, guiding you home to the wisdom that lives within you.
-              </p>
-              <div className="mt-8">
-                <h2 className="font-playfair text-2xl text-[#002147] mb-6">
-                  Our Sacred Mission
-                </h2>
-                <ul className="list-none space-y-3 text-gray-800 font-open-sans text-base">
-                  <li className="flex items-center">
-                    <span className="text-[#002147] mr-2">•</span>
-                    Awakening the Wisdom of the Heart
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-[#002147] mr-2">•</span>
-                    Embodying Divine Feminine Wisdom
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-[#002147] mr-2">•</span>
-                    Nurturing Spiritual Growth and Transformation
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-[#002147] mr-2">•</span>
-                    Creating Sacred Community
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-[#002147] mr-2">•</span>
-                    Sharing Ancient and Contemporary Spiritual Teachings
-                  </li>
-                </ul>
+          <div className="mb-16">
+           <div className="max-w-[1500px] mx-auto">
+            <div className="flex flex-col md:flex-row gap-12">
+              <div className="md:w-2/3">
+                <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
+                  There is a sacred voice — quiet, ancient, and deeply feminine —
+                  that has long whispered through the hearts of women across time.
+                  It is known by many names, but to me, it is the Light of Sophia.
+                  This divine feminine wisdom — the indwelling light of love,
+                  intuition, and soul remembrance — lives within you.
+                </p>
+                <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
+                  I walk with this light as a messenger and a guide, through the
+                  Lineage of Sophia, Mother Mary and Mary Magdalene. I am a keeper
+                  of the Order of the Blue Rose — a sacred stream of love and
+                  remembrance that carries the original teachings of the Christ
+                  Light through the heart of the Feminine.
+                </p>
+                <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
+                  My work is here to support your return to that remembrance — through channeled guidance, intuitive healing, spiritual counseling and ancient wisdom teachings. Rooted in the Way of the Heart, this work gently nurtures the awakening of the Sacred Feminine within, guiding you home to the wisdom that lives within you.
+                </p>
+                <div className="mt-8">
+                  <h2 className="font-playfair text-2xl text-[#002147] mb-6">
+                    Our Sacred Mission
+                  </h2>
+                  <ul className="list-none space-y-3 text-gray-800 font-open-sans text-base">
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Awakening the Wisdom of the Heart
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Embodying Divine Feminine Wisdom
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Nurturing Spiritual Growth and Transformation
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Creating Sacred Community
+                    </li>
+                    <li className="flex items-center">
+                      <span className="text-[#002147] mr-2">•</span>
+                      Sharing Ancient and Contemporary Spiritual Teachings
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="md:w-1/2">
+                <img
+                  src={getImageUrl("images/mary-sophia-2.jpg", { w: 600, h: 800, fit: "cover" })}
+                  alt="Mary Sophia Portrait"
+                  className="rounded-lg shadow-xl w-full object-cover h-[500px]"
+                />
               </div>
             </div>
-            <div className="md:w-1/2">
-              <img
-                src={getImageUrl("images/mary-sophia-2.jpg", { w: 600, h: 800, fit: "cover" })}
-                alt="Mary Sophia Portrait"
-                className="rounded-lg shadow-xl w-full object-cover h-[500px]"
-              />
-            </div>
+           </div>
           </div>
 
           <div className="mb-16">
+           <div className="max-w-[1500px] mx-auto">
             <h2 className="font-playfair text-2xl text-[#002147] mb-6">
               About Me
             </h2>
             <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
               I am a teacher of the Way of Mary and a devoted follower of Christ. I serve as a messenger and channel for Mother Mary, Mary Magdalene, and the Angelic Realm, offering spiritual guidance rooted in love, remembrance, and Divine Feminine Wisdom.
             </p>
+           </div>
           </div>
 
           <div className="mb-16">
+           <div className="max-w-[1500px] mx-auto">
             <h2 className="font-playfair text-2xl text-[#002147] mb-6">
               Philosophy & Approach
             </h2>
@@ -171,9 +178,11 @@ export default function About() {
               person carries within them a unique divine spark waiting to be
               awakened.
             </p>
+           </div>
           </div>
 
           <div className="mb-16">
+           <div className="max-w-[1500px] mx-auto">
             <h2 className="font-playfair text-2xl text-[#002147] mb-6">
               Sacred Work
             </h2>
@@ -184,18 +193,22 @@ export default function About() {
               Magdalene, and the Angelic Realm, who offer their wisdom and love
               to all who seek it.
             </p>
+           </div>
           </div>
 
           <div className="mb-16">
+           <div className="max-w-[1500px] mx-auto">
             <h2 className="font-playfair text-2xl text-[#002147] mb-6">
               Experience
             </h2>
             <p className="text-gray-800 mb-6 font-open-sans leading-relaxed text-base">
               I have over 25 years of experience counseling women in areas of relationships, love and dating, eating disorders, body image, female sexuality, sexual trauma, nutrition and spirituality.
             </p>
+           </div>
           </div>
 
           <div className="mb-16">
+           <div className="max-w-[1500px] mx-auto">
             <h2 className="font-playfair text-2xl text-[#002147] mb-6">
               Education & Certifications
             </h2>
@@ -213,7 +226,7 @@ export default function About() {
                   </li>
                 </ul>
               </div>
-              
+
               <div>
                 <h3 className="font-playfair text-lg text-[#002147] mb-2">Professional Certifications</h3>
                 <ul className="list-none space-y-2 text-gray-800 font-open-sans text-base ml-4">
@@ -236,9 +249,11 @@ export default function About() {
                 </ul>
               </div>
             </div>
+           </div>
           </div>
 
           <div className="mb-16">
+           <div className="max-w-[1500px] mx-auto">
             <h2 className="font-playfair text-2xl text-[#002147] mb-6">
               Initiations & Ordinations
             </h2>
@@ -256,7 +271,7 @@ export default function About() {
                   </li>
                 </ul>
               </div>
-              
+
               <div>
                 <h3 className="font-playfair text-lg text-[#002147] mb-2">Sacred Ordinations</h3>
                 <ul className="list-none space-y-2 text-gray-800 font-open-sans text-base ml-4">
@@ -271,6 +286,7 @@ export default function About() {
                 </ul>
               </div>
             </div>
+           </div>
           </div>
         </div>
       </div>

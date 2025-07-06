@@ -101,7 +101,7 @@ export default function BlueRoseReadings() {
       </section>
 
       <div className="bg-white py-16 pt-16 relative">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-[1500px]">
           <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
             <div className="md:w-1/3">
               <img

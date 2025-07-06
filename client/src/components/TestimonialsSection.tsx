@@ -45,7 +45,7 @@ export default function TestimonialsSection() {
       <div className="absolute inset-0">
         <div className="wavy-gradient"></div>
       </div>
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-4 relative z-10 max-w-[1500px]">
         <h2 className="text-center font-dancing-script text-white text-3xl md:text-4xl mb-12">
           Mary Sophia Testimonials
         </h2>

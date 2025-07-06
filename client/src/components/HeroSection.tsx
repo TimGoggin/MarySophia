@@ -36,7 +36,7 @@ export default function HeroSection() {
         <div className="wavy-gradient"></div>
       </div>
       <div className="relative z-20 w-full">
-        <div className="container mx-auto px-4 py-16 flex flex-col-reverse md:flex-row items-center justify-between">
+        <div className="container mx-auto px-4 py-16 flex flex-col-reverse md:flex-row items-center justify-between max-w-[1500px]">
           <div className="md:w-1/2 text-left mb-0 md:mb-0 text-center md:text-left">
             <h1 className="font-dancing-script text-5xl md:text-6xl text-white mb-4 drop-shadow-lg">
               Mary Sophia Welcomes You

@@ -112,10 +112,10 @@ export default function Services() {
           <div className="wavy-gradient"></div>
         </div>
         <div className="relative z-20 w-full">
-          <div className="container mx-auto px-4 text-center">
-            <h1 className="font-dancing-script text-5xl md:text-6xl text-white mb-4 drop-shadow-lg">
-              Sacred Services
-            </h1>
+          <div className="container mx-auto px-4 text-center max-w-[1500px]">
+          <h1 className="font-dancing-script text-5xl md:text-6xl text-white mb-4 drop-shadow-lg">
+            Sacred Services
+          </h1>
             <p className="text-white font-open-sans text-lg max-w-2xl mx-auto drop-shadow-lg">
               Sacred offerings to hold you through life's thresholds and guide you home to your truest self.
             </p>
@@ -124,7 +124,8 @@ export default function Services() {
       </section>
 
       <div className="bg-white py-16 pt-16 relative">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 py-16 max-w-[1500px]">
+        {/* Introduction */}
           <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
             <div className="md:w-1/3">
               <img

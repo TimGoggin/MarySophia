@@ -1,3 +1,6 @@
+Adding max-width of 1500px to specified containers in the Contact component to limit content width.
+```
+```replit_final_file
 import { useState } from "react";
 import { Helmet } from "react-helmet";
 import { getImageUrl } from "../lib/imageUtils";
@@ -19,7 +22,7 @@ export default function Contact() {
     try {
       const form = e.target as HTMLFormElement;
       const formData = new FormData(form);
-      
+
       const response = await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -130,7 +133,7 @@ export default function Contact() {
               >
                 {/* Hidden field for Netlify */}
                 <input type="hidden" name="form-name" value="contact" />
-                
+
                 {/* Honeypot field for spam protection */}
                 <div style={{ display: 'none' }}>
                   <label>

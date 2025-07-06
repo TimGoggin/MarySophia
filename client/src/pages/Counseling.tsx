@@ -1,3 +1,6 @@
+Adding max-width to the main content container of the Counseling component.
+```
+```replit_final_file
 import { Helmet } from "react-helmet";
 import { ChevronRight } from "lucide-react";
 import CtaSection from "@/components/CtaSection";
@@ -320,3 +323,5 @@ export default function Counseling() {
     </>
   );
 }
+```Adding max-width to the container in the main section.
+```

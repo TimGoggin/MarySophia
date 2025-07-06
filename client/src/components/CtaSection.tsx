@@ -38,7 +38,7 @@ export default function CtaSection({
 
   return (
     <section id="contact" className="py-16 bg-gray-50 relative">
-      <div className="container mx-auto px-4 text-center relative z-10">
+      <div className="container mx-auto px-4 text-center relative z-10 max-w-[1500px]">
         <h2 className="font-playfair text-3xl md:text-4xl text-[#002147] mb-6">
           Receive Sacred Messages of Love and Wisdom
         </h2>
