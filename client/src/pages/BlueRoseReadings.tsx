@@ -190,7 +190,7 @@ export default function BlueRoseReadings() {
                       60 minutes via Zoom
                     </p>
                     <a
-                      href="https://checkout.teachable.com/secure/1018167/checkout/order_qn7199k6"
+                      href="https://sacred-rose.teachable.com/purchase?product_id=6235787"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block w-full bg-[#002147] hover:bg-[#D4AF37] text-white text-center py-3 px-6 rounded-md transition duration-300"
