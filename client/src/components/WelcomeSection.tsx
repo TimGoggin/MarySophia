@@ -1,33 +1,36 @@
 export default function WelcomeSection() {
   return (
-    <section className="bg-white py-16 relative">
-      <div className="floating-roses-container">
-        {[...Array(15)].map((_, i) => {
-          const gridRow = Math.floor(i / 3);
-          const gridCol = i % 3;
-          const baseDelay = (gridRow * 3 + gridCol) * 2;
+    <section className="bg-white py-8 relative overflow-hidden">
+      <div className="floating-roses-container absolute inset-0 pointer-events-none">
+        {[...Array(8)].map((_, i) => {
+          const gridRow = Math.floor(i / 4);
+          const gridCol = i % 4;
+          const baseDelay = (gridRow * 4 + gridCol) * 2;
 
           return (
             <div 
               key={`welcome-rose-${i}`} 
-              className="bg-white"
+              className="absolute opacity-5"
               style={{
                 animationDelay: `${baseDelay}s`,
                 backgroundImage: `url(/images/rose-${(i % 3) + 1}.png)`,
-                left: `${(i % 3) * 33 + Math.random() * 10}%`,
-                top: `${Math.floor(i / 3) * 25 + Math.random() * 10}%`,
-                opacity: 0,
+                backgroundSize: '60px 60px',
+                backgroundRepeat: 'no-repeat',
+                width: '60px',
+                height: '60px',
+                left: `${(i % 4) * 25 + Math.random() * 10}%`,
+                top: `${Math.floor(i / 4) * 50 + Math.random() * 20}%`,
                 transform: `rotate(${Math.random() * 360}deg)`,
               }}
             />
           );
         })}
       </div>
-      <div className="container mx-auto px-4 text-center relative z-10">
-        <h2 className="font-playfair text-3xl md:text-4xl text-[#003864] mb-6">
+      <div className="container mx-auto px-4 text-center relative z-10 max-w-[1500px]">
+        <h2 className="font-playfair text-3xl md:text-4xl text-[#003864] mb-4">
           Welcome, Beloved One.
         </h2>
-        <p className="max-w-3xl mx-auto text-[#003864] mb-8 font-open-sans">
+        <p className="max-w-3xl mx-auto text-[#003864] font-open-sans leading-relaxed">
           I am Mary Sophia — an intuitive channel, spiritual counselor, and
           messenger of Divine Feminine Light.
           <br />
