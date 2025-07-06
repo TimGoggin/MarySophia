@@ -185,7 +185,7 @@ export default function Counseling() {
 
         {/* Full-width sections start here */}
         <div className="bg-white py-16">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-4 max-w-[1500px]">
             <div>
               <h2 className="font-playfair text-2xl text-[#002147] mb-8 text-center">
                 Areas of Support
