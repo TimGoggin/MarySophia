@@ -184,7 +184,7 @@ export default function BlueRoseReadings() {
                       Blue Rose Reading
                     </h3>
                     <div className="text-3xl font-playfair text-[#002147] mb-4 text-center">
-                      $155
+                      $175
                     </div>
                     <p className="text-gray-600 mb-6 text-center">
                       60 minutes via Zoom
