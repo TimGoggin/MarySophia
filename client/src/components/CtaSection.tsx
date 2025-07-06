@@ -70,7 +70,7 @@ export default function CtaSection({
                 <div className="response" id="mce-success-response" style={{ display: 'none' }}></div>
               </div>
               <div aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }}>
-                <input type="text" name="b_c821dc677e6487ca6f44c66ff_c586c74698" tabIndex={-1} value="" />
+                <input type="text" name="b_c821dc677e6487ca6f44c66ff_c586c74698" tabIndex={-1} defaultValue="" />
               </div>
               <div className="clear foot">
                 <input 

@@ -1,6 +1,3 @@
-Adding max-width of 1500px to specified containers in the Contact component to limit content width.
-```
-```replit_final_file
 import { useState } from "react";
 import { Helmet } from "react-helmet";
 import { getImageUrl } from "../lib/imageUtils";
